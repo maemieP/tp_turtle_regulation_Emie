@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "my_custom_interfaces/srv/detail/change_led_color__struct.h"
 #include "my_custom_interfaces/srv/detail/change_led_color__functions.h"
 #include "my_custom_interfaces/srv/detail/change_led_color__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

@@ -1,0 +1,1165 @@
+[0.000000] (-) TimerEvent: {}
+[0.000982] (move_pose) JobQueued: {'identifier': 'move_pose', 'dependencies': OrderedDict()}
+[0.001040] (move_turtle) JobQueued: {'identifier': 'move_turtle', 'dependencies': OrderedDict()}
+[0.001081] (my_custom_interfaces) JobQueued: {'identifier': 'my_custom_interfaces', 'dependencies': OrderedDict()}
+[0.001118] (my_service_pkg) JobQueued: {'identifier': 'my_service_pkg', 'dependencies': OrderedDict()}
+[0.001155] (turtle_regulation) JobQueued: {'identifier': 'turtle_regulation', 'dependencies': OrderedDict()}
+[0.001192] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_custom_interfaces': '/home/info/ros2_ws/install/my_custom_interfaces'})}
+[0.001233] (my_custom_interfaces) JobStarted: {'identifier': 'my_custom_interfaces'}
+[0.014612] (move_pose) JobStarted: {'identifier': 'move_pose'}
+[0.034535] (move_turtle) JobStarted: {'identifier': 'move_turtle'}
+[0.077063] (my_service_pkg) JobStarted: {'identifier': 'my_service_pkg'}
+[0.099431] (turtle_regulation) JobStarted: {'identifier': 'turtle_regulation'}
+[0.100139] (-) TimerEvent: {}
+[0.122079] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'cmake'}
+[0.123041] (my_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/info/ros2_ws/install/my_custom_interfaces'], 'cwd': '/home/info/ros2_ws/build/my_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy'}), 'shell': False}
+[0.202752] (-) TimerEvent: {}
+[0.309860] (-) TimerEvent: {}
+[0.415697] (-) TimerEvent: {}
+[0.516855] (-) TimerEvent: {}
+[0.619286] (-) TimerEvent: {}
+[0.719756] (-) TimerEvent: {}
+[0.823412] (-) TimerEvent: {}
+[0.925367] (-) TimerEvent: {}
+[1.025682] (-) TimerEvent: {}
+[1.130227] (-) TimerEvent: {}
+[1.238469] (-) TimerEvent: {}
+[1.342572] (-) TimerEvent: {}
+[1.445717] (-) TimerEvent: {}
+[1.548210] (-) TimerEvent: {}
+[1.652356] (-) TimerEvent: {}
+[1.753043] (-) TimerEvent: {}
+[1.855421] (-) TimerEvent: {}
+[1.931647] (my_custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.932511] (my_custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.932921] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.955933] (-) TimerEvent: {}
+[2.057268] (-) TimerEvent: {}
+[2.157876] (-) TimerEvent: {}
+[2.208777] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.229273] (my_custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.230332] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.231831] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.258189] (-) TimerEvent: {}
+[2.288927] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.359408] (-) TimerEvent: {}
+[2.460379] (-) TimerEvent: {}
+[2.563977] (-) TimerEvent: {}
+[2.668155] (-) TimerEvent: {}
+[2.770357] (-) TimerEvent: {}
+[2.875817] (-) TimerEvent: {}
+[2.976738] (-) TimerEvent: {}
+[3.077252] (-) TimerEvent: {}
+[3.177626] (-) TimerEvent: {}
+[3.277973] (-) TimerEvent: {}
+[3.384621] (-) TimerEvent: {}
+[3.486713] (-) TimerEvent: {}
+[3.553127] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.576109] (my_custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.576515] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.577704] (my_custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.589969] (-) TimerEvent: {}
+[3.619756] (my_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.690053] (-) TimerEvent: {}
+[3.790868] (-) TimerEvent: {}
+[3.893171] (-) TimerEvent: {}
+[3.998310] (-) TimerEvent: {}
+[4.098941] (-) TimerEvent: {}
+[4.202253] (-) TimerEvent: {}
+[4.302927] (-) TimerEvent: {}
+[4.403929] (-) TimerEvent: {}
+[4.504768] (-) TimerEvent: {}
+[4.605758] (-) TimerEvent: {}
+[4.711503] (-) TimerEvent: {}
+[4.775333] (my_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.811972] (-) TimerEvent: {}
+[4.912446] (-) TimerEvent: {}
+[4.948009] (my_service_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/my_service_pkg', 'build', '--build-base', '/home/info/ros2_ws/build/my_service_pkg/build', 'install', '--record', '/home/info/ros2_ws/build/my_service_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_service_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[4.953140] (move_pose) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/move_pose', 'build', '--build-base', '/home/info/ros2_ws/build/move_pose/build', 'install', '--record', '/home/info/ros2_ws/build/move_pose/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_pose', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/move_pose', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.013626] (-) TimerEvent: {}
+[5.059713] (move_turtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/move_turtle', 'build', '--build-base', '/home/info/ros2_ws/build/move_turtle/build', 'install', '--record', '/home/info/ros2_ws/build/move_turtle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/move_turtle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.117959] (-) TimerEvent: {}
+[5.220445] (-) TimerEvent: {}
+[5.234521] (turtle_regulation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/turtle_regulation', 'build', '--build-base', '/home/info/ros2_ws/build/turtle_regulation/build', 'install', '--record', '/home/info/ros2_ws/build/turtle_regulation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/turtle_regulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.320815] (-) TimerEvent: {}
+[5.424458] (-) TimerEvent: {}
+[5.526278] (-) TimerEvent: {}
+[5.629154] (-) TimerEvent: {}
+[5.694084] (my_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[5.730097] (-) TimerEvent: {}
+[5.759542] (my_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.830252] (-) TimerEvent: {}
+[5.930925] (-) TimerEvent: {}
+[6.005211] (my_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.035027] (move_pose) StdoutLine: {'line': b'running egg_info\n'}
+[6.035233] (-) TimerEvent: {}
+[6.035530] (move_pose) StdoutLine: {'line': b'creating ../../../build/move_pose/move_pose.egg-info\n'}
+[6.061067] (my_service_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.061322] (move_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[6.061572] (move_turtle) StdoutLine: {'line': b'creating ../../../build/move_turtle/move_turtle.egg-info\n'}
+[6.061751] (my_service_pkg) StdoutLine: {'line': b'creating ../../../../build/my_service_pkg/my_service_pkg.egg-info\n'}
+[6.085549] (move_pose) StdoutLine: {'line': b'writing ../../../build/move_pose/move_pose.egg-info/PKG-INFO\n'}
+[6.085910] (move_pose) StdoutLine: {'line': b'writing dependency_links to ../../../build/move_pose/move_pose.egg-info/dependency_links.txt\n'}
+[6.086214] (move_pose) StdoutLine: {'line': b'writing entry points to ../../../build/move_pose/move_pose.egg-info/entry_points.txt\n'}
+[6.086406] (move_pose) StdoutLine: {'line': b'writing requirements to ../../../build/move_pose/move_pose.egg-info/requires.txt\n'}
+[6.086775] (move_pose) StdoutLine: {'line': b'writing top-level names to ../../../build/move_pose/move_pose.egg-info/top_level.txt\n'}
+[6.086943] (move_pose) StdoutLine: {'line': b"writing manifest file '../../../build/move_pose/move_pose.egg-info/SOURCES.txt'\n"}
+[6.104181] (my_service_pkg) StdoutLine: {'line': b'writing ../../../../build/my_service_pkg/my_service_pkg.egg-info/PKG-INFO\n'}
+[6.104371] (my_service_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../../build/my_service_pkg/my_service_pkg.egg-info/dependency_links.txt\n'}
+[6.104518] (my_service_pkg) StdoutLine: {'line': b'writing entry points to ../../../../build/my_service_pkg/my_service_pkg.egg-info/entry_points.txt\n'}
+[6.104711] (my_service_pkg) StdoutLine: {'line': b'writing requirements to ../../../../build/my_service_pkg/my_service_pkg.egg-info/requires.txt\n'}
+[6.104844] (my_service_pkg) StdoutLine: {'line': b'writing top-level names to ../../../../build/my_service_pkg/my_service_pkg.egg-info/top_level.txt\n'}
+[6.105023] (my_service_pkg) StdoutLine: {'line': b"writing manifest file '../../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'\n"}
+[6.105285] (move_turtle) StdoutLine: {'line': b'writing ../../../build/move_turtle/move_turtle.egg-info/PKG-INFO\n'}
+[6.105490] (move_turtle) StdoutLine: {'line': b'writing dependency_links to ../../../build/move_turtle/move_turtle.egg-info/dependency_links.txt\n'}
+[6.105752] (move_turtle) StdoutLine: {'line': b'writing entry points to ../../../build/move_turtle/move_turtle.egg-info/entry_points.txt\n'}
+[6.106089] (move_turtle) StdoutLine: {'line': b'writing requirements to ../../../build/move_turtle/move_turtle.egg-info/requires.txt\n'}
+[6.106348] (move_turtle) StdoutLine: {'line': b'writing top-level names to ../../../build/move_turtle/move_turtle.egg-info/top_level.txt\n'}
+[6.106491] (move_turtle) StdoutLine: {'line': b"writing manifest file '../../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'\n"}
+[6.109985] (turtle_regulation) StdoutLine: {'line': b'running egg_info\n'}
+[6.110359] (turtle_regulation) StdoutLine: {'line': b'creating ../../../../build/turtle_regulation/turtle_regulation.egg-info\n'}
+[6.135800] (-) TimerEvent: {}
+[6.152790] (turtle_regulation) StdoutLine: {'line': b'writing ../../../../build/turtle_regulation/turtle_regulation.egg-info/PKG-INFO\n'}
+[6.153373] (turtle_regulation) StdoutLine: {'line': b'writing dependency_links to ../../../../build/turtle_regulation/turtle_regulation.egg-info/dependency_links.txt\n'}
+[6.153853] (turtle_regulation) StdoutLine: {'line': b'writing entry points to ../../../../build/turtle_regulation/turtle_regulation.egg-info/entry_points.txt\n'}
+[6.154349] (turtle_regulation) StdoutLine: {'line': b'writing requirements to ../../../../build/turtle_regulation/turtle_regulation.egg-info/requires.txt\n'}
+[6.154544] (turtle_regulation) StdoutLine: {'line': b'writing top-level names to ../../../../build/turtle_regulation/turtle_regulation.egg-info/top_level.txt\n'}
+[6.157196] (turtle_regulation) StdoutLine: {'line': b"writing manifest file '../../../../build/turtle_regulation/turtle_regulation.egg-info/SOURCES.txt'\n"}
+[6.180012] (move_pose) StdoutLine: {'line': b"reading manifest file '../../../build/move_pose/move_pose.egg-info/SOURCES.txt'\n"}
+[6.181443] (move_pose) StdoutLine: {'line': b"writing manifest file '../../../build/move_pose/move_pose.egg-info/SOURCES.txt'\n"}
+[6.181685] (move_pose) StdoutLine: {'line': b'running build\n'}
+[6.181872] (move_pose) StdoutLine: {'line': b'running build_py\n'}
+[6.182317] (move_pose) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/move_pose/build\n'}
+[6.182423] (move_pose) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/move_pose/build/lib\n'}
+[6.182634] (move_pose) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/move_pose/build/lib/move_pose\n'}
+[6.182727] (move_pose) StdoutLine: {'line': b'copying move_pose/move_teleop.py -> /home/info/ros2_ws/build/move_pose/build/lib/move_pose\n'}
+[6.182929] (move_pose) StdoutLine: {'line': b'copying move_pose/__init__.py -> /home/info/ros2_ws/build/move_pose/build/lib/move_pose\n'}
+[6.183235] (move_pose) StdoutLine: {'line': b'copying move_pose/move_circle.py -> /home/info/ros2_ws/build/move_pose/build/lib/move_pose\n'}
+[6.183647] (move_pose) StdoutLine: {'line': b'running install\n'}
+[6.189468] (my_service_pkg) StdoutLine: {'line': b"reading manifest file '../../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'\n"}
+[6.190749] (my_service_pkg) StdoutLine: {'line': b"writing manifest file '../../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'\n"}
+[6.191066] (my_service_pkg) StdoutLine: {'line': b'running build\n'}
+[6.191255] (my_service_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.191978] (my_service_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/my_service_pkg/build\n'}
+[6.192127] (my_service_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/my_service_pkg/build/lib\n'}
+[6.195008] (my_service_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg\n'}
+[6.195155] (my_service_pkg) StdoutLine: {'line': b'copying my_service_pkg/service_client_no_oop.py -> /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg\n'}
+[6.195369] (move_turtle) StdoutLine: {'line': b"reading manifest file '../../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'\n"}
+[6.195529] (move_turtle) StdoutLine: {'line': b"writing manifest file '../../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'\n"}
+[6.195669] (move_turtle) StdoutLine: {'line': b'running build\n'}
+[6.195798] (move_turtle) StdoutLine: {'line': b'running build_py\n'}
+[6.195929] (move_turtle) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/move_turtle/build\n'}
+[6.196060] (move_turtle) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/move_turtle/build/lib\n'}
+[6.196322] (move_turtle) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/move_turtle/build/lib/move_turtle\n'}
+[6.196455] (move_turtle) StdoutLine: {'line': b'copying move_turtle/move_turtle.py -> /home/info/ros2_ws/build/move_turtle/build/lib/move_turtle\n'}
+[6.196583] (move_turtle) StdoutLine: {'line': b'copying move_turtle/__init__.py -> /home/info/ros2_ws/build/move_turtle/build/lib/move_turtle\n'}
+[6.196715] (move_turtle) StdoutLine: {'line': b'running install\n'}
+[6.196858] (my_service_pkg) StdoutLine: {'line': b'copying my_service_pkg/service_client_oop.py -> /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg\n'}
+[6.197044] (my_service_pkg) StdoutLine: {'line': b'copying my_service_pkg/__init__.py -> /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg\n'}
+[6.197204] (my_service_pkg) StdoutLine: {'line': b'copying my_service_pkg/my_first_service_server.py -> /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg\n'}
+[6.197365] (my_service_pkg) StdoutLine: {'line': b'running install\n'}
+[6.199175] (move_pose) StdoutLine: {'line': b'running install_lib\n'}
+[6.206532] (my_custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[6.207113] (my_service_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.210075] (move_turtle) StdoutLine: {'line': b'running install_lib\n'}
+[6.230779] (my_custom_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[6.237491] (-) TimerEvent: {}
+[6.240529] (turtle_regulation) StdoutLine: {'line': b"reading manifest file '../../../../build/turtle_regulation/turtle_regulation.egg-info/SOURCES.txt'\n"}
+[6.242644] (turtle_regulation) StdoutLine: {'line': b"writing manifest file '../../../../build/turtle_regulation/turtle_regulation.egg-info/SOURCES.txt'\n"}
+[6.242846] (turtle_regulation) StdoutLine: {'line': b'running build\n'}
+[6.243057] (turtle_regulation) StdoutLine: {'line': b'running build_py\n'}
+[6.243231] (turtle_regulation) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/turtle_regulation/build\n'}
+[6.248006] (turtle_regulation) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/turtle_regulation/build/lib\n'}
+[6.248217] (turtle_regulation) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/turtle_regulation/build/lib/turtle_regulation\n'}
+[6.248383] (turtle_regulation) StdoutLine: {'line': b'copying turtle_regulation/__init__.py -> /home/info/ros2_ws/build/turtle_regulation/build/lib/turtle_regulation\n'}
+[6.248516] (turtle_regulation) StdoutLine: {'line': b'copying turtle_regulation/set_way_point.py -> /home/info/ros2_ws/build/turtle_regulation/build/lib/turtle_regulation\n'}
+[6.248666] (turtle_regulation) StdoutLine: {'line': b'running install\n'}
+[6.248808] (move_pose) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose\n'}
+[6.248992] (move_pose) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/move_pose/build/lib/move_pose/move_teleop.py -> /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose\n'}
+[6.249131] (move_pose) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/move_pose/build/lib/move_pose/__init__.py -> /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose\n'}
+[6.249276] (move_pose) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/move_pose/build/lib/move_pose/move_circle.py -> /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose\n'}
+[6.249406] (move_pose) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose/move_teleop.py to move_teleop.cpython-312.pyc\n'}
+[6.256624] (move_turtle) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle\n'}
+[6.258812] (move_pose) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose/__init__.py to __init__.cpython-312.pyc\n'}
+[6.263867] (move_pose) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose/move_circle.py to move_circle.cpython-312.pyc\n'}
+[6.265427] (move_turtle) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/move_turtle/build/lib/move_turtle/move_turtle.py -> /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle\n'}
+[6.265586] (move_turtle) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/move_turtle/build/lib/move_turtle/__init__.py -> /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle\n'}
+[6.265723] (my_service_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg\n'}
+[6.265877] (my_service_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg/service_client_no_oop.py -> /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg\n'}
+[6.266213] (my_service_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg/service_client_oop.py -> /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg\n'}
+[6.266367] (my_service_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg/__init__.py -> /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg\n'}
+[6.266499] (my_service_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_service_pkg/build/lib/my_service_pkg/my_first_service_server.py -> /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg\n'}
+[6.266637] (my_service_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg/service_client_no_oop.py to service_client_no_oop.cpython-312.pyc\n'}
+[6.266766] (my_service_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg/service_client_oop.py to service_client_oop.cpython-312.pyc\n'}
+[6.266900] (my_service_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[6.272730] (my_service_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg/my_first_service_server.py to my_first_service_server.cpython-312.pyc\n'}
+[6.272892] (my_service_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.273055] (my_service_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_service_pkg/share/ament_index\n'}
+[6.273197] (move_turtle) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle/move_turtle.py to move_turtle.cpython-312.pyc\n'}
+[6.273855] (move_pose) StdoutLine: {'line': b'running install_data\n'}
+[6.274002] (move_pose) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_pose/share/ament_index\n'}
+[6.274172] (move_pose) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_pose/share/ament_index/resource_index\n'}
+[6.274328] (move_pose) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_pose/share/ament_index/resource_index/packages\n'}
+[6.274458] (move_pose) StdoutLine: {'line': b'copying resource/move_pose -> /home/info/ros2_ws/install/move_pose/share/ament_index/resource_index/packages\n'}
+[6.274588] (move_pose) StdoutLine: {'line': b'copying package.xml -> /home/info/ros2_ws/install/move_pose/share/move_pose\n'}
+[6.274718] (move_pose) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.274861] (move_turtle) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle/__init__.py to __init__.cpython-312.pyc\n'}
+[6.275025] (my_service_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_service_pkg/share/ament_index/resource_index\n'}
+[6.275167] (my_service_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_service_pkg/share/ament_index/resource_index/packages\n'}
+[6.275430] (my_service_pkg) StdoutLine: {'line': b'copying resource/my_service_pkg -> /home/info/ros2_ws/install/my_service_pkg/share/ament_index/resource_index/packages\n'}
+[6.275572] (my_service_pkg) StdoutLine: {'line': b'copying package.xml -> /home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg\n'}
+[6.275710] (my_service_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.275843] (move_turtle) StdoutLine: {'line': b'running install_data\n'}
+[6.275975] (move_turtle) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_turtle/share/ament_index\n'}
+[6.276108] (move_turtle) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_turtle/share/ament_index/resource_index\n'}
+[6.276298] (move_turtle) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/move_turtle/share/ament_index/resource_index/packages\n'}
+[6.276449] (move_turtle) StdoutLine: {'line': b'copying resource/move_turtle -> /home/info/ros2_ws/install/move_turtle/share/ament_index/resource_index/packages\n'}
+[6.276606] (turtle_regulation) StdoutLine: {'line': b'running install_lib\n'}
+[6.276749] (move_turtle) StdoutLine: {'line': b'copying package.xml -> /home/info/ros2_ws/install/move_turtle/share/move_turtle\n'}
+[6.276912] (move_turtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.310393] (my_service_pkg) StdoutLine: {'line': b'Copying ../../../../build/my_service_pkg/my_service_pkg.egg-info to /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg-0.0.0-py3.12.egg-info\n'}
+[6.311997] (move_pose) StdoutLine: {'line': b'Copying ../../../build/move_pose/move_pose.egg-info to /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose-0.0.0-py3.12.egg-info\n'}
+[6.312643] (my_service_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.313641] (turtle_regulation) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation\n'}
+[6.314093] (turtle_regulation) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/turtle_regulation/build/lib/turtle_regulation/__init__.py -> /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation\n'}
+[6.314293] (move_pose) StdoutLine: {'line': b'running install_scripts\n'}
+[6.314519] (turtle_regulation) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/turtle_regulation/build/lib/turtle_regulation/set_way_point.py -> /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation\n'}
+[6.315756] (turtle_regulation) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation/__init__.py to __init__.cpython-312.pyc\n'}
+[6.315971] (move_turtle) StdoutLine: {'line': b'Copying ../../../build/move_turtle/move_turtle.egg-info to /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle-0.0.0-py3.12.egg-info\n'}
+[6.316229] (turtle_regulation) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation/set_way_point.py to set_way_point.cpython-312.pyc\n'}
+[6.318409] (move_turtle) StdoutLine: {'line': b'running install_scripts\n'}
+[6.318803] (turtle_regulation) StdoutLine: {'line': b'running install_data\n'}
+[6.319016] (turtle_regulation) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/turtle_regulation/share/ament_index\n'}
+[6.319254] (turtle_regulation) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/turtle_regulation/share/ament_index/resource_index\n'}
+[6.319460] (turtle_regulation) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/turtle_regulation/share/ament_index/resource_index/packages\n'}
+[6.319598] (turtle_regulation) StdoutLine: {'line': b'copying resource/turtle_regulation -> /home/info/ros2_ws/install/turtle_regulation/share/ament_index/resource_index/packages\n'}
+[6.321201] (turtle_regulation) StdoutLine: {'line': b'copying package.xml -> /home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation\n'}
+[6.321316] (turtle_regulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.337716] (-) TimerEvent: {}
+[6.372462] (turtle_regulation) StdoutLine: {'line': b'Copying ../../../../build/turtle_regulation/turtle_regulation.egg-info to /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation-0.0.0-py3.12.egg-info\n'}
+[6.373508] (turtle_regulation) StdoutLine: {'line': b'running install_scripts\n'}
+[6.438417] (-) TimerEvent: {}
+[6.540951] (-) TimerEvent: {}
+[6.641321] (-) TimerEvent: {}
+[6.741959] (-) TimerEvent: {}
+[6.842363] (-) TimerEvent: {}
+[6.907197] (move_turtle) StdoutLine: {'line': b'Installing my_move_square script to /home/info/ros2_ws/install/move_turtle/lib/move_turtle\n'}
+[6.907540] (move_turtle) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/move_turtle/install.log'\n"}
+[6.908998] (move_pose) StdoutLine: {'line': b'Installing move_circle script to /home/info/ros2_ws/install/move_pose/lib/move_pose\n'}
+[6.909195] (move_pose) StdoutLine: {'line': b'Installing move_teleop script to /home/info/ros2_ws/install/move_pose/lib/move_pose\n'}
+[6.909357] (move_pose) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/move_pose/install.log'\n"}
+[6.921104] (my_service_pkg) StdoutLine: {'line': b'Installing add_two_int_client_no_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg\n'}
+[6.921300] (my_service_pkg) StdoutLine: {'line': b'Installing add_two_int_client_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg\n'}
+[6.921436] (my_service_pkg) StdoutLine: {'line': b'Installing add_two_int_server_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg\n'}
+[6.923113] (my_service_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/my_service_pkg/install.log'\n"}
+[6.942969] (-) TimerEvent: {}
+[6.955987] (move_turtle) CommandEnded: {'returncode': 0}
+[6.960538] (turtle_regulation) StdoutLine: {'line': b'Installing set_way_point script to /home/info/ros2_ws/install/turtle_regulation/lib/turtle_regulation\n'}
+[6.961109] (turtle_regulation) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/turtle_regulation/install.log'\n"}
+[6.973805] (move_turtle) JobEnded: {'identifier': 'move_turtle', 'rc': 0}
+[6.976625] (my_service_pkg) CommandEnded: {'returncode': 0}
+[7.027506] (my_service_pkg) JobEnded: {'identifier': 'my_service_pkg', 'rc': 0}
+[7.042001] (move_pose) CommandEnded: {'returncode': 0}
+[7.047835] (-) TimerEvent: {}
+[7.064080] (move_pose) JobEnded: {'identifier': 'move_pose', 'rc': 0}
+[7.077782] (turtle_regulation) CommandEnded: {'returncode': 0}
+[7.092383] (turtle_regulation) JobEnded: {'identifier': 'turtle_regulation', 'rc': 0}
+[7.148332] (-) TimerEvent: {}
+[7.248679] (-) TimerEvent: {}
+[7.350329] (-) TimerEvent: {}
+[7.451617] (-) TimerEvent: {}
+[7.560160] (-) TimerEvent: {}
+[7.660797] (-) TimerEvent: {}
+[7.762141] (-) TimerEvent: {}
+[7.863512] (-) TimerEvent: {}
+[7.968957] (-) TimerEvent: {}
+[8.070632] (-) TimerEvent: {}
+[8.173041] (-) TimerEvent: {}
+[8.274774] (-) TimerEvent: {}
+[8.375786] (-) TimerEvent: {}
+[8.480036] (-) TimerEvent: {}
+[8.583497] (-) TimerEvent: {}
+[8.684549] (-) TimerEvent: {}
+[8.785890] (-) TimerEvent: {}
+[8.824471] (my_custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[8.888797] (-) TimerEvent: {}
+[8.991224] (-) TimerEvent: {}
+[9.092495] (-) TimerEvent: {}
+[9.194840] (-) TimerEvent: {}
+[9.297794] (-) TimerEvent: {}
+[9.402773] (-) TimerEvent: {}
+[9.512788] (-) TimerEvent: {}
+[9.623587] (-) TimerEvent: {}
+[9.725305] (-) TimerEvent: {}
+[9.830897] (-) TimerEvent: {}
+[9.935902] (-) TimerEvent: {}
+[10.037227] (-) TimerEvent: {}
+[10.147024] (-) TimerEvent: {}
+[10.250859] (-) TimerEvent: {}
+[10.352153] (-) TimerEvent: {}
+[10.454825] (-) TimerEvent: {}
+[10.557183] (-) TimerEvent: {}
+[10.625489] (my_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.661374] (-) TimerEvent: {}
+[10.762135] (-) TimerEvent: {}
+[10.865540] (-) TimerEvent: {}
+[10.966370] (-) TimerEvent: {}
+[11.070845] (-) TimerEvent: {}
+[11.175023] (-) TimerEvent: {}
+[11.277723] (-) TimerEvent: {}
+[11.381758] (-) TimerEvent: {}
+[11.486406] (-) TimerEvent: {}
+[11.587482] (-) TimerEvent: {}
+[11.689022] (-) TimerEvent: {}
+[11.791254] (-) TimerEvent: {}
+[11.897711] (-) TimerEvent: {}
+[11.999425] (-) TimerEvent: {}
+[12.101150] (-) TimerEvent: {}
+[12.202120] (-) TimerEvent: {}
+[12.302426] (-) TimerEvent: {}
+[12.402752] (-) TimerEvent: {}
+[12.503599] (-) TimerEvent: {}
+[12.605161] (-) TimerEvent: {}
+[12.705898] (-) TimerEvent: {}
+[12.793788] (my_custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.808253] (-) TimerEvent: {}
+[12.815663] (my_custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[12.910197] (-) TimerEvent: {}
+[13.012305] (-) TimerEvent: {}
+[13.113876] (-) TimerEvent: {}
+[13.214469] (-) TimerEvent: {}
+[13.307041] (my_custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[13.317894] (-) TimerEvent: {}
+[13.423373] (-) TimerEvent: {}
+[13.523936] (-) TimerEvent: {}
+[13.624790] (-) TimerEvent: {}
+[13.725907] (-) TimerEvent: {}
+[13.826384] (-) TimerEvent: {}
+[13.928298] (-) TimerEvent: {}
+[14.029205] (-) TimerEvent: {}
+[14.130156] (-) TimerEvent: {}
+[14.231609] (-) TimerEvent: {}
+[14.333050] (-) TimerEvent: {}
+[14.433519] (-) TimerEvent: {}
+[14.533821] (-) TimerEvent: {}
+[14.645014] (-) TimerEvent: {}
+[14.654940] (my_custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[14.746900] (-) TimerEvent: {}
+[14.847191] (-) TimerEvent: {}
+[14.870257] (my_custom_interfaces) StdoutLine: {'line': b'-- Configuring done (14.7s)\n'}
+[14.953196] (-) TimerEvent: {}
+[15.006744] (my_custom_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[15.024626] (my_custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/info/ros2_ws/build/my_custom_interfaces\n'}
+[15.051492] (my_custom_interfaces) CommandEnded: {'returncode': 0}
+[15.052284] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'build'}
+[15.053634] (my_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/info/ros2_ws/build/my_custom_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/info/ros2_ws/build/my_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy'}), 'shell': False}
+[15.054009] (-) TimerEvent: {}
+[15.154707] (-) TimerEvent: {}
+[15.258816] (-) TimerEvent: {}
+[15.360181] (-) TimerEvent: {}
+[15.461582] (-) TimerEvent: {}
+[15.474645] (my_custom_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[15.535068] (my_custom_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_my_custom_interfaces\n'}
+[15.561901] (-) TimerEvent: {}
+[15.666101] (-) TimerEvent: {}
+[15.766895] (-) TimerEvent: {}
+[15.872433] (-) TimerEvent: {}
+[15.976601] (-) TimerEvent: {}
+[16.081118] (-) TimerEvent: {}
+[16.162183] (my_custom_interfaces) StdoutLine: {'line': b'[  1%] Built target my_custom_interfaces__rosidl_generator_type_description\n'}
+[16.180821] (my_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[16.181081] (-) TimerEvent: {}
+[16.183978] (my_custom_interfaces) StdoutLine: {'line': b'creating my_custom_interfaces.egg-info\n'}
+[16.235587] (my_custom_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[16.237826] (my_custom_interfaces) StdoutLine: {'line': b'writing my_custom_interfaces.egg-info/PKG-INFO\n'}
+[16.238267] (my_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to my_custom_interfaces.egg-info/dependency_links.txt\n'}
+[16.238824] (my_custom_interfaces) StdoutLine: {'line': b'writing top-level names to my_custom_interfaces.egg-info/top_level.txt\n'}
+[16.239181] (my_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[16.281282] (-) TimerEvent: {}
+[16.362806] (my_custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[16.382264] (-) TimerEvent: {}
+[16.429524] (my_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[16.430603] (my_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[16.483266] (-) TimerEvent: {}
+[16.529649] (my_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_my_custom_interfaces_egg\n'}
+[16.584274] (-) TimerEvent: {}
+[16.689097] (-) TimerEvent: {}
+[16.796221] (-) TimerEvent: {}
+[16.903732] (-) TimerEvent: {}
+[17.007934] (-) TimerEvent: {}
+[17.115507] (-) TimerEvent: {}
+[17.224875] (-) TimerEvent: {}
+[17.340320] (-) TimerEvent: {}
+[17.442439] (-) TimerEvent: {}
+[17.548526] (-) TimerEvent: {}
+[17.650007] (-) TimerEvent: {}
+[17.753981] (-) TimerEvent: {}
+[17.858575] (-) TimerEvent: {}
+[17.964397] (-) TimerEvent: {}
+[18.078145] (-) TimerEvent: {}
+[18.183633] (-) TimerEvent: {}
+[18.287011] (-) TimerEvent: {}
+[18.399986] (-) TimerEvent: {}
+[18.513314] (-) TimerEvent: {}
+[18.636763] (-) TimerEvent: {}
+[18.750993] (-) TimerEvent: {}
+[18.856655] (-) TimerEvent: {}
+[18.962440] (-) TimerEvent: {}
+[19.064423] (-) TimerEvent: {}
+[19.169752] (-) TimerEvent: {}
+[19.275222] (-) TimerEvent: {}
+[19.385645] (-) TimerEvent: {}
+[19.509665] (-) TimerEvent: {}
+[19.615342] (-) TimerEvent: {}
+[19.722224] (-) TimerEvent: {}
+[19.833158] (-) TimerEvent: {}
+[19.937387] (-) TimerEvent: {}
+[20.042180] (-) TimerEvent: {}
+[20.151156] (-) TimerEvent: {}
+[20.279370] (-) TimerEvent: {}
+[20.392699] (-) TimerEvent: {}
+[20.501927] (-) TimerEvent: {}
+[20.623087] (-) TimerEvent: {}
+[20.723704] (-) TimerEvent: {}
+[20.824942] (-) TimerEvent: {}
+[20.932802] (-) TimerEvent: {}
+[21.056271] (-) TimerEvent: {}
+[21.162311] (-) TimerEvent: {}
+[21.263610] (-) TimerEvent: {}
+[21.370008] (-) TimerEvent: {}
+[21.484529] (-) TimerEvent: {}
+[21.610128] (-) TimerEvent: {}
+[21.716393] (-) TimerEvent: {}
+[21.838566] (-) TimerEvent: {}
+[21.958190] (-) TimerEvent: {}
+[22.059361] (-) TimerEvent: {}
+[22.163459] (-) TimerEvent: {}
+[22.265398] (-) TimerEvent: {}
+[22.371098] (-) TimerEvent: {}
+[22.475731] (-) TimerEvent: {}
+[22.579260] (-) TimerEvent: {}
+[22.702651] (-) TimerEvent: {}
+[22.723356] (my_custom_interfaces) StdoutLine: {'line': b'[  5%] Built target my_custom_interfaces__cpp\n'}
+[22.805014] (-) TimerEvent: {}
+[22.910513] (-) TimerEvent: {}
+[23.020757] (-) TimerEvent: {}
+[23.138000] (-) TimerEvent: {}
+[23.238837] (-) TimerEvent: {}
+[23.339498] (-) TimerEvent: {}
+[23.451583] (-) TimerEvent: {}
+[23.553305] (-) TimerEvent: {}
+[23.599166] (my_custom_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__functions.c.o\x1b[0m\n'}
+[23.653461] (-) TimerEvent: {}
+[23.693123] (my_custom_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__type_support.c.o\x1b[0m\n'}
+[23.753711] (-) TimerEvent: {}
+[23.833685] (my_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c.o\x1b[0m\n'}
+[23.844152] (my_custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__functions.c.o\x1b[0m\n'}
+[23.853932] (-) TimerEvent: {}
+[23.870911] (my_custom_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__description.c.o\x1b[0m\n'}
+[23.886284] (my_custom_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__description.c.o\x1b[0m\n'}
+[23.976088] (-) TimerEvent: {}
+[24.084708] (-) TimerEvent: {}
+[24.192406] (-) TimerEvent: {}
+[24.293195] (-) TimerEvent: {}
+[24.394751] (-) TimerEvent: {}
+[24.497589] (-) TimerEvent: {}
+[24.605306] (-) TimerEvent: {}
+[24.705733] (-) TimerEvent: {}
+[24.809412] (-) TimerEvent: {}
+[24.915745] (-) TimerEvent: {}
+[25.034698] (-) TimerEvent: {}
+[25.144204] (-) TimerEvent: {}
+[25.245229] (-) TimerEvent: {}
+[25.348276] (-) TimerEvent: {}
+[25.450701] (-) TimerEvent: {}
+[25.455487] (my_custom_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__description.c.o\x1b[0m\n'}
+[25.550995] (-) TimerEvent: {}
+[25.566289] (my_custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__functions.c.o\x1b[0m\n'}
+[25.596350] (my_custom_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__type_support.c.o\x1b[0m\n'}
+[25.652984] (-) TimerEvent: {}
+[25.753341] (-) TimerEvent: {}
+[25.855061] (-) TimerEvent: {}
+[25.955816] (my_custom_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[25.956357] (-) TimerEvent: {}
+[26.071044] (-) TimerEvent: {}
+[26.176544] (-) TimerEvent: {}
+[26.177533] (my_custom_interfaces) StdoutLine: {'line': b'[ 24%] Built target my_custom_interfaces__rosidl_generator_c\n'}
+[26.282636] (-) TimerEvent: {}
+[26.395634] (-) TimerEvent: {}
+[26.499285] (-) TimerEvent: {}
+[26.602772] (-) TimerEvent: {}
+[26.707290] (-) TimerEvent: {}
+[26.810059] (-) TimerEvent: {}
+[26.912742] (-) TimerEvent: {}
+[27.015415] (my_custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[27.023181] (-) TimerEvent: {}
+[27.026173] (my_custom_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[27.028878] (my_custom_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[27.114124] (my_custom_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[27.124470] (-) TimerEvent: {}
+[27.146220] (my_custom_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[27.212052] (my_custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[27.226180] (-) TimerEvent: {}
+[27.332114] (-) TimerEvent: {}
+[27.435301] (-) TimerEvent: {}
+[27.546472] (-) TimerEvent: {}
+[27.672243] (-) TimerEvent: {}
+[27.772932] (-) TimerEvent: {}
+[27.873343] (-) TimerEvent: {}
+[27.973713] (-) TimerEvent: {}
+[28.074370] (-) TimerEvent: {}
+[28.174923] (-) TimerEvent: {}
+[28.275517] (-) TimerEvent: {}
+[28.375839] (-) TimerEvent: {}
+[28.476155] (-) TimerEvent: {}
+[28.577108] (-) TimerEvent: {}
+[28.678705] (-) TimerEvent: {}
+[28.780183] (-) TimerEvent: {}
+[28.889427] (-) TimerEvent: {}
+[28.990283] (-) TimerEvent: {}
+[29.096191] (-) TimerEvent: {}
+[29.199565] (-) TimerEvent: {}
+[29.305200] (-) TimerEvent: {}
+[29.406078] (-) TimerEvent: {}
+[29.472564] (my_custom_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[29.513159] (-) TimerEvent: {}
+[29.614133] (-) TimerEvent: {}
+[29.726493] (-) TimerEvent: {}
+[29.839244] (-) TimerEvent: {}
+[29.957180] (-) TimerEvent: {}
+[30.062475] (-) TimerEvent: {}
+[30.177948] (-) TimerEvent: {}
+[30.296220] (-) TimerEvent: {}
+[30.409517] (-) TimerEvent: {}
+[30.525361] (-) TimerEvent: {}
+[30.626326] (-) TimerEvent: {}
+[30.730633] (-) TimerEvent: {}
+[30.832841] (-) TimerEvent: {}
+[30.948435] (-) TimerEvent: {}
+[31.065432] (-) TimerEvent: {}
+[31.168227] (-) TimerEvent: {}
+[31.275260] (my_custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/msg/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[31.284364] (-) TimerEvent: {}
+[31.391124] (-) TimerEvent: {}
+[31.502028] (-) TimerEvent: {}
+[31.627779] (-) TimerEvent: {}
+[31.747951] (-) TimerEvent: {}
+[31.861146] (-) TimerEvent: {}
+[31.961857] (-) TimerEvent: {}
+[32.078163] (-) TimerEvent: {}
+[32.195470] (-) TimerEvent: {}
+[32.305716] (-) TimerEvent: {}
+[32.406516] (-) TimerEvent: {}
+[32.507672] (-) TimerEvent: {}
+[32.608487] (-) TimerEvent: {}
+[32.725406] (-) TimerEvent: {}
+[32.836158] (-) TimerEvent: {}
+[32.939055] (-) TimerEvent: {}
+[33.042329] (-) TimerEvent: {}
+[33.143206] (-) TimerEvent: {}
+[33.247415] (-) TimerEvent: {}
+[33.348184] (-) TimerEvent: {}
+[33.451607] (-) TimerEvent: {}
+[33.558305] (-) TimerEvent: {}
+[33.659503] (-) TimerEvent: {}
+[33.783787] (-) TimerEvent: {}
+[33.902034] (-) TimerEvent: {}
+[34.005235] (-) TimerEvent: {}
+[34.114283] (-) TimerEvent: {}
+[34.229334] (-) TimerEvent: {}
+[34.341560] (-) TimerEvent: {}
+[34.445771] (-) TimerEvent: {}
+[34.507614] (my_custom_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/msg/detail/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[34.526163] (my_custom_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/msg/detail/sensor_status__type_support.c.o\x1b[0m\n'}
+[34.557137] (-) TimerEvent: {}
+[34.662620] (-) TimerEvent: {}
+[34.781975] (-) TimerEvent: {}
+[34.792500] (my_custom_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/msg/detail/dds_fastrtps/sensor_status__type_support.cpp.o\x1b[0m\n'}
+[34.884594] (-) TimerEvent: {}
+[34.985569] (-) TimerEvent: {}
+[35.089480] (-) TimerEvent: {}
+[35.217217] (-) TimerEvent: {}
+[35.333478] (-) TimerEvent: {}
+[35.446309] (-) TimerEvent: {}
+[35.559604] (-) TimerEvent: {}
+[35.573946] (my_custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/msg/sensor_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[35.662037] (-) TimerEvent: {}
+[35.762592] (-) TimerEvent: {}
+[35.863247] (-) TimerEvent: {}
+[35.947743] (my_custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/msg/detail/sensor_status__type_support_c.cpp.o\x1b[0m\n'}
+[35.969524] (-) TimerEvent: {}
+[36.070307] (-) TimerEvent: {}
+[36.171476] (-) TimerEvent: {}
+[36.272481] (-) TimerEvent: {}
+[36.380362] (-) TimerEvent: {}
+[36.499073] (-) TimerEvent: {}
+[36.602557] (-) TimerEvent: {}
+[36.705238] (-) TimerEvent: {}
+[36.829158] (-) TimerEvent: {}
+[36.938679] (-) TimerEvent: {}
+[37.042530] (-) TimerEvent: {}
+[37.143754] (-) TimerEvent: {}
+[37.251123] (-) TimerEvent: {}
+[37.365092] (-) TimerEvent: {}
+[37.480338] (-) TimerEvent: {}
+[37.524535] (my_custom_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c.o\x1b[0m\n'}
+[37.580870] (-) TimerEvent: {}
+[37.688262] (-) TimerEvent: {}
+[37.793859] (-) TimerEvent: {}
+[37.905146] (-) TimerEvent: {}
+[38.006683] (-) TimerEvent: {}
+[38.113212] (-) TimerEvent: {}
+[38.219581] (-) TimerEvent: {}
+[38.328805] (-) TimerEvent: {}
+[38.430151] (-) TimerEvent: {}
+[38.537090] (-) TimerEvent: {}
+[38.644256] (-) TimerEvent: {}
+[38.759653] (-) TimerEvent: {}
+[38.869270] (-) TimerEvent: {}
+[38.972658] (-) TimerEvent: {}
+[39.074710] (-) TimerEvent: {}
+[39.178194] (-) TimerEvent: {}
+[39.279760] (-) TimerEvent: {}
+[39.384120] (-) TimerEvent: {}
+[39.484708] (-) TimerEvent: {}
+[39.586238] (-) TimerEvent: {}
+[39.687790] (-) TimerEvent: {}
+[39.764239] (my_custom_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/srv/change_led_color__type_support.cpp.o\x1b[0m\n'}
+[39.788339] (-) TimerEvent: {}
+[39.895366] (-) TimerEvent: {}
+[40.004038] (-) TimerEvent: {}
+[40.112643] (-) TimerEvent: {}
+[40.216752] (-) TimerEvent: {}
+[40.317855] (-) TimerEvent: {}
+[40.420095] (-) TimerEvent: {}
+[40.522166] (-) TimerEvent: {}
+[40.590967] (my_custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/srv/detail/change_led_color__type_support.c.o\x1b[0m\n'}
+[40.628178] (-) TimerEvent: {}
+[40.729437] (-) TimerEvent: {}
+[40.833294] (-) TimerEvent: {}
+[40.939382] (-) TimerEvent: {}
+[40.948633] (my_custom_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/sensor_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[41.037372] (-) TimerEvent: {}
+[41.138304] (-) TimerEvent: {}
+[41.239809] (-) TimerEvent: {}
+[41.346740] (-) TimerEvent: {}
+[41.449102] (-) TimerEvent: {}
+[41.552017] (-) TimerEvent: {}
+[41.656643] (-) TimerEvent: {}
+[41.772957] (-) TimerEvent: {}
+[41.896770] (-) TimerEvent: {}
+[42.009905] (-) TimerEvent: {}
+[42.117078] (-) TimerEvent: {}
+[42.234300] (-) TimerEvent: {}
+[42.351727] (-) TimerEvent: {}
+[42.456107] (-) TimerEvent: {}
+[42.564248] (-) TimerEvent: {}
+[42.673702] (-) TimerEvent: {}
+[42.785082] (-) TimerEvent: {}
+[42.949066] (-) TimerEvent: {}
+[43.067126] (-) TimerEvent: {}
+[43.077267] (my_custom_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[43.138914] (my_custom_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[43.167373] (-) TimerEvent: {}
+[43.268132] (-) TimerEvent: {}
+[43.376024] (-) TimerEvent: {}
+[43.486130] (-) TimerEvent: {}
+[43.588282] (-) TimerEvent: {}
+[43.692316] (-) TimerEvent: {}
+[43.793570] (-) TimerEvent: {}
+[43.895929] (-) TimerEvent: {}
+[44.007953] (-) TimerEvent: {}
+[44.115519] (-) TimerEvent: {}
+[44.225253] (-) TimerEvent: {}
+[44.330172] (-) TimerEvent: {}
+[44.430741] (-) TimerEvent: {}
+[44.540056] (-) TimerEvent: {}
+[44.641164] (-) TimerEvent: {}
+[44.675714] (my_custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[44.743150] (-) TimerEvent: {}
+[44.872201] (-) TimerEvent: {}
+[44.983558] (-) TimerEvent: {}
+[45.096062] (-) TimerEvent: {}
+[45.219181] (-) TimerEvent: {}
+[45.327233] (-) TimerEvent: {}
+[45.372609] (my_custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[45.435201] (-) TimerEvent: {}
+[45.537074] (-) TimerEvent: {}
+[45.650370] (-) TimerEvent: {}
+[45.751000] (-) TimerEvent: {}
+[45.855626] (-) TimerEvent: {}
+[45.862794] (my_custom_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/srv/change_led_color__type_support.cpp.o\x1b[0m\n'}
+[45.940544] (my_custom_interfaces) StdoutLine: {'line': b'[ 62%] Built target my_custom_interfaces__rosidl_typesupport_c\n'}
+[45.955825] (-) TimerEvent: {}
+[46.056821] (-) TimerEvent: {}
+[46.157288] (-) TimerEvent: {}
+[46.258284] (-) TimerEvent: {}
+[46.360695] (-) TimerEvent: {}
+[46.461188] (-) TimerEvent: {}
+[46.576022] (-) TimerEvent: {}
+[46.580094] (my_custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/srv/detail/change_led_color__type_support.cpp.o\x1b[0m\n'}
+[46.678043] (-) TimerEvent: {}
+[46.780945] (-) TimerEvent: {}
+[46.891080] (-) TimerEvent: {}
+[46.999541] (-) TimerEvent: {}
+[47.110584] (-) TimerEvent: {}
+[47.213535] (-) TimerEvent: {}
+[47.298880] (my_custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/msg/detail/dds_fastrtps/sensor_status_stamped__type_support.cpp.o\x1b[0m\n'}
+[47.314642] (-) TimerEvent: {}
+[47.419831] (-) TimerEvent: {}
+[47.520793] (-) TimerEvent: {}
+[47.623288] (-) TimerEvent: {}
+[47.734627] (-) TimerEvent: {}
+[47.849099] (-) TimerEvent: {}
+[47.950822] (-) TimerEvent: {}
+[48.051257] (-) TimerEvent: {}
+[48.165154] (-) TimerEvent: {}
+[48.279637] (-) TimerEvent: {}
+[48.381510] (-) TimerEvent: {}
+[48.481930] (-) TimerEvent: {}
+[48.584955] (-) TimerEvent: {}
+[48.622032] (my_custom_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support_c.cpp.o\x1b[0m\n'}
+[48.687978] (-) TimerEvent: {}
+[48.789052] (-) TimerEvent: {}
+[48.913243] (-) TimerEvent: {}
+[49.018756] (-) TimerEvent: {}
+[49.034404] (my_custom_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/srv/detail/dds_fastrtps/change_led_color__type_support.cpp.o\x1b[0m\n'}
+[49.122830] (-) TimerEvent: {}
+[49.231301] (-) TimerEvent: {}
+[49.331622] (-) TimerEvent: {}
+[49.435492] (-) TimerEvent: {}
+[49.535915] (-) TimerEvent: {}
+[49.636410] (-) TimerEvent: {}
+[49.739439] (-) TimerEvent: {}
+[49.847490] (-) TimerEvent: {}
+[49.962462] (-) TimerEvent: {}
+[50.067783] (-) TimerEvent: {}
+[50.168345] (-) TimerEvent: {}
+[50.270494] (-) TimerEvent: {}
+[50.379603] (-) TimerEvent: {}
+[50.481589] (-) TimerEvent: {}
+[50.586097] (-) TimerEvent: {}
+[50.687030] (-) TimerEvent: {}
+[50.702237] (my_custom_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/srv/detail/change_led_color__type_support_c.cpp.o\x1b[0m\n'}
+[50.788234] (-) TimerEvent: {}
+[50.893476] (-) TimerEvent: {}
+[51.003014] (-) TimerEvent: {}
+[51.103759] (-) TimerEvent: {}
+[51.204309] (-) TimerEvent: {}
+[51.310676] (-) TimerEvent: {}
+[51.413728] (-) TimerEvent: {}
+[51.517254] (-) TimerEvent: {}
+[51.620020] (-) TimerEvent: {}
+[51.729549] (-) TimerEvent: {}
+[51.830061] (-) TimerEvent: {}
+[51.932263] (-) TimerEvent: {}
+[51.974085] (my_custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[52.037027] (-) TimerEvent: {}
+[52.139997] (-) TimerEvent: {}
+[52.250194] (-) TimerEvent: {}
+[52.360086] (-) TimerEvent: {}
+[52.462036] (-) TimerEvent: {}
+[52.563004] (-) TimerEvent: {}
+[52.617111] (my_custom_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[52.663268] (-) TimerEvent: {}
+[52.770733] (-) TimerEvent: {}
+[52.883237] (-) TimerEvent: {}
+[52.993096] (-) TimerEvent: {}
+[53.108202] (-) TimerEvent: {}
+[53.217263] (-) TimerEvent: {}
+[53.318034] (-) TimerEvent: {}
+[53.420247] (-) TimerEvent: {}
+[53.523767] (-) TimerEvent: {}
+[53.624533] (-) TimerEvent: {}
+[53.725114] (-) TimerEvent: {}
+[53.828498] (-) TimerEvent: {}
+[53.929376] (-) TimerEvent: {}
+[54.037567] (-) TimerEvent: {}
+[54.147683] (-) TimerEvent: {}
+[54.274087] (-) TimerEvent: {}
+[54.380283] (-) TimerEvent: {}
+[54.481179] (-) TimerEvent: {}
+[54.510299] (my_custom_interfaces) StdoutLine: {'line': b'[ 75%] Built target my_custom_interfaces__rosidl_typesupport_cpp\n'}
+[54.581382] (-) TimerEvent: {}
+[54.664212] (my_custom_interfaces) StdoutLine: {'line': b'[ 75%] Built target my_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[54.682468] (-) TimerEvent: {}
+[54.784738] (-) TimerEvent: {}
+[54.886742] (-) TimerEvent: {}
+[54.988746] (-) TimerEvent: {}
+[55.074136] (my_custom_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[55.095550] (-) TimerEvent: {}
+[55.196931] (-) TimerEvent: {}
+[55.269710] (my_custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[55.297767] (-) TimerEvent: {}
+[55.400003] (-) TimerEvent: {}
+[55.500574] (-) TimerEvent: {}
+[55.533347] (my_custom_interfaces) StdoutLine: {'line': b'[ 79%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[55.602192] (-) TimerEvent: {}
+[55.700080] (my_custom_interfaces) StdoutLine: {'line': b'[ 79%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[55.703450] (-) TimerEvent: {}
+[55.805860] (-) TimerEvent: {}
+[55.815889] (my_custom_interfaces) StdoutLine: {'line': b'[ 79%] Built target my_custom_interfaces\n'}
+[55.905957] (-) TimerEvent: {}
+[55.928131] (my_custom_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[56.018515] (-) TimerEvent: {}
+[56.121491] (-) TimerEvent: {}
+[56.226127] (-) TimerEvent: {}
+[56.335029] (-) TimerEvent: {}
+[56.448351] (-) TimerEvent: {}
+[56.558192] (-) TimerEvent: {}
+[56.660518] (-) TimerEvent: {}
+[56.762726] (-) TimerEvent: {}
+[56.870606] (-) TimerEvent: {}
+[56.976617] (-) TimerEvent: {}
+[57.077931] (-) TimerEvent: {}
+[57.179015] (-) TimerEvent: {}
+[57.285679] (-) TimerEvent: {}
+[57.389937] (-) TimerEvent: {}
+[57.490415] (-) TimerEvent: {}
+[57.593796] (-) TimerEvent: {}
+[57.594175] (my_custom_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_custom_interfaces__py\n'}
+[57.697311] (-) TimerEvent: {}
+[57.713127] (my_custom_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_sensor_status_s.c.o\x1b[0m\n'}
+[57.735187] (my_custom_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_sensor_status_stamped_s.c.o\x1b[0m\n'}
+[57.798114] (-) TimerEvent: {}
+[57.902968] (-) TimerEvent: {}
+[58.005279] (-) TimerEvent: {}
+[58.107291] (-) TimerEvent: {}
+[58.209654] (-) TimerEvent: {}
+[58.310012] (-) TimerEvent: {}
+[58.411424] (-) TimerEvent: {}
+[58.512556] (-) TimerEvent: {}
+[58.574838] (my_custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/srv/_change_led_color_s.c.o\x1b[0m\n'}
+[58.612901] (-) TimerEvent: {}
+[58.723244] (-) TimerEvent: {}
+[58.823571] (-) TimerEvent: {}
+[58.926197] (-) TimerEvent: {}
+[59.028432] (-) TimerEvent: {}
+[59.051509] (my_custom_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libmy_custom_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[59.129068] (-) TimerEvent: {}
+[59.238256] (-) TimerEvent: {}
+[59.287452] (my_custom_interfaces) StdoutLine: {'line': b'[ 88%] Built target my_custom_interfaces__rosidl_generator_py\n'}
+[59.343688] (-) TimerEvent: {}
+[59.447149] (-) TimerEvent: {}
+[59.538555] (my_custom_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[59.547786] (-) TimerEvent: {}
+[59.556125] (my_custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[59.656824] (-) TimerEvent: {}
+[59.758921] (-) TimerEvent: {}
+[59.859250] (-) TimerEvent: {}
+[59.959524] (-) TimerEvent: {}
+[60.065391] (-) TimerEvent: {}
+[60.091146] (my_custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[60.108127] (my_custom_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[60.165368] (-) TimerEvent: {}
+[60.267535] (-) TimerEvent: {}
+[60.370637] (-) TimerEvent: {}
+[60.416410] (my_custom_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_custom_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[60.422656] (my_custom_interfaces) StdoutLine: {'line': b'[ 96%] Built target my_custom_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[60.472156] (-) TimerEvent: {}
+[60.514966] (my_custom_interfaces) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[60.574301] (-) TimerEvent: {}
+[60.684949] (-) TimerEvent: {}
+[60.790919] (-) TimerEvent: {}
+[60.894511] (-) TimerEvent: {}
+[60.909023] (my_custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[60.997189] (-) TimerEvent: {}
+[61.101185] (-) TimerEvent: {}
+[61.117383] (my_custom_interfaces) StdoutLine: {'line': b'[100%] Built target my_custom_interfaces_s__rosidl_typesupport_c\n'}
+[61.166533] (my_custom_interfaces) CommandEnded: {'returncode': 0}
+[61.167715] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'install'}
+[61.202903] (-) TimerEvent: {}
+[61.208534] (my_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/info/ros2_ws/build/my_custom_interfaces'], 'cwd': '/home/info/ros2_ws/build/my_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy'}), 'shell': False}
+[61.287419] (my_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[61.287996] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_custom_interfaces\n'}
+[61.288609] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.json\n'}
+[61.289014] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.json\n'}
+[61.289480] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.json\n'}
+[61.289874] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces\n'}
+[61.290275] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv\n'}
+[61.290635] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail\n'}
+[61.290880] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__functions.c\n'}
+[61.291254] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.h\n'}
+[61.291985] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.c\n'}
+[61.292335] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__description.c\n'}
+[61.292724] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__functions.h\n'}
+[61.293175] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__struct.h\n'}
+[61.293500] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/change_led_color.h\n'}
+[61.293801] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg\n'}
+[61.294028] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status_stamped.h\n'}
+[61.294395] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail\n'}
+[61.294647] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__functions.h\n'}
+[61.294995] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__functions.c\n'}
+[61.295411] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.c\n'}
+[61.295725] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__description.c\n'}
+[61.296030] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__struct.h\n'}
+[61.296413] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__description.c\n'}
+[61.296735] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__functions.c\n'}
+[61.297089] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.h\n'}
+[61.297431] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c\n'}
+[61.297742] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__struct.h\n'}
+[61.298085] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__functions.h\n'}
+[61.298440] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.h\n'}
+[61.298764] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[61.299177] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status.h\n'}
+[61.299650] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.sh\n'}
+[61.300083] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.dsv\n'}
+[61.300595] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_c.so\n'}
+[61.302803] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_c.so" to ""\n'}
+[61.303060] (-) TimerEvent: {}
+[61.303224] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces\n'}
+[61.303429] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv\n'}
+[61.303675] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail\n'}
+[61.304341] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_fastrtps_c.h\n'}
+[61.304618] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg\n'}
+[61.304764] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[61.305056] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail\n'}
+[61.305166] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[61.305301] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[61.305784] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[61.308592] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[61.308781] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces\n'}
+[61.308982] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv\n'}
+[61.309186] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail\n'}
+[61.309486] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_introspection_c.h\n'}
+[61.309804] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.c\n'}
+[61.310375] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg\n'}
+[61.310637] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[61.311037] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail\n'}
+[61.311227] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.c\n'}
+[61.313965] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_introspection_c.h\n'}
+[61.314142] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_introspection_c.h\n'}
+[61.314279] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c\n'}
+[61.314414] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[61.315070] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[61.315283] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_c.so\n'}
+[61.316837] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[61.317047] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces\n'}
+[61.317221] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv\n'}
+[61.317445] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/change_led_color.hpp\n'}
+[61.317696] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail\n'}
+[61.317853] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__builder.hpp\n'}
+[61.318226] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__struct.hpp\n'}
+[61.318598] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__traits.hpp\n'}
+[61.318965] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.hpp\n'}
+[61.319311] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg\n'}
+[61.319485] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status.hpp\n'}
+[61.319799] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail\n'}
+[61.319986] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__struct.hpp\n'}
+[61.320346] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.hpp\n'}
+[61.320668] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__traits.hpp\n'}
+[61.321013] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__traits.hpp\n'}
+[61.321366] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__builder.hpp\n'}
+[61.321685] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.hpp\n'}
+[61.322013] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__struct.hpp\n'}
+[61.322384] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__builder.hpp\n'}
+[61.322718] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[61.323080] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status_stamped.hpp\n'}
+[61.323477] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces\n'}
+[61.323621] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv\n'}
+[61.323913] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail\n'}
+[61.324145] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/dds_fastrtps\n'}
+[61.324403] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[61.325114] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg\n'}
+[61.325298] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[61.325614] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail\n'}
+[61.325777] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/dds_fastrtps\n'}
+[61.326007] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[61.331425] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[61.331653] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[61.331790] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[61.331956] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces\n'}
+[61.332112] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv\n'}
+[61.332350] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail\n'}
+[61.332501] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[61.332637] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.cpp\n'}
+[61.332767] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg\n'}
+[61.332897] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail\n'}
+[61.333029] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.cpp\n'}
+[61.333168] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[61.333307] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[61.333441] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.cpp\n'}
+[61.333581] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[61.334491] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[61.334669] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[61.336888] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[61.337195] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.sh\n'}
+[61.337458] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.dsv\n'}
+[61.337801] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info\n'}
+[61.338117] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[61.338455] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[61.338780] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[61.339125] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[61.339487] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces\n'}
+[61.339755] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[61.340196] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv\n'}
+[61.340574] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color_s.c\n'}
+[61.340966] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/__init__.py\n'}
+[61.341305] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color.py\n'}
+[61.341761] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg\n'}
+[61.341998] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status.py\n'}
+[61.342358] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped.py\n'}
+[61.342685] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped_s.c\n'}
+[61.343053] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_s.c\n'}
+[61.343413] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/__init__.py\n'}
+[61.343737] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[61.344129] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/__init__.py\n'}
+[61.344463] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[61.344865] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[61.345299] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[61.345797] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[61.405166] (-) TimerEvent: {}
+[61.480135] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces'...\n"}
+[61.480451] (my_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/__init__.py'...\n"}
+[61.480550] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg'...\n"}
+[61.480714] (my_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/__init__.py'...\n"}
+[61.480872] (my_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status.py'...\n"}
+[61.481002] (my_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped.py'...\n"}
+[61.481152] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv'...\n"}
+[61.481288] (my_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/__init__.py'...\n"}
+[61.481421] (my_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color.py'...\n"}
+[61.492181] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[61.495238] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[61.495444] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[61.497211] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[61.498316] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[61.500145] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[61.500538] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_py.so\n'}
+[61.502694] (my_custom_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_py.so" to ""\n'}
+[61.503008] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.idl\n'}
+[61.503462] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.idl\n'}
+[61.503942] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.idl\n'}
+[61.504404] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.msg\n'}
+[61.504830] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.msg\n'}
+[61.505333] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.srv\n'}
+[61.505501] (-) TimerEvent: {}
+[61.505941] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/my_custom_interfaces\n'}
+[61.506519] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/my_custom_interfaces\n'}
+[61.507067] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[61.507650] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[61.508146] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.sh\n'}
+[61.508601] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.dsv\n'}
+[61.509082] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.bash\n'}
+[61.509955] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.sh\n'}
+[61.510122] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.zsh\n'}
+[61.510418] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.dsv\n'}
+[61.510856] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.dsv\n'}
+[61.512027] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/packages/my_custom_interfaces\n'}
+[61.513003] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[61.515437] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[61.517302] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[61.517521] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[61.521508] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[61.522706] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[61.522924] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[61.523709] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[61.525233] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[61.533573] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[61.534485] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[61.535089] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[61.536360] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[61.537642] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[61.539077] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[61.541381] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[61.541873] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[61.542345] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[61.542864] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[61.543400] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[61.543884] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[61.544408] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[61.544957] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[61.545420] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[61.545918] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig.cmake\n'}
+[61.546353] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig-version.cmake\n'}
+[61.546858] (my_custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.xml\n'}
+[61.556320] (my_custom_interfaces) CommandEnded: {'returncode': 0}
+[61.581932] (my_custom_interfaces) JobEnded: {'identifier': 'my_custom_interfaces', 'rc': 0}
+[61.583329] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[61.606386] (-) TimerEvent: {}
+[61.710624] (-) TimerEvent: {}
+[61.819198] (-) TimerEvent: {}
+[61.923319] (-) TimerEvent: {}
+[62.029311] (-) TimerEvent: {}
+[62.133421] (-) TimerEvent: {}
+[62.234855] (-) TimerEvent: {}
+[62.341241] (-) TimerEvent: {}
+[62.447323] (-) TimerEvent: {}
+[62.550268] (-) TimerEvent: {}
+[62.655870] (-) TimerEvent: {}
+[62.768953] (-) TimerEvent: {}
+[62.873128] (-) TimerEvent: {}
+[62.974338] (-) TimerEvent: {}
+[63.081892] (-) TimerEvent: {}
+[63.197800] (-) TimerEvent: {}
+[63.303226] (-) TimerEvent: {}
+[63.415296] (-) TimerEvent: {}
+[63.518159] (-) TimerEvent: {}
+[63.558647] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/my_py_pkg', 'build', '--build-base', '/home/info/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/info/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/install/my_custom_interfaces/lib:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'OLDPWD': '/home/info/ros2_ws/tp_turtle_regulation_Emie', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install:/home/info/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/12ef432c_b503_4cde_9433_73d889946acc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose:/home/info/ros2_ws/install/turtle_regulation:/home/info/ros2_ws/install/my_service_pkg:/home/info/ros2_ws/install/my_py_pkg:/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/install/move_turtle:/home/info/ros2_ws/install/move_pose:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[63.620946] (-) TimerEvent: {}
+[63.730362] (-) TimerEvent: {}
+[63.836092] (-) TimerEvent: {}
+[63.953943] (-) TimerEvent: {}
+[64.061293] (-) TimerEvent: {}
+[64.158042] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[64.158537] (my_py_pkg) StdoutLine: {'line': b'creating ../../../../build/my_py_pkg/my_py_pkg.egg-info\n'}
+[64.165963] (-) TimerEvent: {}
+[64.196483] (my_py_pkg) StdoutLine: {'line': b'writing ../../../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[64.196920] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[64.197237] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[64.197394] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[64.197595] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[64.197818] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[64.272536] (-) TimerEvent: {}
+[64.273842] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[64.275169] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[64.275692] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[64.275949] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[64.276307] (my_py_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/my_py_pkg/build\n'}
+[64.276507] (my_py_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/my_py_pkg/build/lib\n'}
+[64.276678] (my_py_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.276804] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_second_publisher.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.277245] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_subscriber.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.277592] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_oop_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.277966] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_publisher.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.278330] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/my_first_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.281110] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/__init__.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.281299] (my_py_pkg) StdoutLine: {'line': b'copying my_py_pkg/template_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg\n'}
+[64.282054] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[64.295741] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[64.333726] (my_py_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.333984] (my_py_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_second_publisher.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.334275] (my_py_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_subscriber.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.334581] (my_py_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_oop_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.334886] (my_py_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_publisher.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.335183] (my_py_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.335529] (my_py_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.335798] (my_py_pkg) StdoutLine: {'line': b'copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg\n'}
+[64.336905] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_second_publisher.py to my_second_publisher.cpython-312.pyc\n'}
+[64.337630] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_subscriber.py to my_first_subscriber.cpython-312.pyc\n'}
+[64.338227] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_oop_node.py to my_first_oop_node.cpython-312.pyc\n'}
+[64.338948] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_publisher.py to my_first_publisher.cpython-312.pyc\n'}
+[64.339581] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc\n'}
+[64.340056] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[64.340406] (my_py_pkg) StdoutLine: {'line': b'byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_node.py to template_node.cpython-312.pyc\n'}
+[64.340874] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[64.341183] (my_py_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index\n'}
+[64.341294] (my_py_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index\n'}
+[64.341489] (my_py_pkg) StdoutLine: {'line': b'creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[64.341770] (my_py_pkg) StdoutLine: {'line': b'copying resource/my_py_pkg -> /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages\n'}
+[64.342085] (my_py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg\n'}
+[64.342197] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[64.381206] (-) TimerEvent: {}
+[64.387363] (my_py_pkg) StdoutLine: {'line': b'Copying ../../../../build/my_py_pkg/my_py_pkg.egg-info to /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[64.389562] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[64.489897] (-) TimerEvent: {}
+[64.591050] (-) TimerEvent: {}
+[64.700208] (-) TimerEvent: {}
+[64.722365] (my_py_pkg) StdoutLine: {'line': b'Installing first_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[64.722655] (my_py_pkg) StdoutLine: {'line': b'Installing first_oop_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[64.722938] (my_py_pkg) StdoutLine: {'line': b'Installing first_pub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[64.723169] (my_py_pkg) StdoutLine: {'line': b'Installing first_sub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[64.723434] (my_py_pkg) StdoutLine: {'line': b'Installing second_pub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[64.724008] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/my_py_pkg/install.log'\n"}
+[64.756844] (my_py_pkg) CommandEnded: {'returncode': 0}
+[64.765674] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[64.767957] (-) EventReactorShutdown: {}

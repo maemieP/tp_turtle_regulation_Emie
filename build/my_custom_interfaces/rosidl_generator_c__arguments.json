@@ -8,9 +8,9 @@
     "/home/info/ros2_ws/build/my_custom_interfaces/rosidl_adapter/my_custom_interfaces:srv/ChangeLedColor.idl"
   ],
   "ros_interface_files": [
-    "/home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatus.msg",
-    "/home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatusStamped.msg",
-    "/home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces/srv/ChangeLedColor.srv"
+    "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatus.msg",
+    "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatusStamped.msg",
+    "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces/srv/ChangeLedColor.srv"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",

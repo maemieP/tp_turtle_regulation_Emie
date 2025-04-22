@@ -1,4 +1,4 @@
-# Install script for directory: /home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces
+# Install script for directory: /home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -383,15 +383,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/msg" TYPE FILE FILES "/home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatus.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/msg" TYPE FILE FILES "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatus.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/msg" TYPE FILE FILES "/home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatusStamped.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/msg" TYPE FILE FILES "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces/msg/SensorStatusStamped.msg")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/srv" TYPE FILE FILES "/home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces/srv/ChangeLedColor.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces/srv" TYPE FILE FILES "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces/srv/ChangeLedColor.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -682,7 +682,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces" TYPE FILE FILES "/home/info/ros2_ws/src/ros2_tutorial/my_custom_interfaces/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_custom_interfaces" TYPE FILE FILES "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
