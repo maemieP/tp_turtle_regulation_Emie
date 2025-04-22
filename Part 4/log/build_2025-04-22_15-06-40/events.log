@@ -1,0 +1,1192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (move_pose) JobQueued: {'identifier': 'move_pose', 'dependencies': OrderedDict()}
+[0.000400] (move_turtle) JobQueued: {'identifier': 'move_turtle', 'dependencies': OrderedDict()}
+[0.000445] (my_custom_interfaces) JobQueued: {'identifier': 'my_custom_interfaces', 'dependencies': OrderedDict()}
+[0.000483] (my_service_pkg) JobQueued: {'identifier': 'my_service_pkg', 'dependencies': OrderedDict()}
+[0.000528] (turtle_interfaces) JobQueued: {'identifier': 'turtle_interfaces', 'dependencies': OrderedDict()}
+[0.000567] (turtle_regulation) JobQueued: {'identifier': 'turtle_regulation', 'dependencies': OrderedDict()}
+[0.000660] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_custom_interfaces': '/home/info/ros2_ws/install/my_custom_interfaces'})}
+[0.000834] (my_custom_interfaces) JobStarted: {'identifier': 'my_custom_interfaces'}
+[0.019138] (move_pose) JobStarted: {'identifier': 'move_pose'}
+[0.059157] (move_turtle) JobStarted: {'identifier': 'move_turtle'}
+[0.102590] (my_service_pkg) JobStarted: {'identifier': 'my_service_pkg'}
+[0.102887] (-) TimerEvent: {}
+[0.201339] (turtle_interfaces) JobStarted: {'identifier': 'turtle_interfaces'}
+[0.203366] (-) TimerEvent: {}
+[0.258538] (turtle_regulation) JobStarted: {'identifier': 'turtle_regulation'}
+[0.309729] (-) TimerEvent: {}
+[0.371692] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'cmake'}
+[0.403486] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'build'}
+[0.403567] (my_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/info/ros2_ws/build/my_custom_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/info/ros2_ws/build/my_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.416950] (-) TimerEvent: {}
+[0.528467] (-) TimerEvent: {}
+[0.642383] (-) TimerEvent: {}
+[0.745170] (-) TimerEvent: {}
+[0.856159] (-) TimerEvent: {}
+[0.960001] (-) TimerEvent: {}
+[1.060624] (-) TimerEvent: {}
+[1.163402] (-) TimerEvent: {}
+[1.287175] (-) TimerEvent: {}
+[1.390952] (-) TimerEvent: {}
+[1.517859] (-) TimerEvent: {}
+[1.619088] (-) TimerEvent: {}
+[1.776347] (-) TimerEvent: {}
+[1.897807] (-) TimerEvent: {}
+[1.999353] (-) TimerEvent: {}
+[2.169912] (-) TimerEvent: {}
+[2.276625] (-) TimerEvent: {}
+[2.380331] (-) TimerEvent: {}
+[2.483891] (-) TimerEvent: {}
+[2.586852] (-) TimerEvent: {}
+[2.719885] (-) TimerEvent: {}
+[2.848045] (-) TimerEvent: {}
+[2.953065] (-) TimerEvent: {}
+[3.053790] (-) TimerEvent: {}
+[3.159138] (-) TimerEvent: {}
+[3.277065] (-) TimerEvent: {}
+[3.402786] (-) TimerEvent: {}
+[3.503744] (-) TimerEvent: {}
+[3.606681] (-) TimerEvent: {}
+[3.707397] (-) TimerEvent: {}
+[3.815802] (-) TimerEvent: {}
+[3.916481] (-) TimerEvent: {}
+[4.019751] (-) TimerEvent: {}
+[4.133816] (-) TimerEvent: {}
+[4.250630] (-) TimerEvent: {}
+[4.351249] (-) TimerEvent: {}
+[4.467990] (-) TimerEvent: {}
+[4.568758] (-) TimerEvent: {}
+[4.677891] (-) TimerEvent: {}
+[4.797970] (-) TimerEvent: {}
+[4.898668] (-) TimerEvent: {}
+[4.999812] (-) TimerEvent: {}
+[5.101738] (-) TimerEvent: {}
+[5.212545] (-) TimerEvent: {}
+[5.321013] (-) TimerEvent: {}
+[5.421842] (-) TimerEvent: {}
+[5.525702] (-) TimerEvent: {}
+[5.626332] (-) TimerEvent: {}
+[5.745064] (-) TimerEvent: {}
+[5.857198] (-) TimerEvent: {}
+[5.961312] (-) TimerEvent: {}
+[6.065870] (-) TimerEvent: {}
+[6.170953] (-) TimerEvent: {}
+[6.279132] (-) TimerEvent: {}
+[6.384673] (-) TimerEvent: {}
+[6.502076] (-) TimerEvent: {}
+[6.611172] (-) TimerEvent: {}
+[6.718933] (-) TimerEvent: {}
+[6.819840] (-) TimerEvent: {}
+[6.951902] (-) TimerEvent: {}
+[7.077046] (-) TimerEvent: {}
+[7.192292] (-) TimerEvent: {}
+[7.334121] (-) TimerEvent: {}
+[7.463020] (-) TimerEvent: {}
+[7.585575] (-) TimerEvent: {}
+[7.693783] (-) TimerEvent: {}
+[7.794333] (-) TimerEvent: {}
+[7.912476] (-) TimerEvent: {}
+[8.040321] (-) TimerEvent: {}
+[8.148351] (-) TimerEvent: {}
+[8.260854] (-) TimerEvent: {}
+[8.366768] (-) TimerEvent: {}
+[8.481521] (-) TimerEvent: {}
+[8.583738] (-) TimerEvent: {}
+[8.701020] (-) TimerEvent: {}
+[8.818913] (-) TimerEvent: {}
+[8.928534] (-) TimerEvent: {}
+[9.058508] (-) TimerEvent: {}
+[9.178201] (-) TimerEvent: {}
+[9.294861] (-) TimerEvent: {}
+[9.413066] (-) TimerEvent: {}
+[9.534705] (-) TimerEvent: {}
+[9.643590] (-) TimerEvent: {}
+[9.753898] (-) TimerEvent: {}
+[9.877958] (-) TimerEvent: {}
+[9.980839] (-) TimerEvent: {}
+[10.082290] (-) TimerEvent: {}
+[10.202154] (-) TimerEvent: {}
+[10.329201] (-) TimerEvent: {}
+[10.496702] (-) TimerEvent: {}
+[10.617339] (-) TimerEvent: {}
+[10.728395] (-) TimerEvent: {}
+[10.831902] (-) TimerEvent: {}
+[10.952502] (-) TimerEvent: {}
+[11.070576] (-) TimerEvent: {}
+[11.189686] (-) TimerEvent: {}
+[11.333480] (-) TimerEvent: {}
+[11.453401] (-) TimerEvent: {}
+[11.555557] (-) TimerEvent: {}
+[11.662573] (-) TimerEvent: {}
+[11.770874] (-) TimerEvent: {}
+[11.889930] (-) TimerEvent: {}
+[12.039043] (-) TimerEvent: {}
+[12.173943] (-) TimerEvent: {}
+[12.274363] (-) TimerEvent: {}
+[12.376239] (-) TimerEvent: {}
+[12.489684] (-) TimerEvent: {}
+[12.592645] (-) TimerEvent: {}
+[12.704942] (-) TimerEvent: {}
+[12.815122] (-) TimerEvent: {}
+[12.916381] (-) TimerEvent: {}
+[13.025813] (-) TimerEvent: {}
+[13.134727] (-) TimerEvent: {}
+[13.258304] (-) TimerEvent: {}
+[13.362273] (-) TimerEvent: {}
+[13.508322] (-) TimerEvent: {}
+[13.630644] (-) TimerEvent: {}
+[13.731382] (-) TimerEvent: {}
+[13.833823] (-) TimerEvent: {}
+[13.934273] (-) TimerEvent: {}
+[14.051419] (-) TimerEvent: {}
+[14.170063] (-) TimerEvent: {}
+[14.275725] (-) TimerEvent: {}
+[14.283072] (turtle_interfaces) JobProgress: {'identifier': 'turtle_interfaces', 'progress': 'cmake'}
+[14.296763] (turtle_interfaces) JobProgress: {'identifier': 'turtle_interfaces', 'progress': 'build'}
+[14.313969] (turtle_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/info/ros2_ws/build/turtle_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/info/ros2_ws/build/turtle_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/turtle_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[14.354796] (my_custom_interfaces) StdoutLine: {'line': b'[  1%] Built target my_custom_interfaces__rosidl_generator_type_description\n'}
+[14.355278] (my_custom_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_my_custom_interfaces\n'}
+[14.355505] (my_custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_custom_interfaces__rosidl_generator_c\n'}
+[14.375692] (-) TimerEvent: {}
+[14.510022] (-) TimerEvent: {}
+[14.625744] (-) TimerEvent: {}
+[14.729852] (-) TimerEvent: {}
+[14.833886] (-) TimerEvent: {}
+[14.941112] (-) TimerEvent: {}
+[15.044767] (-) TimerEvent: {}
+[15.163497] (-) TimerEvent: {}
+[15.284618] (-) TimerEvent: {}
+[15.391477] (-) TimerEvent: {}
+[15.497724] (-) TimerEvent: {}
+[15.618096] (-) TimerEvent: {}
+[15.739211] (-) TimerEvent: {}
+[15.839887] (-) TimerEvent: {}
+[15.963298] (-) TimerEvent: {}
+[16.108801] (-) TimerEvent: {}
+[16.263742] (-) TimerEvent: {}
+[16.356834] (turtle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[16.357401] (-) TimerEvent: {}
+[16.468985] (-) TimerEvent: {}
+[16.588346] (-) TimerEvent: {}
+[16.690848] (-) TimerEvent: {}
+[16.801511] (-) TimerEvent: {}
+[16.927835] (-) TimerEvent: {}
+[17.034996] (-) TimerEvent: {}
+[17.141646] (-) TimerEvent: {}
+[17.254726] (-) TimerEvent: {}
+[17.368749] (-) TimerEvent: {}
+[17.395029] (turtle_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[17.409936] (my_custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[17.472983] (-) TimerEvent: {}
+[17.577679] (-) TimerEvent: {}
+[17.678478] (-) TimerEvent: {}
+[17.793716] (-) TimerEvent: {}
+[17.915050] (-) TimerEvent: {}
+[17.945996] (my_custom_interfaces) StdoutLine: {'line': b'writing my_custom_interfaces.egg-info/PKG-INFO\n'}
+[17.968068] (my_custom_interfaces) StdoutLine: {'line': b'writing dependency_links to my_custom_interfaces.egg-info/dependency_links.txt\n'}
+[17.969842] (my_custom_interfaces) StdoutLine: {'line': b'writing top-level names to my_custom_interfaces.egg-info/top_level.txt\n'}
+[18.021695] (-) TimerEvent: {}
+[18.122522] (-) TimerEvent: {}
+[18.228908] (-) TimerEvent: {}
+[18.348750] (-) TimerEvent: {}
+[18.449323] (-) TimerEvent: {}
+[18.549699] (-) TimerEvent: {}
+[18.668377] (-) TimerEvent: {}
+[18.770696] (my_custom_interfaces) StdoutLine: {'line': b"reading manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[18.772143] (-) TimerEvent: {}
+[18.781636] (my_custom_interfaces) StdoutLine: {'line': b"writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'\n"}
+[18.874950] (-) TimerEvent: {}
+[18.978169] (-) TimerEvent: {}
+[19.078769] (-) TimerEvent: {}
+[19.181679] (-) TimerEvent: {}
+[19.301184] (-) TimerEvent: {}
+[19.417034] (-) TimerEvent: {}
+[19.520771] (-) TimerEvent: {}
+[19.622831] (-) TimerEvent: {}
+[19.724142] (-) TimerEvent: {}
+[19.739740] (turtle_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[19.831933] (-) TimerEvent: {}
+[19.877223] (my_custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target ament_cmake_python_build_my_custom_interfaces_egg\n'}
+[19.932080] (-) TimerEvent: {}
+[20.046204] (-) TimerEvent: {}
+[20.095722] (turtle_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[20.138567] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[20.180949] (-) TimerEvent: {}
+[20.293265] (-) TimerEvent: {}
+[20.396499] (-) TimerEvent: {}
+[20.497029] (-) TimerEvent: {}
+[20.599761] (-) TimerEvent: {}
+[20.711902] (-) TimerEvent: {}
+[20.774905] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[20.837077] (-) TimerEvent: {}
+[20.958754] (-) TimerEvent: {}
+[21.080938] (-) TimerEvent: {}
+[21.197230] (-) TimerEvent: {}
+[21.343075] (turtle_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[21.352991] (-) TimerEvent: {}
+[21.365122] (turtle_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[21.464627] (-) TimerEvent: {}
+[21.580417] (-) TimerEvent: {}
+[21.688607] (-) TimerEvent: {}
+[21.803680] (-) TimerEvent: {}
+[21.952789] (-) TimerEvent: {}
+[22.053563] (-) TimerEvent: {}
+[22.155805] (-) TimerEvent: {}
+[22.273211] (-) TimerEvent: {}
+[22.394845] (-) TimerEvent: {}
+[22.438284] (my_custom_interfaces) StdoutLine: {'line': b'[ 31%] Built target my_custom_interfaces__rosidl_typesupport_c\n'}
+[22.512240] (-) TimerEvent: {}
+[22.651418] (-) TimerEvent: {}
+[22.792316] (-) TimerEvent: {}
+[22.970481] (-) TimerEvent: {}
+[23.094339] (-) TimerEvent: {}
+[23.212915] (-) TimerEvent: {}
+[23.325674] (-) TimerEvent: {}
+[23.439024] (-) TimerEvent: {}
+[23.554103] (-) TimerEvent: {}
+[23.661934] (-) TimerEvent: {}
+[23.828697] (-) TimerEvent: {}
+[23.969605] (-) TimerEvent: {}
+[24.085646] (-) TimerEvent: {}
+[24.203695] (-) TimerEvent: {}
+[24.356712] (-) TimerEvent: {}
+[24.459206] (-) TimerEvent: {}
+[24.574038] (-) TimerEvent: {}
+[24.684685] (-) TimerEvent: {}
+[24.791016] (-) TimerEvent: {}
+[24.908114] (-) TimerEvent: {}
+[25.033422] (-) TimerEvent: {}
+[25.138262] (-) TimerEvent: {}
+[25.251092] (-) TimerEvent: {}
+[25.370049] (-) TimerEvent: {}
+[25.502295] (-) TimerEvent: {}
+[25.628185] (-) TimerEvent: {}
+[25.744973] (-) TimerEvent: {}
+[25.861500] (-) TimerEvent: {}
+[25.981118] (-) TimerEvent: {}
+[26.109255] (-) TimerEvent: {}
+[26.221091] (-) TimerEvent: {}
+[26.323848] (-) TimerEvent: {}
+[26.390335] (my_custom_interfaces) StdoutLine: {'line': b'[ 40%] Built target my_custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[26.430792] (-) TimerEvent: {}
+[26.534932] (-) TimerEvent: {}
+[26.642757] (-) TimerEvent: {}
+[26.760834] (-) TimerEvent: {}
+[26.876112] (-) TimerEvent: {}
+[26.981697] (-) TimerEvent: {}
+[27.082029] (-) TimerEvent: {}
+[27.183039] (-) TimerEvent: {}
+[27.318093] (-) TimerEvent: {}
+[27.448665] (-) TimerEvent: {}
+[27.557572] (-) TimerEvent: {}
+[27.674055] (-) TimerEvent: {}
+[27.778146] (-) TimerEvent: {}
+[27.883689] (-) TimerEvent: {}
+[27.992995] (-) TimerEvent: {}
+[28.108257] (-) TimerEvent: {}
+[28.234049] (-) TimerEvent: {}
+[28.379901] (-) TimerEvent: {}
+[28.492161] (-) TimerEvent: {}
+[28.595718] (-) TimerEvent: {}
+[28.700406] (-) TimerEvent: {}
+[28.803135] (-) TimerEvent: {}
+[28.907344] (-) TimerEvent: {}
+[29.019929] (-) TimerEvent: {}
+[29.132666] (-) TimerEvent: {}
+[29.217047] (my_custom_interfaces) StdoutLine: {'line': b'[ 50%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[29.240737] (-) TimerEvent: {}
+[29.345535] (-) TimerEvent: {}
+[29.513228] (-) TimerEvent: {}
+[29.644182] (-) TimerEvent: {}
+[29.757233] (-) TimerEvent: {}
+[29.883199] (-) TimerEvent: {}
+[30.001258] (-) TimerEvent: {}
+[30.123221] (-) TimerEvent: {}
+[30.241893] (-) TimerEvent: {}
+[30.342758] (-) TimerEvent: {}
+[30.478601] (-) TimerEvent: {}
+[30.610011] (-) TimerEvent: {}
+[30.712256] (-) TimerEvent: {}
+[30.791583] (move_pose) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/move_pose', 'build', '--build-base', '/home/info/ros2_ws/build/move_pose/build', 'install', '--record', '/home/info/ros2_ws/build/move_pose/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_pose', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/move_pose', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[30.812558] (-) TimerEvent: {}
+[30.915615] (-) TimerEvent: {}
+[30.956379] (my_service_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/my_service_pkg', 'build', '--build-base', '/home/info/ros2_ws/build/my_service_pkg/build', 'install', '--record', '/home/info/ros2_ws/build/my_service_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_service_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[31.042078] (-) TimerEvent: {}
+[31.157047] (-) TimerEvent: {}
+[31.270477] (-) TimerEvent: {}
+[31.422808] (-) TimerEvent: {}
+[31.533983] (-) TimerEvent: {}
+[31.643339] (-) TimerEvent: {}
+[31.786867] (-) TimerEvent: {}
+[31.898923] (-) TimerEvent: {}
+[32.026647] (-) TimerEvent: {}
+[32.173899] (-) TimerEvent: {}
+[32.318173] (-) TimerEvent: {}
+[32.456519] (-) TimerEvent: {}
+[32.597129] (-) TimerEvent: {}
+[32.692527] (turtle_regulation) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/turtle_regulation', 'build', '--build-base', '/home/info/ros2_ws/build/turtle_regulation/build', 'install', '--record', '/home/info/ros2_ws/build/turtle_regulation/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/turtle_regulation', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[32.701281] (-) TimerEvent: {}
+[32.840621] (move_turtle) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/move_turtle', 'build', '--build-base', '/home/info/ros2_ws/build/move_turtle/build', 'install', '--record', '/home/info/ros2_ws/build/move_turtle/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/move_turtle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[32.918259] (-) TimerEvent: {}
+[33.037728] (-) TimerEvent: {}
+[33.148853] (-) TimerEvent: {}
+[33.268472] (-) TimerEvent: {}
+[33.385970] (-) TimerEvent: {}
+[33.589625] (-) TimerEvent: {}
+[33.716331] (-) TimerEvent: {}
+[33.837356] (-) TimerEvent: {}
+[33.973848] (-) TimerEvent: {}
+[34.095426] (-) TimerEvent: {}
+[34.209517] (-) TimerEvent: {}
+[34.335031] (-) TimerEvent: {}
+[34.446593] (-) TimerEvent: {}
+[34.576222] (-) TimerEvent: {}
+[34.734345] (-) TimerEvent: {}
+[34.988438] (-) TimerEvent: {}
+[35.122807] (-) TimerEvent: {}
+[35.238215] (-) TimerEvent: {}
+[35.362505] (-) TimerEvent: {}
+[35.393261] (my_custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_custom_interfaces__cpp\n'}
+[35.466293] (-) TimerEvent: {}
+[35.587921] (-) TimerEvent: {}
+[35.728750] (-) TimerEvent: {}
+[35.859484] (-) TimerEvent: {}
+[35.979756] (turtle_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[35.985755] (-) TimerEvent: {}
+[36.091549] (-) TimerEvent: {}
+[36.211967] (-) TimerEvent: {}
+[36.330680] (-) TimerEvent: {}
+[36.454158] (-) TimerEvent: {}
+[36.575113] (-) TimerEvent: {}
+[36.702707] (-) TimerEvent: {}
+[36.825516] (-) TimerEvent: {}
+[36.935608] (-) TimerEvent: {}
+[37.048900] (-) TimerEvent: {}
+[37.167990] (-) TimerEvent: {}
+[37.278464] (-) TimerEvent: {}
+[37.380492] (-) TimerEvent: {}
+[37.527128] (-) TimerEvent: {}
+[37.634895] (-) TimerEvent: {}
+[37.748471] (-) TimerEvent: {}
+[37.861922] (-) TimerEvent: {}
+[37.962962] (-) TimerEvent: {}
+[38.076834] (-) TimerEvent: {}
+[38.179862] (-) TimerEvent: {}
+[38.304980] (-) TimerEvent: {}
+[38.422361] (-) TimerEvent: {}
+[38.523953] (-) TimerEvent: {}
+[38.634377] (-) TimerEvent: {}
+[38.737177] (-) TimerEvent: {}
+[38.845749] (-) TimerEvent: {}
+[38.956762] (-) TimerEvent: {}
+[38.977299] (my_custom_interfaces) StdoutLine: {'line': b'[ 11%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[39.056855] (-) TimerEvent: {}
+[39.185330] (-) TimerEvent: {}
+[39.302476] (-) TimerEvent: {}
+[39.418843] (-) TimerEvent: {}
+[39.521367] (-) TimerEvent: {}
+[39.634409] (-) TimerEvent: {}
+[39.755169] (-) TimerEvent: {}
+[39.859849] (-) TimerEvent: {}
+[39.961133] (-) TimerEvent: {}
+[40.061599] (-) TimerEvent: {}
+[40.176126] (-) TimerEvent: {}
+[40.299975] (-) TimerEvent: {}
+[40.400812] (-) TimerEvent: {}
+[40.511078] (-) TimerEvent: {}
+[40.587507] (move_pose) StdoutLine: {'line': b'running egg_info\n'}
+[40.614728] (-) TimerEvent: {}
+[40.656979] (my_service_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[40.677757] (turtle_regulation) StdoutLine: {'line': b'running egg_info\n'}
+[40.716390] (-) TimerEvent: {}
+[40.838440] (-) TimerEvent: {}
+[40.972555] (-) TimerEvent: {}
+[41.001073] (turtle_regulation) StdoutLine: {'line': b'writing ../../../../build/turtle_regulation/turtle_regulation.egg-info/PKG-INFO\n'}
+[41.008714] (move_pose) StdoutLine: {'line': b'writing ../../../build/move_pose/move_pose.egg-info/PKG-INFO\n'}
+[41.009745] (move_pose) StdoutLine: {'line': b'writing dependency_links to ../../../build/move_pose/move_pose.egg-info/dependency_links.txt\n'}
+[41.010400] (turtle_regulation) StdoutLine: {'line': b'writing dependency_links to ../../../../build/turtle_regulation/turtle_regulation.egg-info/dependency_links.txt\n'}
+[41.011172] (turtle_regulation) StdoutLine: {'line': b'writing entry points to ../../../../build/turtle_regulation/turtle_regulation.egg-info/entry_points.txt\n'}
+[41.011479] (move_pose) StdoutLine: {'line': b'writing entry points to ../../../build/move_pose/move_pose.egg-info/entry_points.txt\n'}
+[41.024746] (move_pose) StdoutLine: {'line': b'writing requirements to ../../../build/move_pose/move_pose.egg-info/requires.txt\n'}
+[41.025108] (turtle_regulation) StdoutLine: {'line': b'writing requirements to ../../../../build/turtle_regulation/turtle_regulation.egg-info/requires.txt\n'}
+[41.025396] (move_pose) StdoutLine: {'line': b'writing top-level names to ../../../build/move_pose/move_pose.egg-info/top_level.txt\n'}
+[41.025800] (turtle_regulation) StdoutLine: {'line': b'writing top-level names to ../../../../build/turtle_regulation/turtle_regulation.egg-info/top_level.txt\n'}
+[41.060870] (my_service_pkg) StdoutLine: {'line': b'writing ../../../../build/my_service_pkg/my_service_pkg.egg-info/PKG-INFO\n'}
+[41.064393] (my_service_pkg) StdoutLine: {'line': b'writing dependency_links to ../../../../build/my_service_pkg/my_service_pkg.egg-info/dependency_links.txt\n'}
+[41.070825] (my_service_pkg) StdoutLine: {'line': b'writing entry points to ../../../../build/my_service_pkg/my_service_pkg.egg-info/entry_points.txt\n'}
+[41.073656] (my_service_pkg) StdoutLine: {'line': b'writing requirements to ../../../../build/my_service_pkg/my_service_pkg.egg-info/requires.txt\n'}
+[41.073967] (-) TimerEvent: {}
+[41.077064] (my_service_pkg) StdoutLine: {'line': b'writing top-level names to ../../../../build/my_service_pkg/my_service_pkg.egg-info/top_level.txt\n'}
+[41.176668] (-) TimerEvent: {}
+[41.279768] (-) TimerEvent: {}
+[41.320723] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[41.401776] (-) TimerEvent: {}
+[41.566327] (-) TimerEvent: {}
+[41.569762] (turtle_regulation) StdoutLine: {'line': b"reading manifest file '../../../../build/turtle_regulation/turtle_regulation.egg-info/SOURCES.txt'\n"}
+[41.584083] (turtle_regulation) StdoutLine: {'line': b"writing manifest file '../../../../build/turtle_regulation/turtle_regulation.egg-info/SOURCES.txt'\n"}
+[41.590853] (turtle_regulation) StdoutLine: {'line': b'running build\n'}
+[41.591173] (turtle_regulation) StdoutLine: {'line': b'running build_py\n'}
+[41.597666] (turtle_regulation) StdoutLine: {'line': b'running install\n'}
+[41.636186] (turtle_regulation) StdoutLine: {'line': b'running install_lib\n'}
+[41.666718] (-) TimerEvent: {}
+[41.676996] (my_custom_interfaces) StdoutLine: {'line': b'[ 22%] Built target my_custom_interfaces__rosidl_typesupport_cpp\n'}
+[41.771074] (-) TimerEvent: {}
+[41.820415] (move_pose) StdoutLine: {'line': b"reading manifest file '../../../build/move_pose/move_pose.egg-info/SOURCES.txt'\n"}
+[41.828925] (move_pose) StdoutLine: {'line': b"writing manifest file '../../../build/move_pose/move_pose.egg-info/SOURCES.txt'\n"}
+[41.834306] (move_pose) StdoutLine: {'line': b'running build\n'}
+[41.834505] (move_pose) StdoutLine: {'line': b'running build_py\n'}
+[41.883130] (my_service_pkg) StdoutLine: {'line': b"reading manifest file '../../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'\n"}
+[41.888229] (-) TimerEvent: {}
+[41.892673] (move_pose) StdoutLine: {'line': b'running install\n'}
+[41.901087] (my_service_pkg) StdoutLine: {'line': b"writing manifest file '../../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'\n"}
+[41.914635] (my_service_pkg) StdoutLine: {'line': b'running build\n'}
+[41.914964] (my_service_pkg) StdoutLine: {'line': b'running build_py\n'}
+[41.933786] (my_service_pkg) StdoutLine: {'line': b'running install\n'}
+[41.968799] (move_pose) StdoutLine: {'line': b'running install_lib\n'}
+[41.969126] (turtle_regulation) StdoutLine: {'line': b'running install_data\n'}
+[41.978796] (turtle_regulation) StdoutLine: {'line': b'running install_egg_info\n'}
+[41.988434] (-) TimerEvent: {}
+[42.007226] (my_service_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[42.095682] (-) TimerEvent: {}
+[42.239682] (-) TimerEvent: {}
+[42.346008] (-) TimerEvent: {}
+[42.454376] (-) TimerEvent: {}
+[42.526191] (my_service_pkg) StdoutLine: {'line': b'running install_data\n'}
+[42.527119] (my_service_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[42.547842] (turtle_regulation) StdoutLine: {'line': b"removing '/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[42.551865] (turtle_regulation) StdoutLine: {'line': b'Copying ../../../../build/turtle_regulation/turtle_regulation.egg-info to /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation-0.0.0-py3.12.egg-info\n'}
+[42.555677] (-) TimerEvent: {}
+[42.560908] (move_pose) StdoutLine: {'line': b'running install_data\n'}
+[42.561810] (move_pose) StdoutLine: {'line': b'running install_egg_info\n'}
+[42.590104] (turtle_regulation) StdoutLine: {'line': b'running install_scripts\n'}
+[42.656680] (-) TimerEvent: {}
+[42.758378] (-) TimerEvent: {}
+[42.858488] (my_service_pkg) StdoutLine: {'line': b"removing '/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[42.864424] (-) TimerEvent: {}
+[42.869718] (my_service_pkg) StdoutLine: {'line': b'Copying ../../../../build/my_service_pkg/my_service_pkg.egg-info to /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg-0.0.0-py3.12.egg-info\n'}
+[42.879970] (my_service_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[42.942420] (move_pose) StdoutLine: {'line': b"removing '/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[42.948408] (move_pose) StdoutLine: {'line': b'Copying ../../../build/move_pose/move_pose.egg-info to /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose-0.0.0-py3.12.egg-info\n'}
+[42.964907] (-) TimerEvent: {}
+[42.966900] (move_pose) StdoutLine: {'line': b'running install_scripts\n'}
+[43.065000] (-) TimerEvent: {}
+[43.179405] (-) TimerEvent: {}
+[43.302883] (-) TimerEvent: {}
+[43.425090] (-) TimerEvent: {}
+[43.541068] (-) TimerEvent: {}
+[43.651370] (-) TimerEvent: {}
+[43.778425] (-) TimerEvent: {}
+[43.901699] (-) TimerEvent: {}
+[44.024475] (-) TimerEvent: {}
+[44.131695] (-) TimerEvent: {}
+[44.247113] (-) TimerEvent: {}
+[44.365329] (-) TimerEvent: {}
+[44.521746] (-) TimerEvent: {}
+[44.646805] (my_custom_interfaces) StdoutLine: {'line': b'[ 31%] Built target my_custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[44.647797] (-) TimerEvent: {}
+[44.751964] (-) TimerEvent: {}
+[44.862375] (-) TimerEvent: {}
+[44.981032] (-) TimerEvent: {}
+[45.081454] (-) TimerEvent: {}
+[45.192379] (-) TimerEvent: {}
+[45.306047] (-) TimerEvent: {}
+[45.424887] (-) TimerEvent: {}
+[45.538187] (-) TimerEvent: {}
+[45.674877] (-) TimerEvent: {}
+[45.795210] (-) TimerEvent: {}
+[45.942868] (-) TimerEvent: {}
+[46.078504] (-) TimerEvent: {}
+[46.194267] (-) TimerEvent: {}
+[46.308033] (-) TimerEvent: {}
+[46.422744] (-) TimerEvent: {}
+[46.526338] (-) TimerEvent: {}
+[46.646030] (-) TimerEvent: {}
+[46.764886] (-) TimerEvent: {}
+[46.879523] (-) TimerEvent: {}
+[47.012798] (-) TimerEvent: {}
+[47.130442] (-) TimerEvent: {}
+[47.224249] (turtle_regulation) StdoutLine: {'line': b'Installing set_way_point script to /home/info/ros2_ws/install/turtle_regulation/lib/turtle_regulation\n'}
+[47.226695] (turtle_regulation) StdoutLine: {'line': b'Installing waypoint_client script to /home/info/ros2_ws/install/turtle_regulation/lib/turtle_regulation\n'}
+[47.228448] (turtle_regulation) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/turtle_regulation/install.log'\n"}
+[47.230598] (-) TimerEvent: {}
+[47.334026] (my_service_pkg) StdoutLine: {'line': b'Installing add_two_int_client_no_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg\n'}
+[47.334279] (-) TimerEvent: {}
+[47.334510] (my_service_pkg) StdoutLine: {'line': b'Installing add_two_int_client_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg\n'}
+[47.334760] (my_service_pkg) StdoutLine: {'line': b'Installing add_two_int_server_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg\n'}
+[47.339149] (my_service_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/my_service_pkg/install.log'\n"}
+[47.437690] (-) TimerEvent: {}
+[47.452736] (move_pose) StdoutLine: {'line': b'Installing move_circle script to /home/info/ros2_ws/install/move_pose/lib/move_pose\n'}
+[47.461560] (move_pose) StdoutLine: {'line': b'Installing move_teleop script to /home/info/ros2_ws/install/move_pose/lib/move_pose\n'}
+[47.475831] (move_pose) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/move_pose/install.log'\n"}
+[47.555049] (-) TimerEvent: {}
+[47.696951] (-) TimerEvent: {}
+[47.798945] (-) TimerEvent: {}
+[47.860860] (turtle_regulation) CommandEnded: {'returncode': 0}
+[47.871703] (move_turtle) StdoutLine: {'line': b'running egg_info\n'}
+[47.872517] (move_turtle) StdoutLine: {'line': b'writing ../../../build/move_turtle/move_turtle.egg-info/PKG-INFO\n'}
+[47.873238] (move_turtle) StdoutLine: {'line': b'writing dependency_links to ../../../build/move_turtle/move_turtle.egg-info/dependency_links.txt\n'}
+[47.873751] (move_turtle) StdoutLine: {'line': b'writing entry points to ../../../build/move_turtle/move_turtle.egg-info/entry_points.txt\n'}
+[47.874413] (move_turtle) StdoutLine: {'line': b'writing requirements to ../../../build/move_turtle/move_turtle.egg-info/requires.txt\n'}
+[47.874873] (move_turtle) StdoutLine: {'line': b'writing top-level names to ../../../build/move_turtle/move_turtle.egg-info/top_level.txt\n'}
+[47.883875] (move_turtle) StdoutLine: {'line': b"reading manifest file '../../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'\n"}
+[47.884986] (move_turtle) StdoutLine: {'line': b"writing manifest file '../../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'\n"}
+[47.885570] (move_turtle) StdoutLine: {'line': b'running build\n'}
+[47.886545] (move_turtle) StdoutLine: {'line': b'running build_py\n'}
+[47.890289] (move_turtle) StdoutLine: {'line': b'running install\n'}
+[47.890741] (move_turtle) StdoutLine: {'line': b'running install_lib\n'}
+[47.891077] (move_turtle) StdoutLine: {'line': b'running install_data\n'}
+[47.891424] (move_turtle) StdoutLine: {'line': b'running install_egg_info\n'}
+[47.891835] (move_turtle) StdoutLine: {'line': b"removing '/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[47.892242] (move_turtle) StdoutLine: {'line': b'Copying ../../../build/move_turtle/move_turtle.egg-info to /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle-0.0.0-py3.12.egg-info\n'}
+[47.892533] (move_turtle) StdoutLine: {'line': b'running install_scripts\n'}
+[47.897950] (move_turtle) StdoutLine: {'line': b'Installing my_move_square script to /home/info/ros2_ws/install/move_turtle/lib/move_turtle\n'}
+[47.898359] (move_turtle) StdoutLine: {'line': b"writing list of installed files to '/home/info/ros2_ws/build/move_turtle/install.log'\n"}
+[47.898951] (-) TimerEvent: {}
+[48.012516] (-) TimerEvent: {}
+[48.033642] (my_custom_interfaces) StdoutLine: {'line': b'[ 51%] Built target my_custom_interfaces\n'}
+[48.068321] (turtle_regulation) JobEnded: {'identifier': 'turtle_regulation', 'rc': 0}
+[48.071490] (move_turtle) CommandEnded: {'returncode': 0}
+[48.120255] (-) TimerEvent: {}
+[48.233346] (-) TimerEvent: {}
+[48.346833] (move_turtle) JobEnded: {'identifier': 'move_turtle', 'rc': 0}
+[48.348876] (-) TimerEvent: {}
+[48.366132] (move_pose) CommandEnded: {'returncode': 0}
+[48.456043] (-) TimerEvent: {}
+[48.501859] (move_pose) JobEnded: {'identifier': 'move_pose', 'rc': 0}
+[48.532266] (my_service_pkg) CommandEnded: {'returncode': 0}
+[48.558777] (-) TimerEvent: {}
+[48.601293] (my_service_pkg) JobEnded: {'identifier': 'my_service_pkg', 'rc': 0}
+[48.662763] (-) TimerEvent: {}
+[48.773321] (-) TimerEvent: {}
+[48.890611] (-) TimerEvent: {}
+[49.017716] (-) TimerEvent: {}
+[49.124099] (-) TimerEvent: {}
+[49.233558] (-) TimerEvent: {}
+[49.340631] (-) TimerEvent: {}
+[49.441709] (-) TimerEvent: {}
+[49.551265] (-) TimerEvent: {}
+[49.672059] (-) TimerEvent: {}
+[49.794099] (-) TimerEvent: {}
+[49.897673] (-) TimerEvent: {}
+[50.009929] (-) TimerEvent: {}
+[50.126132] (-) TimerEvent: {}
+[50.251110] (-) TimerEvent: {}
+[50.361000] (-) TimerEvent: {}
+[50.486016] (-) TimerEvent: {}
+[50.595893] (my_custom_interfaces) StdoutLine: {'line': b'[ 53%] Built target my_custom_interfaces__py\n'}
+[50.597696] (-) TimerEvent: {}
+[50.661942] (turtle_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[50.701143] (-) TimerEvent: {}
+[50.709951] (turtle_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[50.801297] (-) TimerEvent: {}
+[50.903931] (-) TimerEvent: {}
+[51.008114] (-) TimerEvent: {}
+[51.141637] (-) TimerEvent: {}
+[51.247117] (-) TimerEvent: {}
+[51.349384] (-) TimerEvent: {}
+[51.453433] (-) TimerEvent: {}
+[51.569704] (-) TimerEvent: {}
+[51.700058] (-) TimerEvent: {}
+[51.810238] (-) TimerEvent: {}
+[51.923612] (-) TimerEvent: {}
+[52.045341] (-) TimerEvent: {}
+[52.149178] (-) TimerEvent: {}
+[52.264691] (-) TimerEvent: {}
+[52.371181] (-) TimerEvent: {}
+[52.485243] (-) TimerEvent: {}
+[52.586410] (-) TimerEvent: {}
+[52.691373] (-) TimerEvent: {}
+[52.817772] (-) TimerEvent: {}
+[52.944693] (-) TimerEvent: {}
+[53.045336] (-) TimerEvent: {}
+[53.151184] (-) TimerEvent: {}
+[53.278297] (-) TimerEvent: {}
+[53.416551] (-) TimerEvent: {}
+[53.518266] (-) TimerEvent: {}
+[53.579360] (my_custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target my_custom_interfaces__rosidl_generator_py\n'}
+[53.624468] (-) TimerEvent: {}
+[53.728891] (-) TimerEvent: {}
+[53.833957] (-) TimerEvent: {}
+[53.944505] (-) TimerEvent: {}
+[54.051743] (-) TimerEvent: {}
+[54.152739] (-) TimerEvent: {}
+[54.255775] (-) TimerEvent: {}
+[54.368549] (-) TimerEvent: {}
+[54.480792] (-) TimerEvent: {}
+[54.597031] (-) TimerEvent: {}
+[54.724942] (-) TimerEvent: {}
+[54.839274] (-) TimerEvent: {}
+[54.940006] (-) TimerEvent: {}
+[55.051701] (-) TimerEvent: {}
+[55.183183] (-) TimerEvent: {}
+[55.316265] (-) TimerEvent: {}
+[55.435450] (-) TimerEvent: {}
+[55.558852] (-) TimerEvent: {}
+[55.678982] (-) TimerEvent: {}
+[55.785218] (-) TimerEvent: {}
+[55.900497] (-) TimerEvent: {}
+[55.959894] (my_custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_custom_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[56.002853] (-) TimerEvent: {}
+[56.106217] (-) TimerEvent: {}
+[56.214998] (-) TimerEvent: {}
+[56.340093] (-) TimerEvent: {}
+[56.446867] (-) TimerEvent: {}
+[56.548117] (-) TimerEvent: {}
+[56.666507] (-) TimerEvent: {}
+[56.787359] (-) TimerEvent: {}
+[56.889498] (-) TimerEvent: {}
+[56.991535] (-) TimerEvent: {}
+[57.093947] (-) TimerEvent: {}
+[57.200779] (-) TimerEvent: {}
+[57.304167] (-) TimerEvent: {}
+[57.407565] (-) TimerEvent: {}
+[57.511758] (-) TimerEvent: {}
+[57.626977] (-) TimerEvent: {}
+[57.737884] (-) TimerEvent: {}
+[57.852031] (-) TimerEvent: {}
+[57.981154] (-) TimerEvent: {}
+[58.101439] (-) TimerEvent: {}
+[58.160764] (my_custom_interfaces) StdoutLine: {'line': b'[ 68%] Built target my_custom_interfaces_s__rosidl_typesupport_c\n'}
+[58.204656] (-) TimerEvent: {}
+[58.322677] (-) TimerEvent: {}
+[58.435549] (-) TimerEvent: {}
+[58.548905] (-) TimerEvent: {}
+[58.666861] (-) TimerEvent: {}
+[58.767880] (-) TimerEvent: {}
+[58.882815] (-) TimerEvent: {}
+[59.006386] (-) TimerEvent: {}
+[59.113731] (-) TimerEvent: {}
+[59.241297] (-) TimerEvent: {}
+[59.372677] (-) TimerEvent: {}
+[59.488642] (-) TimerEvent: {}
+[59.592300] (-) TimerEvent: {}
+[59.705755] (-) TimerEvent: {}
+[59.832711] (-) TimerEvent: {}
+[59.937756] (-) TimerEvent: {}
+[60.002295] (turtle_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[60.043650] (-) TimerEvent: {}
+[60.148620] (-) TimerEvent: {}
+[60.263757] (-) TimerEvent: {}
+[60.373171] (-) TimerEvent: {}
+[60.484535] (-) TimerEvent: {}
+[60.603426] (-) TimerEvent: {}
+[60.706513] (-) TimerEvent: {}
+[60.807661] (-) TimerEvent: {}
+[60.908531] (-) TimerEvent: {}
+[60.944680] (turtle_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[60.957353] (my_custom_interfaces) StdoutLine: {'line': b'[ 81%] Built target my_custom_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[61.013134] (-) TimerEvent: {}
+[61.124908] (-) TimerEvent: {}
+[61.225427] (-) TimerEvent: {}
+[61.318977] (turtle_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[61.328117] (-) TimerEvent: {}
+[61.389344] (turtle_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[61.432996] (-) TimerEvent: {}
+[61.442707] (turtle_interfaces) StdoutLine: {'line': b'-- Configuring done (45.2s)\n'}
+[61.534064] (-) TimerEvent: {}
+[61.641361] (-) TimerEvent: {}
+[61.751889] (-) TimerEvent: {}
+[61.861662] (-) TimerEvent: {}
+[61.970451] (-) TimerEvent: {}
+[62.028434] (my_custom_interfaces) CommandEnded: {'returncode': 0}
+[62.041121] (my_custom_interfaces) JobProgress: {'identifier': 'my_custom_interfaces', 'progress': 'install'}
+[62.071131] (-) TimerEvent: {}
+[62.181172] (-) TimerEvent: {}
+[62.290927] (-) TimerEvent: {}
+[62.400287] (-) TimerEvent: {}
+[62.515105] (-) TimerEvent: {}
+[62.524653] (turtle_interfaces) StdoutLine: {'line': b'-- Generating done (0.8s)\n'}
+[62.594745] (my_custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/info/ros2_ws/build/my_custom_interfaces'], 'cwd': '/home/info/ros2_ws/build/my_custom_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_custom_interfaces', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[62.639939] (-) TimerEvent: {}
+[62.700902] (turtle_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/info/ros2_ws/build/turtle_interfaces\n'}
+[62.728766] (-) TimerEvent: {}
+[62.833917] (-) TimerEvent: {}
+[62.936182] (-) TimerEvent: {}
+[63.044656] (-) TimerEvent: {}
+[63.174489] (-) TimerEvent: {}
+[63.286836] (-) TimerEvent: {}
+[63.404002] (-) TimerEvent: {}
+[63.411172] (my_custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[63.449925] (my_custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[63.450399] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.sh\n'}
+[63.450839] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.dsv\n'}
+[63.459759] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[63.460277] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[63.462201] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[63.467489] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[63.471732] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/__init__.py\n'}
+[63.472421] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[63.473467] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[63.474741] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[63.475410] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/__init__.py\n'}
+[63.476591] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status.py\n'}
+[63.483201] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_s.c\n'}
+[63.485388] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped.py\n'}
+[63.486958] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped_s.c\n'}
+[63.488531] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[63.490727] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[63.499195] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[63.499526] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/__init__.py\n'}
+[63.502264] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color.py\n'}
+[63.502795] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color_s.c\n'}
+[63.507958] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[63.508164] (-) TimerEvent: {}
+[63.508402] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[63.508565] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[63.508873] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.idl\n'}
+[63.516927] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.idl\n'}
+[63.517256] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.idl\n'}
+[63.521205] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.msg\n'}
+[63.524173] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.msg\n'}
+[63.529549] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.srv\n'}
+[63.541446] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/my_custom_interfaces\n'}
+[63.541733] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/my_custom_interfaces\n'}
+[63.550319] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[63.553580] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[63.557477] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.sh\n'}
+[63.562280] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.dsv\n'}
+[63.565113] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.bash\n'}
+[63.568332] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.sh\n'}
+[63.576938] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.zsh\n'}
+[63.586271] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.dsv\n'}
+[63.586687] (my_custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.dsv\n'}
+[63.610856] (-) TimerEvent: {}
+[63.712697] (-) TimerEvent: {}
+[63.858266] (-) TimerEvent: {}
+[63.994868] (-) TimerEvent: {}
+[64.114540] (-) TimerEvent: {}
+[64.223230] (-) TimerEvent: {}
+[64.326845] (-) TimerEvent: {}
+[64.427677] (-) TimerEvent: {}
+[64.488874] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/packages/my_custom_interfaces\n'}
+[64.506837] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[64.507709] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[64.516716] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[64.549969] (-) TimerEvent: {}
+[64.560852] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[64.562431] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[64.570823] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[64.603071] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[64.610682] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig.cmake\n'}
+[64.627640] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig-version.cmake\n'}
+[64.642885] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.xml\n'}
+[64.651008] (-) TimerEvent: {}
+[64.653981] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_custom_interfaces\n'}
+[64.669730] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.json\n'}
+[64.677885] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.json\n'}
+[64.685136] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.json\n'}
+[64.722220] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__functions.h\n'}
+[64.727664] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__struct.h\n'}
+[64.728054] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.h\n'}
+[64.737996] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__functions.h\n'}
+[64.738378] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__struct.h\n'}
+[64.738780] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.h\n'}
+[64.739063] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[64.739400] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status.h\n'}
+[64.750942] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status_stamped.h\n'}
+[64.751194] (-) TimerEvent: {}
+[64.763425] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/change_led_color.h\n'}
+[64.764010] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__functions.h\n'}
+[64.764223] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__struct.h\n'}
+[64.764589] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.h\n'}
+[64.764845] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.sh\n'}
+[64.775548] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.dsv\n'}
+[64.775796] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_fastrtps_c.h\n'}
+[64.775984] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_fastrtps_c.h\n'}
+[64.776206] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[64.776484] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_fastrtps_c.h\n'}
+[64.776679] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_introspection_c.h\n'}
+[64.794588] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_introspection_c.h\n'}
+[64.839080] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[64.839461] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_introspection_c.h\n'}
+[64.839847] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__builder.hpp\n'}
+[64.840085] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__struct.hpp\n'}
+[64.840325] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__traits.hpp\n'}
+[64.840539] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.hpp\n'}
+[64.841714] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__builder.hpp\n'}
+[64.848650] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__struct.hpp\n'}
+[64.848978] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__traits.hpp\n'}
+[64.854639] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.hpp\n'}
+[64.855189] (-) TimerEvent: {}
+[64.863180] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[64.863900] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status.hpp\n'}
+[64.864565] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status_stamped.hpp\n'}
+[64.867042] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/change_led_color.hpp\n'}
+[64.880196] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__builder.hpp\n'}
+[64.880796] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__struct.hpp\n'}
+[64.889817] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__traits.hpp\n'}
+[64.892047] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.hpp\n'}
+[64.909131] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[64.912869] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[64.917240] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[64.924992] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[64.934864] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[64.935255] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_introspection_cpp.hpp\n'}
+[64.940992] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[64.944103] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.sh\n'}
+[64.951200] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.dsv\n'}
+[64.956914] (-) TimerEvent: {}
+[64.964183] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[64.973549] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[64.973907] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[64.974164] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[65.039180] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/__init__.py\n'}
+[65.069962] (-) TimerEvent: {}
+[65.075534] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[65.087997] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[65.117275] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[65.118667] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/__init__.py\n'}
+[65.126268] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status.py\n'}
+[65.139243] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_s.c\n'}
+[65.139848] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped.py\n'}
+[65.143178] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped_s.c\n'}
+[65.149209] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[65.150866] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[65.162126] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[65.164505] (-) TimerEvent: {}
+[65.176810] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/__init__.py\n'}
+[65.177068] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color.py\n'}
+[65.177991] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color_s.c\n'}
+[65.178250] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[65.184790] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[65.196907] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so\n'}
+[65.205730] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.idl\n'}
+[65.206013] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.idl\n'}
+[65.212734] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.idl\n'}
+[65.220607] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.msg\n'}
+[65.223667] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.msg\n'}
+[65.230817] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.srv\n'}
+[65.236981] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/my_custom_interfaces\n'}
+[65.243905] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/my_custom_interfaces\n'}
+[65.253887] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.sh\n'}
+[65.257632] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[65.259560] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.sh\n'}
+[65.261202] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.dsv\n'}
+[65.262267] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.bash\n'}
+[65.263822] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.sh\n'}
+[65.265362] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.zsh\n'}
+[65.265655] (-) TimerEvent: {}
+[65.267738] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.dsv\n'}
+[65.268382] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.dsv\n'}
+[65.269073] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/packages/my_custom_interfaces\n'}
+[65.270087] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[65.271975] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[65.274108] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[65.277175] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[65.278054] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[65.284659] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[65.284972] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[65.285274] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig.cmake\n'}
+[65.285792] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig-version.cmake\n'}
+[65.289715] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.xml\n'}
+[65.302863] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_c.so\n'}
+[65.306146] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[65.319987] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[65.353328] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_c.so\n'}
+[65.365822] (-) TimerEvent: {}
+[65.367814] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[65.378367] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[65.385641] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_cpp.so\n'}
+[65.466215] (-) TimerEvent: {}
+[65.568126] (-) TimerEvent: {}
+[65.676448] (-) TimerEvent: {}
+[65.779218] (-) TimerEvent: {}
+[65.784032] (turtle_interfaces) StdoutLine: {'line': b'[ 11%] Built target turtle_interfaces__rosidl_generator_type_description\n'}
+[65.881803] (-) TimerEvent: {}
+[65.982218] (-) TimerEvent: {}
+[66.082967] (-) TimerEvent: {}
+[66.195176] (-) TimerEvent: {}
+[66.324315] (-) TimerEvent: {}
+[66.402699] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces'...\n"}
+[66.403920] (my_custom_interfaces) StdoutLine: {'line': b"Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/__init__.py'...\n"}
+[66.404194] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg'...\n"}
+[66.404462] (my_custom_interfaces) StdoutLine: {'line': b"Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv'...\n"}
+[66.426307] (-) TimerEvent: {}
+[66.528658] (-) TimerEvent: {}
+[66.623719] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_py.so\n'}
+[66.633953] (-) TimerEvent: {}
+[66.645624] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[66.645944] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[66.662937] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[66.671100] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[66.693111] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[66.693895] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[66.701999] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[66.702723] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[66.708668] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[66.720264] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[66.721475] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[66.729691] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[66.730017] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[66.731900] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[66.732129] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[66.736652] (-) TimerEvent: {}
+[66.738769] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[66.739183] (my_custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[66.837812] (-) TimerEvent: {}
+[66.958392] (-) TimerEvent: {}
+[67.043763] (my_custom_interfaces) CommandEnded: {'returncode': 0}
+[67.057723] (-) TimerEvent: {}
+[67.164376] (-) TimerEvent: {}
+[67.267711] (-) TimerEvent: {}
+[67.375775] (-) TimerEvent: {}
+[67.424730] (my_custom_interfaces) JobEnded: {'identifier': 'my_custom_interfaces', 'rc': 0}
+[67.431208] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[67.502550] (-) TimerEvent: {}
+[67.608086] (-) TimerEvent: {}
+[67.742866] (-) TimerEvent: {}
+[67.879024] (-) TimerEvent: {}
+[67.980407] (-) TimerEvent: {}
+[68.085942] (-) TimerEvent: {}
+[68.186454] (-) TimerEvent: {}
+[68.293044] (-) TimerEvent: {}
+[68.403945] (-) TimerEvent: {}
+[68.488899] (turtle_interfaces) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_symlink_turtle_interfaces\n'}
+[68.505229] (-) TimerEvent: {}
+[68.615926] (-) TimerEvent: {}
+[68.722945] (-) TimerEvent: {}
+[68.826280] (-) TimerEvent: {}
+[68.927744] (-) TimerEvent: {}
+[69.029138] (-) TimerEvent: {}
+[69.134419] (-) TimerEvent: {}
+[69.236755] (-) TimerEvent: {}
+[69.340254] (-) TimerEvent: {}
+[69.445652] (-) TimerEvent: {}
+[69.560860] (-) TimerEvent: {}
+[69.677248] (-) TimerEvent: {}
+[69.778072] (-) TimerEvent: {}
+[69.897571] (-) TimerEvent: {}
+[70.029107] (-) TimerEvent: {}
+[70.134023] (-) TimerEvent: {}
+[70.236437] (-) TimerEvent: {}
+[70.341112] (-) TimerEvent: {}
+[70.453632] (-) TimerEvent: {}
+[70.567047] (-) TimerEvent: {}
+[70.653909] (turtle_interfaces) StdoutLine: {'line': b'[ 35%] Built target turtle_interfaces__rosidl_generator_c\n'}
+[70.668279] (-) TimerEvent: {}
+[70.782163] (-) TimerEvent: {}
+[70.914611] (-) TimerEvent: {}
+[71.032712] (-) TimerEvent: {}
+[71.140579] (-) TimerEvent: {}
+[71.258697] (-) TimerEvent: {}
+[71.360901] (-) TimerEvent: {}
+[71.466728] (-) TimerEvent: {}
+[71.573725] (-) TimerEvent: {}
+[71.674459] (-) TimerEvent: {}
+[71.790473] (-) TimerEvent: {}
+[71.918170] (-) TimerEvent: {}
+[72.032451] (-) TimerEvent: {}
+[72.136665] (-) TimerEvent: {}
+[72.255229] (-) TimerEvent: {}
+[72.376317] (-) TimerEvent: {}
+[72.481203] (-) TimerEvent: {}
+[72.585501] (-) TimerEvent: {}
+[72.691596] (-) TimerEvent: {}
+[72.792327] (-) TimerEvent: {}
+[72.896163] (-) TimerEvent: {}
+[72.998848] (-) TimerEvent: {}
+[73.102645] (-) TimerEvent: {}
+[73.226323] (-) TimerEvent: {}
+[73.346238] (-) TimerEvent: {}
+[73.447811] (-) TimerEvent: {}
+[73.558911] (-) TimerEvent: {}
+[73.669619] (-) TimerEvent: {}
+[73.770641] (-) TimerEvent: {}
+[73.875623] (-) TimerEvent: {}
+[73.996891] (-) TimerEvent: {}
+[74.112105] (-) TimerEvent: {}
+[74.220673] (-) TimerEvent: {}
+[74.332307] (-) TimerEvent: {}
+[74.445707] (-) TimerEvent: {}
+[74.550330] (-) TimerEvent: {}
+[74.655693] (-) TimerEvent: {}
+[74.756365] (-) TimerEvent: {}
+[74.859490] (-) TimerEvent: {}
+[74.975755] (-) TimerEvent: {}
+[75.066257] (turtle_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[75.079740] (-) TimerEvent: {}
+[75.180672] (-) TimerEvent: {}
+[75.185190] (turtle_interfaces) StdoutLine: {'line': b'writing turtle_interfaces.egg-info/PKG-INFO\n'}
+[75.187779] (turtle_interfaces) StdoutLine: {'line': b'writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt\n'}
+[75.189687] (turtle_interfaces) StdoutLine: {'line': b'writing top-level names to turtle_interfaces.egg-info/top_level.txt\n'}
+[75.281161] (-) TimerEvent: {}
+[75.385402] (-) TimerEvent: {}
+[75.498401] (-) TimerEvent: {}
+[75.605426] (-) TimerEvent: {}
+[75.718689] (-) TimerEvent: {}
+[75.819536] (turtle_interfaces) StdoutLine: {'line': b"reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'\n"}
+[75.820238] (-) TimerEvent: {}
+[75.832713] (turtle_interfaces) StdoutLine: {'line': b"writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'\n"}
+[75.920931] (-) TimerEvent: {}
+[76.025833] (-) TimerEvent: {}
+[76.126999] (-) TimerEvent: {}
+[76.238819] (-) TimerEvent: {}
+[76.347097] (-) TimerEvent: {}
+[76.462504] (-) TimerEvent: {}
+[76.580264] (-) TimerEvent: {}
+[76.680956] (-) TimerEvent: {}
+[76.744246] (turtle_interfaces) StdoutLine: {'line': b'Built target ament_cmake_python_build_turtle_interfaces_egg\n'}
+[76.782113] (-) TimerEvent: {}
+[76.886896] (-) TimerEvent: {}
+[76.990903] (-) TimerEvent: {}
+[77.105276] (-) TimerEvent: {}
+[77.215336] (-) TimerEvent: {}
+[77.316498] (-) TimerEvent: {}
+[77.420907] (-) TimerEvent: {}
+[77.523803] (-) TimerEvent: {}
+[77.629855] (-) TimerEvent: {}
+[77.732585] (-) TimerEvent: {}
+[77.837033] (-) TimerEvent: {}
+[77.939694] (-) TimerEvent: {}
+[78.043934] (-) TimerEvent: {}
+[78.198712] (-) TimerEvent: {}
+[78.327331] (-) TimerEvent: {}
+[78.350982] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__rosidl_typesupport_c\n'}
+[78.436012] (-) TimerEvent: {}
+[78.537034] (-) TimerEvent: {}
+[78.638520] (-) TimerEvent: {}
+[78.773848] (-) TimerEvent: {}
+[78.898658] (-) TimerEvent: {}
+[79.001698] (-) TimerEvent: {}
+[79.120565] (-) TimerEvent: {}
+[79.222403] (-) TimerEvent: {}
+[79.330793] (-) TimerEvent: {}
+[79.460661] (-) TimerEvent: {}
+[79.569167] (-) TimerEvent: {}
+[79.683660] (-) TimerEvent: {}
+[79.784760] (-) TimerEvent: {}
+[79.890301] (-) TimerEvent: {}
+[79.999834] (-) TimerEvent: {}
+[80.108831] (-) TimerEvent: {}
+[80.221594] (-) TimerEvent: {}
+[80.331677] (-) TimerEvent: {}
+[80.366850] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__rosidl_typesupport_introspection_c\n'}
+[80.437694] (-) TimerEvent: {}
+[80.538314] (-) TimerEvent: {}
+[80.639149] (-) TimerEvent: {}
+[80.748261] (-) TimerEvent: {}
+[80.854000] (-) TimerEvent: {}
+[80.954690] (-) TimerEvent: {}
+[81.066686] (-) TimerEvent: {}
+[81.177776] (-) TimerEvent: {}
+[81.278485] (-) TimerEvent: {}
+[81.382688] (-) TimerEvent: {}
+[81.484153] (-) TimerEvent: {}
+[81.593876] (-) TimerEvent: {}
+[81.740425] (-) TimerEvent: {}
+[81.749707] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[81.851330] (-) TimerEvent: {}
+[81.958133] (-) TimerEvent: {}
+[82.062228] (-) TimerEvent: {}
+[82.165960] (-) TimerEvent: {}
+[82.267024] (-) TimerEvent: {}
+[82.372019] (-) TimerEvent: {}
+[82.377028] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/info/ros2_ws/build/my_py_pkg/build'], 'cwd': '/home/info/ros2_ws/build/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'info', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/info/ros2_ws/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/info', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2460', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'info', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'info', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/info-VirtualBox:@/tmp/.ICE-unix/2424,unix/info-VirtualBox:/tmp/.ICE-unix/2424', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6aba51af_93b9_4b8f_91ed_930fdf90174b', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.83UO52', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.107', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/info/ros2_ws/build/my_py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/info/ros2_ws/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[82.477903] (-) TimerEvent: {}
+[82.581268] (-) TimerEvent: {}
+[82.688785] (-) TimerEvent: {}
+[82.800595] (-) TimerEvent: {}
+[82.912681] (-) TimerEvent: {}
+[83.028469] (-) TimerEvent: {}
+[83.147310] (-) TimerEvent: {}
+[83.205760] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__cpp\n'}
+[83.251693] (-) TimerEvent: {}
+[83.352520] (-) TimerEvent: {}
+[83.460673] (-) TimerEvent: {}
+[83.561289] (-) TimerEvent: {}
+[83.683860] (-) TimerEvent: {}
+[83.787547] (-) TimerEvent: {}
+[83.902854] (-) TimerEvent: {}
+[84.011771] (-) TimerEvent: {}
+[84.116436] (-) TimerEvent: {}
+[84.220050] (-) TimerEvent: {}
+[84.328730] (-) TimerEvent: {}
+[84.432109] (-) TimerEvent: {}
+[84.522785] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__rosidl_typesupport_cpp\n'}
+[84.534864] (-) TimerEvent: {}
+[84.650801] (-) TimerEvent: {}
+[84.759457] (-) TimerEvent: {}
+[84.867916] (-) TimerEvent: {}
+[84.970932] (-) TimerEvent: {}
+[85.071492] (-) TimerEvent: {}
+[85.175628] (-) TimerEvent: {}
+[85.299760] (-) TimerEvent: {}
+[85.418695] (-) TimerEvent: {}
+[85.519062] (-) TimerEvent: {}
+[85.624243] (-) TimerEvent: {}
+[85.629452] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[85.732204] (-) TimerEvent: {}
+[85.843273] (-) TimerEvent: {}
+[85.970827] (-) TimerEvent: {}
+[86.079859] (-) TimerEvent: {}
+[86.192046] (-) TimerEvent: {}
+[86.292673] (-) TimerEvent: {}
+[86.393689] (-) TimerEvent: {}
+[86.494127] (-) TimerEvent: {}
+[86.596740] (-) TimerEvent: {}
+[86.704503] (-) TimerEvent: {}
+[86.812284] (-) TimerEvent: {}
+[86.912919] (-) TimerEvent: {}
+[86.993684] (my_py_pkg) StdoutLine: {'line': b'running develop\n'}
+[87.005039] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[87.013001] (-) TimerEvent: {}
+[87.113365] (-) TimerEvent: {}
+[87.221317] (-) TimerEvent: {}
+[87.332808] (-) TimerEvent: {}
+[87.439115] (-) TimerEvent: {}
+[87.564748] (-) TimerEvent: {}
+[87.673906] (-) TimerEvent: {}
+[87.783931] (-) TimerEvent: {}
+[87.906127] (-) TimerEvent: {}
+[88.026020] (-) TimerEvent: {}
+[88.141489] (-) TimerEvent: {}
+[88.252043] (-) TimerEvent: {}
+[88.360834] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces\n'}
+[88.367869] (-) TimerEvent: {}
+[88.475915] (-) TimerEvent: {}
+[88.579170] (-) TimerEvent: {}
+[88.692029] (-) TimerEvent: {}
+[88.794143] (-) TimerEvent: {}
+[88.895322] (-) TimerEvent: {}
+[89.001302] (-) TimerEvent: {}
+[89.102515] (-) TimerEvent: {}
+[89.207163] (-) TimerEvent: {}
+[89.308270] (-) TimerEvent: {}
+[89.426157] (-) TimerEvent: {}
+[89.531654] (-) TimerEvent: {}
+[89.635972] (-) TimerEvent: {}
+[89.734836] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__py\n'}
+[89.736557] (-) TimerEvent: {}
+[89.842791] (-) TimerEvent: {}
+[89.943574] (-) TimerEvent: {}
+[89.972160] (my_py_pkg) CommandEnded: {'returncode': 0}
+[90.028235] (my_py_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 100, in build\n    rc = await self._undo_develop(pkg, args, env)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 231, in _undo_develop\n    os.remove(setup_py_build_space)\nFileNotFoundError: [Errno 2] No such file or directory: \'/home/info/ros2_ws/build/my_py_pkg/setup.py\'\n'}
+[90.029380] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 1}
+[90.047106] (-) TimerEvent: {}
+[90.152589] (-) TimerEvent: {}
+[90.257637] (-) TimerEvent: {}
+[90.362863] (-) TimerEvent: {}
+[90.465796] (-) TimerEvent: {}
+[90.595493] (-) TimerEvent: {}
+[90.599760] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces__rosidl_generator_py\n'}
+[90.696675] (-) TimerEvent: {}
+[90.797823] (-) TimerEvent: {}
+[90.902267] (-) TimerEvent: {}
+[91.004736] (-) TimerEvent: {}
+[91.107671] (-) TimerEvent: {}
+[91.210334] (-) TimerEvent: {}
+[91.315697] (-) TimerEvent: {}
+[91.420964] (-) TimerEvent: {}
+[91.431374] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[91.532821] (-) TimerEvent: {}
+[91.642713] (-) TimerEvent: {}
+[91.735948] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces_s__rosidl_typesupport_c\n'}
+[91.743237] (-) TimerEvent: {}
+[91.853226] (-) TimerEvent: {}
+[91.955406] (-) TimerEvent: {}
+[92.057383] (-) TimerEvent: {}
+[92.059209] (turtle_interfaces) StdoutLine: {'line': b'Built target turtle_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[92.159814] (-) TimerEvent: {}
+[92.268459] (-) TimerEvent: {}
+[92.276265] (turtle_interfaces) JobEnded: {'identifier': 'turtle_interfaces', 'rc': 'SIGINT'}
+[92.283265] (-) EventReactorShutdown: {}

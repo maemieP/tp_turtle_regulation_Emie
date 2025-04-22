@@ -1,0 +1,43 @@
+[14.118s] Invoking command in '/home/info/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/turtle_interfaces -- -j6 -l6
+[16.156s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[17.194s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[19.540s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[19.895s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[19.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[20.575s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[21.151s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[21.164s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[35.780s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[41.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[50.462s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[50.509s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[59.808s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[60.744s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[61.119s] -- Added test 'lint_cmake' to check CMake code style
+[61.205s] -- Added test 'xmllint' to check XML markup files
+[61.241s] -- Configuring done (45.2s)
+[62.324s] -- Generating done (0.8s)
+[62.500s] -- Build files have been written to: /home/info/ros2_ws/build/turtle_interfaces
+[65.583s] [ 11%] Built target turtle_interfaces__rosidl_generator_type_description
+[68.289s] [ 11%] Built target ament_cmake_python_symlink_turtle_interfaces
+[70.454s] [ 35%] Built target turtle_interfaces__rosidl_generator_c
+[74.866s] running egg_info
+[74.984s] writing turtle_interfaces.egg-info/PKG-INFO
+[74.987s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[74.989s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[75.619s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[75.632s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[76.544s] Built target ament_cmake_python_build_turtle_interfaces_egg
+[78.156s] Built target turtle_interfaces__rosidl_typesupport_c
+[80.169s] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[81.550s] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[83.005s] Built target turtle_interfaces__cpp
+[84.325s] Built target turtle_interfaces__rosidl_typesupport_cpp
+[85.429s] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[86.804s] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[88.166s] Built target turtle_interfaces
+[89.535s] Built target turtle_interfaces__py
+[90.400s] Built target turtle_interfaces__rosidl_generator_py
+[91.231s] Built target turtle_interfaces_s__rosidl_typesupport_fastrtps_c
+[91.535s] Built target turtle_interfaces_s__rosidl_typesupport_c
+[91.858s] Built target turtle_interfaces_s__rosidl_typesupport_introspection_c

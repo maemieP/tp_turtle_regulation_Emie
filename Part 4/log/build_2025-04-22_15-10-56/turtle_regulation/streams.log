@@ -1,0 +1,22 @@
+[13.548s] Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtle_regulation build --build-base /home/info/ros2_ws/build/turtle_regulation/build install --record /home/info/ros2_ws/build/turtle_regulation/install.log --single-version-externally-managed install_data
+[16.616s] running egg_info
+[17.013s] writing ../../../../build/turtle_regulation/turtle_regulation.egg-info/PKG-INFO
+[17.039s] writing dependency_links to ../../../../build/turtle_regulation/turtle_regulation.egg-info/dependency_links.txt
+[17.041s] writing entry points to ../../../../build/turtle_regulation/turtle_regulation.egg-info/entry_points.txt
+[17.041s] writing requirements to ../../../../build/turtle_regulation/turtle_regulation.egg-info/requires.txt
+[17.041s] writing top-level names to ../../../../build/turtle_regulation/turtle_regulation.egg-info/top_level.txt
+[17.466s] reading manifest file '../../../../build/turtle_regulation/turtle_regulation.egg-info/SOURCES.txt'
+[17.472s] writing manifest file '../../../../build/turtle_regulation/turtle_regulation.egg-info/SOURCES.txt'
+[17.515s] running build
+[17.519s] running build_py
+[17.527s] running install
+[17.554s] running install_lib
+[17.722s] running install_data
+[17.723s] running install_egg_info
+[17.851s] removing '/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation-0.0.0-py3.12.egg-info' (and everything under it)
+[17.856s] Copying ../../../../build/turtle_regulation/turtle_regulation.egg-info to /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle_regulation-0.0.0-py3.12.egg-info
+[17.863s] running install_scripts
+[19.159s] Installing set_way_point script to /home/info/ros2_ws/install/turtle_regulation/lib/turtle_regulation
+[19.179s] Installing waypoint_client script to /home/info/ros2_ws/install/turtle_regulation/lib/turtle_regulation
+[19.179s] writing list of installed files to '/home/info/ros2_ws/build/turtle_regulation/install.log'
+[19.619s] Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtle_regulation build --build-base /home/info/ros2_ws/build/turtle_regulation/build install --record /home/info/ros2_ws/build/turtle_regulation/install.log --single-version-externally-managed install_data

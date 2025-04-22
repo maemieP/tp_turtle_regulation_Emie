@@ -1,0 +1,1 @@
+/home/info/ros2_ws/build/my_custom_interfaces/rosidl_typesupport_introspection_c/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_introspection_c.h

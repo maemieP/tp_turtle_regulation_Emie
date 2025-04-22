@@ -1,0 +1,260 @@
+[0.191s] Invoking command in '/home/info/ros2_ws/build/my_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/info/ros2_ws/install/my_custom_interfaces
+[2.376s] -- The C compiler identification is GNU 13.3.0
+[2.378s] -- The CXX compiler identification is GNU 13.3.0
+[2.378s] -- Detecting C compiler ABI info
+[2.378s] -- Detecting C compiler ABI info - done
+[2.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.379s] -- Detecting C compile features
+[2.379s] -- Detecting C compile features - done
+[2.380s] -- Detecting CXX compiler ABI info
+[2.984s] -- Detecting CXX compiler ABI info - done
+[3.013s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.013s] -- Detecting CXX compile features
+[3.014s] -- Detecting CXX compile features - done
+[3.022s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.588s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.603s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.114s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[7.145s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.410s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.707s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[7.716s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[14.206s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[16.616s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.807s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.818s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[20.509s] -- Found PythonExtra: /usr/bin/python3  
+[22.417s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[22.619s] -- Configuring done (22.3s)
+[22.813s] -- Generating done (0.1s)
+[22.861s] -- Build files have been written to: /home/info/ros2_ws/build/my_custom_interfaces
+[22.901s] Invoked command in '/home/info/ros2_ws/build/my_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/info/ros2_ws/install/my_custom_interfaces
+[22.903s] Invoking command in '/home/info/ros2_ws/build/my_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/my_custom_interfaces -- -j6 -l6
+[23.537s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[23.724s] [  1%] Built target ament_cmake_python_symlink_my_custom_interfaces
+[24.537s] [  1%] Built target my_custom_interfaces__rosidl_generator_type_description
+[24.722s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[24.763s] running egg_info
+[24.764s] creating my_custom_interfaces.egg-info
+[24.920s] writing my_custom_interfaces.egg-info/PKG-INFO
+[24.921s] writing dependency_links to my_custom_interfaces.egg-info/dependency_links.txt
+[24.921s] writing top-level names to my_custom_interfaces.egg-info/top_level.txt
+[24.921s] writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+[25.219s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[25.536s] reading manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+[25.552s] writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+[26.085s] [  5%] Built target ament_cmake_python_build_my_custom_interfaces_egg
+[36.960s] [  7%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__type_support.c.o[0m
+[36.968s] [  7%] Built target my_custom_interfaces__cpp
+[37.290s] [  9%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__description.c.o[0m
+[37.337s] [ 11%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__functions.c.o[0m
+[38.174s] [ 12%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__functions.c.o[0m
+[38.620s] [ 14%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__type_support.c.o[0m
+[38.848s] [ 16%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__description.c.o[0m
+[39.183s] [ 18%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c.o[0m
+[39.362s] [ 20%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__functions.c.o[0m
+[39.907s] [ 22%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__description.c.o[0m
+[40.219s] [ 24%] [32m[1mLinking C shared library libmy_custom_interfaces__rosidl_generator_c.so[0m
+[40.714s] [ 24%] Built target my_custom_interfaces__rosidl_generator_c
+[40.758s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[42.291s] [ 27%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/msg/detail/sensor_status__type_support_c.cpp.o[0m
+[44.438s] [ 29%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support_c.cpp.o[0m
+[46.038s] [ 31%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/srv/detail/change_led_color__type_support_c.cpp.o[0m
+[47.917s] [ 33%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[48.324s] [ 33%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_c
+[48.673s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[50.081s] [ 37%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/sensor_status__type_support.cpp.o[0m
+[51.415s] [ 38%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/sensor_status_stamped__type_support.cpp.o[0m
+[52.596s] [ 40%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/srv/change_led_color__type_support.cpp.o[0m
+[54.339s] [ 42%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[54.968s] [ 42%] Built target my_custom_interfaces__rosidl_typesupport_cpp
+[55.051s] [ 44%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[56.329s] [ 46%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/msg/detail/sensor_status__type_support.cpp.o[0m
+[57.447s] [ 48%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/srv/detail/change_led_color__type_support.cpp.o[0m
+[58.840s] [ 50%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.cpp.o[0m
+[60.333s] [ 51%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[60.690s] [ 51%] Built target my_custom_interfaces__rosidl_typesupport_introspection_cpp
+[60.849s] [ 53%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[62.210s] [ 55%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/msg/detail/dds_fastrtps/sensor_status__type_support.cpp.o[0m
+[64.393s] [ 57%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/srv/detail/dds_fastrtps/change_led_color__type_support.cpp.o[0m
+[67.542s] [ 59%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/msg/detail/dds_fastrtps/sensor_status_stamped__type_support.cpp.o[0m
+[71.031s] [ 61%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[72.374s] [ 61%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[72.594s] [ 62%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[75.394s] [ 64%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/msg/sensor_status__type_support.cpp.o[0m
+[77.274s] [ 66%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/srv/change_led_color__type_support.cpp.o[0m
+[78.253s] [ 68%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/msg/sensor_status_stamped__type_support.cpp.o[0m
+[78.617s] [ 70%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_c.so[0m
+[79.122s] [ 70%] Built target my_custom_interfaces__rosidl_typesupport_c
+[79.386s] [ 72%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[81.166s] [ 74%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/msg/detail/sensor_status__type_support.c.o[0m
+[81.584s] [ 75%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/srv/detail/change_led_color__type_support.c.o[0m
+[82.049s] [ 77%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c.o[0m
+[82.362s] [ 79%] [32m[1mLinking C shared library libmy_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[82.826s] [ 79%] Built target my_custom_interfaces__rosidl_typesupport_introspection_c
+[82.979s] [ 79%] Built target my_custom_interfaces
+[83.276s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[84.987s] [ 81%] Built target my_custom_interfaces__py
+[85.090s] [ 83%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_sensor_status_s.c.o[0m
+[85.634s] [ 85%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/srv/_change_led_color_s.c.o[0m
+[86.280s] [ 87%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_sensor_status_stamped_s.c.o[0m
+[86.829s] [ 88%] [32m[1mLinking C shared library libmy_custom_interfaces__rosidl_generator_py.so[0m
+[87.125s] [ 88%] Built target my_custom_interfaces__rosidl_generator_py
+[87.227s] [ 90%] [32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[87.806s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[88.036s] [ 92%] Built target my_custom_interfaces_s__rosidl_typesupport_fastrtps_c
+[88.157s] [ 94%] [32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[88.625s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so[0m
+[88.839s] [ 96%] Built target my_custom_interfaces_s__rosidl_typesupport_c
+[89.052s] [ 98%] [32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[89.454s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[89.691s] [100%] Built target my_custom_interfaces_s__rosidl_typesupport_introspection_c
+[89.743s] Invoked command in '/home/info/ros2_ws/build/my_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/my_custom_interfaces -- -j6 -l6
+[89.746s] Invoking command in '/home/info/ros2_ws/build/my_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/my_custom_interfaces
+[89.781s] -- Install configuration: ""
+[89.786s] -- Execute custom install script
+[89.797s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_custom_interfaces
+[89.878s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.json
+[89.962s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.json
+[90.004s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.json
+[90.047s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__functions.h
+[90.174s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__struct.h
+[90.262s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.h
+[90.338s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__functions.h
+[90.375s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__struct.h
+[90.448s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.h
+[90.503s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[90.544s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status.h
+[90.581s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status_stamped.h
+[90.654s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/change_led_color.h
+[90.712s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__functions.h
+[90.767s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__struct.h
+[90.806s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.h
+[90.856s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.sh
+[90.955s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/library_path.dsv
+[91.036s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_fastrtps_c.h
+[91.074s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_fastrtps_c.h
+[91.149s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[91.185s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_fastrtps_c.h
+[91.225s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_introspection_c.h
+[91.267s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_introspection_c.h
+[91.318s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[91.373s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_introspection_c.h
+[91.552s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__builder.hpp
+[91.601s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__struct.hpp
+[91.641s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__traits.hpp
+[91.676s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__type_support.hpp
+[91.751s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__builder.hpp
+[91.786s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__struct.hpp
+[91.825s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__traits.hpp
+[91.864s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.hpp
+[91.901s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[91.940s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status.hpp
+[91.977s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/sensor_status_stamped.hpp
+[92.061s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/change_led_color.hpp
+[92.098s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__builder.hpp
+[92.140s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__struct.hpp
+[92.193s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__traits.hpp
+[92.238s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__type_support.hpp
+[92.278s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_fastrtps_cpp.hpp
+[92.381s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[92.453s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[92.523s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_fastrtps_cpp.hpp
+[92.563s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status__rosidl_typesupport_introspection_cpp.hpp
+[92.600s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/msg/detail/sensor_status_stamped__rosidl_typesupport_introspection_cpp.hpp
+[92.665s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/include/my_custom_interfaces/my_custom_interfaces/srv/detail/change_led_color__rosidl_typesupport_introspection_cpp.hpp
+[92.703s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.sh
+[92.758s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/pythonpath.dsv
+[92.802s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[92.850s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[92.887s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[92.971s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[93.010s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/__init__.py
+[93.051s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[93.088s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[93.138s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[93.181s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/__init__.py
+[93.222s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status.py
+[93.298s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_s.c
+[93.357s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped.py
+[93.403s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped_s.c
+[93.447s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so
+[93.485s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[93.582s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[93.631s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/__init__.py
+[93.680s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color.py
+[93.732s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color_s.c
+[93.772s] -- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[93.773s] -- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so
+[93.774s] -- Up-to-date symlink: /home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so
+[93.774s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.idl
+[93.812s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.idl
+[93.892s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.idl
+[93.944s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatus.msg
+[93.982s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/msg/SensorStatusStamped.msg
+[94.021s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/srv/ChangeLedColor.srv
+[94.065s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/package_run_dependencies/my_custom_interfaces
+[94.101s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/parent_prefix_path/my_custom_interfaces
+[94.183s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.sh
+[94.220s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/ament_prefix_path.dsv
+[94.257s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.sh
+[94.293s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/environment/path.dsv
+[94.331s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.bash
+[94.367s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.sh
+[94.404s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.zsh
+[94.500s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/local_setup.dsv
+[94.546s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.dsv
+[94.584s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/ament_index/resource_index/packages/my_custom_interfaces
+[94.681s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[94.900s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[95.006s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[95.083s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[95.332s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[95.403s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[95.451s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[95.521s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig.cmake
+[95.562s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfacesConfig-version.cmake
+[95.598s] -- Symlinking: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.xml
+[95.635s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_c.so
+[95.638s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_c.so" to ""
+[95.638s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so
+[95.642s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[95.642s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_c.so
+[95.647s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[95.648s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_c.so
+[95.653s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_c.so" to ""
+[95.653s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[95.666s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[95.667s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so
+[95.670s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[95.670s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_cpp.so
+[95.672s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_typesupport_cpp.so" to ""
+[95.782s] Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces'...
+[95.782s] Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/__init__.py'...
+[95.782s] Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg'...
+[95.782s] Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/__init__.py'...
+[95.783s] Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status.py'...
+[95.783s] Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/msg/_sensor_status_stamped.py'...
+[95.783s] Listing '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv'...
+[95.783s] Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/__init__.py'...
+[95.783s] Compiling '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages/my_custom_interfaces/srv/_change_led_color.py'...
+[95.791s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_py.so
+[95.794s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/my_custom_interfaces/lib/libmy_custom_interfaces__rosidl_generator_py.so" to ""
+[95.794s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport.cmake
+[95.795s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[95.795s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[95.796s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[95.796s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[95.797s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[95.797s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport.cmake
+[95.798s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[95.798s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_cppExport.cmake
+[95.799s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[95.799s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[95.800s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[95.800s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[95.801s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport.cmake
+[95.801s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/my_custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[95.802s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport.cmake
+[95.802s] -- Installing: /home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/cmake/export_my_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[95.810s] Invoked command in '/home/info/ros2_ws/build/my_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/my_custom_interfaces

@@ -1,0 +1,537 @@
+[0.935s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.936s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x72081686b530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72081686ae70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72081686ae70>>, mixin_verb=('build',))
+[1.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.524s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.525s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.525s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/info/ros2_ws'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.525s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.664s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.665s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.666s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extensions ['ignore', 'ignore_ament_install']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'ignore'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'ignore_ament_install'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extensions ['colcon_pkg']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'colcon_pkg'
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extensions ['colcon_meta']
+[1.667s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'colcon_meta'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extensions ['ros']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'ros'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extensions ['cmake', 'python']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'cmake'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'python'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extensions ['python_setup_py']
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie) by extension 'python_setup_py'
+[1.668s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/build) by extensions ['ignore', 'ignore_ament_install']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/build) by extension 'ignore'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/build) ignored
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/install) by extensions ['ignore', 'ignore_ament_install']
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/install) by extension 'ignore'
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/install) ignored
+[1.669s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/log) by extensions ['ignore', 'ignore_ament_install']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/log) by extension 'ignore'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/log) ignored
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extensions ['ignore', 'ignore_ament_install']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'ignore'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'ignore_ament_install'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extensions ['colcon_pkg']
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'colcon_pkg'
+[1.670s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extensions ['colcon_meta']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'colcon_meta'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extensions ['ros']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'ros'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extensions ['cmake', 'python']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'cmake'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'python'
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extensions ['python_setup_py']
+[1.671s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src) by extension 'python_setup_py'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extensions ['ignore', 'ignore_ament_install']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extension 'ignore'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extension 'ignore_ament_install'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extensions ['colcon_pkg']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extension 'colcon_pkg'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extensions ['colcon_meta']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extension 'colcon_meta'
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extensions ['ros']
+[1.672s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_pose) by extension 'ros'
+[1.678s] DEBUG:colcon.colcon_core.package_identification:Package 'tp_turtle_regulation_Emie/src/move_pose' with type 'ros.ament_python' and name 'move_pose'
+[1.678s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extensions ['ignore', 'ignore_ament_install']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extension 'ignore'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extension 'ignore_ament_install'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extensions ['colcon_pkg']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extension 'colcon_pkg'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extensions ['colcon_meta']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extension 'colcon_meta'
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extensions ['ros']
+[1.679s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/move_turtle) by extension 'ros'
+[1.681s] DEBUG:colcon.colcon_core.package_identification:Package 'tp_turtle_regulation_Emie/src/move_turtle' with type 'ros.ament_python' and name 'move_turtle'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extensions ['ignore', 'ignore_ament_install']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'ignore'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'ignore_ament_install'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extensions ['colcon_pkg']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'colcon_pkg'
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extensions ['colcon_meta']
+[1.681s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'colcon_meta'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extensions ['ros']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'ros'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extensions ['cmake', 'python']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'cmake'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'python'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extensions ['python_setup_py']
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial) by extension 'python_setup_py'
+[1.682s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extension 'ignore'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extension 'ignore_ament_install'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extensions ['colcon_pkg']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extension 'colcon_pkg'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extensions ['colcon_meta']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extension 'colcon_meta'
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extensions ['ros']
+[1.683s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces) by extension 'ros'
+[1.684s] DEBUG:colcon.colcon_core.package_identification:Package 'tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces' with type 'ros.ament_cmake' and name 'my_custom_interfaces'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extension 'ignore'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extension 'ignore_ament_install'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extensions ['colcon_pkg']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extension 'colcon_pkg'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extensions ['colcon_meta']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extension 'colcon_meta'
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extensions ['ros']
+[1.685s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg) by extension 'ros'
+[1.687s] DEBUG:colcon.colcon_core.package_identification:Package 'tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extension 'ignore'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extension 'ignore_ament_install'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extensions ['colcon_pkg']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extension 'colcon_pkg'
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extensions ['colcon_meta']
+[1.687s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extension 'colcon_meta'
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extensions ['ros']
+[1.688s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg) by extension 'ros'
+[1.689s] DEBUG:colcon.colcon_core.package_identification:Package 'tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg' with type 'ros.ament_python' and name 'my_service_pkg'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extensions ['ignore', 'ignore_ament_install']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'ignore'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'ignore_ament_install'
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extensions ['colcon_pkg']
+[1.689s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'colcon_pkg'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extensions ['colcon_meta']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'colcon_meta'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extensions ['ros']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'ros'
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extensions ['cmake', 'python']
+[1.690s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'cmake'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'python'
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extensions ['python_setup_py']
+[1.691s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie) by extension 'python_setup_py'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extension 'ignore'
+[1.692s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extension 'ignore_ament_install'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extensions ['colcon_pkg']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extension 'colcon_pkg'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extensions ['colcon_meta']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extension 'colcon_meta'
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extensions ['ros']
+[1.693s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces) by extension 'ros'
+[1.695s] DEBUG:colcon.colcon_core.package_identification:Package 'tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces' with type 'ros.ament_cmake' and name 'turtle_interfaces'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extensions ['ignore', 'ignore_ament_install']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extension 'ignore'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extension 'ignore_ament_install'
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extensions ['colcon_pkg']
+[1.696s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extension 'colcon_pkg'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extensions ['colcon_meta']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extension 'colcon_meta'
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extensions ['ros']
+[1.697s] Level 1:colcon.colcon_core.package_identification:_identify(tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation) by extension 'ros'
+[1.699s] DEBUG:colcon.colcon_core.package_identification:Package 'tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation' with type 'ros.ament_python' and name 'turtle_regulation'
+[1.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.700s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.756s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.766s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 285 installed packages in /opt/ros/jazzy
+[1.789s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.156s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'cmake_args' from command line to 'None'
+[2.156s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'cmake_target' from command line to 'None'
+[2.156s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.157s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'cmake_clean_cache' from command line to 'False'
+[2.157s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'cmake_clean_first' from command line to 'False'
+[2.157s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'cmake_force_configure' from command line to 'False'
+[2.157s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'ament_cmake_args' from command line to 'None'
+[2.157s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'catkin_cmake_args' from command line to 'None'
+[2.157s] Level 5:colcon.colcon_core.verb:set package 'move_pose' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.157s] DEBUG:colcon.colcon_core.verb:Building package 'move_pose' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/info/ros2_ws/build/move_pose', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/info/ros2_ws/install/move_pose', 'merge_install': False, 'path': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_pose', 'symlink_install': False, 'test_result_base': None}
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'cmake_args' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'cmake_target' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'cmake_clean_cache' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'cmake_clean_first' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'cmake_force_configure' from command line to 'False'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'ament_cmake_args' from command line to 'None'
+[2.161s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'catkin_cmake_args' from command line to 'None'
+[2.162s] Level 5:colcon.colcon_core.verb:set package 'move_turtle' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.162s] DEBUG:colcon.colcon_core.verb:Building package 'move_turtle' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/info/ros2_ws/build/move_turtle', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/info/ros2_ws/install/move_turtle', 'merge_install': False, 'path': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle', 'symlink_install': False, 'test_result_base': None}
+[2.162s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.162s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.162s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.163s] Level 5:colcon.colcon_core.verb:set package 'my_custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.163s] DEBUG:colcon.colcon_core.verb:Building package 'my_custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/info/ros2_ws/build/my_custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/info/ros2_ws/install/my_custom_interfaces', 'merge_install': False, 'path': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.167s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'cmake_args' from command line to 'None'
+[2.167s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'cmake_target' from command line to 'None'
+[2.167s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.167s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.167s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.168s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.168s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.168s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.168s] Level 5:colcon.colcon_core.verb:set package 'my_service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.168s] DEBUG:colcon.colcon_core.verb:Building package 'my_service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/info/ros2_ws/build/my_service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/info/ros2_ws/install/my_service_pkg', 'merge_install': False, 'path': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.168s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.169s] Level 5:colcon.colcon_core.verb:set package 'turtle_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.169s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/info/ros2_ws/build/turtle_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/info/ros2_ws/install/turtle_interfaces', 'merge_install': False, 'path': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'cmake_args' from command line to 'None'
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'cmake_target' from command line to 'None'
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'cmake_clean_cache' from command line to 'False'
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'cmake_clean_first' from command line to 'False'
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'cmake_force_configure' from command line to 'False'
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'ament_cmake_args' from command line to 'None'
+[2.173s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'catkin_cmake_args' from command line to 'None'
+[2.174s] Level 5:colcon.colcon_core.verb:set package 'turtle_regulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.174s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_regulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/info/ros2_ws/build/turtle_regulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/info/ros2_ws/install/turtle_regulation', 'merge_install': False, 'path': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation', 'symlink_install': False, 'test_result_base': None}
+[2.174s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[2.174s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[2.174s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.174s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.174s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.174s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.175s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.175s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.175s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.175s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/info/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/info/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.175s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.183s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.184s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces' with build type 'ament_cmake'
+[2.184s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces'
+[2.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.209s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.258s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_pose' with build type 'ament_python'
+[2.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_pose', 'ament_prefix_path')
+[2.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_pose/share/move_pose/hook/ament_prefix_path.ps1'
+[2.267s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/move_pose/share/move_pose/hook/ament_prefix_path.dsv'
+[2.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_pose/share/move_pose/hook/ament_prefix_path.sh'
+[2.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.387s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle' with build type 'ament_python'
+[2.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle', 'ament_prefix_path')
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_turtle/share/move_turtle/hook/ament_prefix_path.ps1'
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/move_turtle/share/move_turtle/hook/ament_prefix_path.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_turtle/share/move_turtle/hook/ament_prefix_path.sh'
+[2.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.482s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg' with build type 'ament_python'
+[2.483s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_service_pkg', 'ament_prefix_path')
+[2.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/hook/ament_prefix_path.ps1'
+[2.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/hook/ament_prefix_path.dsv'
+[2.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/hook/ament_prefix_path.sh'
+[2.499s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.499s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.536s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces' with build type 'ament_cmake'
+[2.536s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces'
+[2.536s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.647s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation' with build type 'ament_python'
+[2.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_regulation', 'ament_prefix_path')
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/hook/ament_prefix_path.ps1'
+[2.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/hook/ament_prefix_path.dsv'
+[2.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/hook/ament_prefix_path.sh'
+[2.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/build/my_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/my_custom_interfaces -- -j6 -l6
+[5.298s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_pose'
+[5.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.865s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle'
+[7.866s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.252s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg'
+[10.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/turtle_interfaces -- -j6 -l6
+[15.486s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation'
+[15.487s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.487s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[28.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_service_pkg build --build-base /home/info/ros2_ws/build/my_service_pkg/build install --record /home/info/ros2_ws/build/my_service_pkg/install.log --single-version-externally-managed install_data
+[28.354s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/move_turtle build --build-base /home/info/ros2_ws/build/move_turtle/build install --record /home/info/ros2_ws/build/move_turtle/install.log --single-version-externally-managed install_data
+[28.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtle_regulation build --build-base /home/info/ros2_ws/build/turtle_regulation/build install --record /home/info/ros2_ws/build/turtle_regulation/install.log --single-version-externally-managed install_data
+[30.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_pose': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/move_pose build --build-base /home/info/ros2_ws/build/move_pose/build install --record /home/info/ros2_ws/build/move_pose/install.log --single-version-externally-managed install_data
+[45.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/move_turtle build --build-base /home/info/ros2_ws/build/move_turtle/build install --record /home/info/ros2_ws/build/move_turtle/install.log --single-version-externally-managed install_data
+[45.104s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_turtle' for CMake module files
+[45.114s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_turtle' for CMake config files
+[45.125s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_turtle/lib'
+[45.129s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_turtle/bin'
+[45.129s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_turtle/lib/pkgconfig/move_turtle.pc'
+[45.136s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages'
+[45.136s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_turtle', 'pythonpath')
+[45.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_turtle/share/move_turtle/hook/pythonpath.ps1'
+[45.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/move_turtle/share/move_turtle/hook/pythonpath.dsv'
+[45.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_turtle/share/move_turtle/hook/pythonpath.sh'
+[45.165s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_turtle/bin'
+[45.165s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_turtle)
+[45.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_turtle/share/move_turtle/package.ps1'
+[45.172s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/move_turtle/share/move_turtle/package.dsv'
+[45.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_turtle/share/move_turtle/package.sh'
+[45.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_turtle/share/move_turtle/package.bash'
+[45.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_turtle/share/move_turtle/package.zsh'
+[45.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/move_turtle/share/colcon-core/packages/move_turtle)
+[45.233s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_service_pkg' for CMake module files
+[45.268s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_service_pkg' for CMake config files
+[45.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_service_pkg build --build-base /home/info/ros2_ws/build/my_service_pkg/build install --record /home/info/ros2_ws/build/my_service_pkg/install.log --single-version-externally-managed install_data
+[45.283s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_service_pkg/lib'
+[45.284s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_service_pkg/bin'
+[45.284s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_service_pkg/lib/pkgconfig/my_service_pkg.pc'
+[45.285s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages'
+[45.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_service_pkg', 'pythonpath')
+[45.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/hook/pythonpath.ps1'
+[45.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/hook/pythonpath.dsv'
+[45.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/hook/pythonpath.sh'
+[45.301s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_service_pkg/bin'
+[45.302s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_service_pkg)
+[45.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/package.ps1'
+[45.308s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/package.dsv'
+[45.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/package.sh'
+[45.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/package.bash'
+[45.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_service_pkg/share/my_service_pkg/package.zsh'
+[45.360s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/my_service_pkg/share/colcon-core/packages/my_service_pkg)
+[45.428s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_regulation' for CMake module files
+[45.432s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_regulation' for CMake config files
+[45.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_regulation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/turtle_regulation build --build-base /home/info/ros2_ws/build/turtle_regulation/build install --record /home/info/ros2_ws/build/turtle_regulation/install.log --single-version-externally-managed install_data
+[45.440s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_regulation/lib'
+[45.440s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_regulation/bin'
+[45.440s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_regulation/lib/pkgconfig/turtle_regulation.pc'
+[45.441s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages'
+[45.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_regulation', 'pythonpath')
+[45.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/hook/pythonpath.ps1'
+[45.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/hook/pythonpath.dsv'
+[45.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/hook/pythonpath.sh'
+[45.450s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_regulation/bin'
+[45.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_regulation)
+[45.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/package.ps1'
+[45.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/package.dsv'
+[45.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/package.sh'
+[45.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/package.bash'
+[45.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation/package.zsh'
+[45.474s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/turtle_regulation/share/colcon-core/packages/turtle_regulation)
+[46.874s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_pose' for CMake module files
+[46.885s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_pose' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/move_pose build --build-base /home/info/ros2_ws/build/move_pose/build install --record /home/info/ros2_ws/build/move_pose/install.log --single-version-externally-managed install_data
+[46.890s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_pose' for CMake config files
+[46.907s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_pose/lib'
+[46.907s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_pose/bin'
+[46.907s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_pose/lib/pkgconfig/move_pose.pc'
+[46.911s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages'
+[46.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('move_pose', 'pythonpath')
+[46.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_pose/share/move_pose/hook/pythonpath.ps1'
+[46.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/move_pose/share/move_pose/hook/pythonpath.dsv'
+[46.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/move_pose/share/move_pose/hook/pythonpath.sh'
+[46.941s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/move_pose/bin'
+[46.941s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(move_pose)
+[46.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_pose/share/move_pose/package.ps1'
+[46.995s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/move_pose/share/move_pose/package.dsv'
+[47.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_pose/share/move_pose/package.sh'
+[47.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_pose/share/move_pose/package.bash'
+[47.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/move_pose/share/move_pose/package.zsh'
+[47.016s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/move_pose/share/colcon-core/packages/move_pose)
+[92.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/build/my_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/my_custom_interfaces -- -j6 -l6
+[93.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/build/my_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/my_custom_interfaces
+[96.171s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_custom_interfaces)
+[96.172s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces' for CMake module files
+[96.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/build/my_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/my_custom_interfaces
+[96.192s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces' for CMake config files
+[96.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_interfaces', 'cmake_prefix_path')
+[96.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/cmake_prefix_path.ps1'
+[96.217s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/cmake_prefix_path.dsv'
+[96.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/cmake_prefix_path.sh'
+[96.224s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/lib'
+[96.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_interfaces', 'ld_library_path_lib')
+[96.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/ld_library_path_lib.ps1'
+[96.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/ld_library_path_lib.dsv'
+[96.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/ld_library_path_lib.sh'
+[96.229s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/bin'
+[96.230s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/lib/pkgconfig/my_custom_interfaces.pc'
+[96.230s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages'
+[96.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_interfaces', 'pythonpath')
+[96.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/pythonpath.ps1'
+[96.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/pythonpath.dsv'
+[96.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/pythonpath.sh'
+[96.236s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/bin'
+[96.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.ps1'
+[96.239s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.dsv'
+[96.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.sh'
+[96.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.bash'
+[96.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.zsh'
+[96.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/my_custom_interfaces/share/colcon-core/packages/my_custom_interfaces)
+[96.254s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_custom_interfaces)
+[96.257s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces' for CMake module files
+[96.260s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces' for CMake config files
+[96.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_interfaces', 'cmake_prefix_path')
+[96.272s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/cmake_prefix_path.ps1'
+[96.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/cmake_prefix_path.dsv'
+[96.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/cmake_prefix_path.sh'
+[96.289s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/lib'
+[96.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_interfaces', 'ld_library_path_lib')
+[96.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/ld_library_path_lib.ps1'
+[96.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/ld_library_path_lib.dsv'
+[96.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/ld_library_path_lib.sh'
+[96.295s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/bin'
+[96.295s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/lib/pkgconfig/my_custom_interfaces.pc'
+[96.296s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages'
+[96.296s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_custom_interfaces', 'pythonpath')
+[96.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/pythonpath.ps1'
+[96.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/pythonpath.dsv'
+[96.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/hook/pythonpath.sh'
+[96.300s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_custom_interfaces/bin'
+[96.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.ps1'
+[96.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.dsv'
+[96.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.sh'
+[96.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.bash'
+[96.310s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_custom_interfaces/share/my_custom_interfaces/package.zsh'
+[96.312s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/my_custom_interfaces/share/colcon-core/packages/my_custom_interfaces)
+[96.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg' with build type 'ament_python'
+[96.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[96.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[96.318s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[96.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[96.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[96.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[98.973s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg'
+[98.973s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[98.976s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[99.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/turtle_interfaces -- -j6 -l6
+[99.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/turtle_interfaces
+[100.833s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[100.833s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces' for CMake module files
+[100.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/turtle_interfaces
+[100.836s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces' for CMake config files
+[100.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[100.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[100.844s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[100.844s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[100.847s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/lib'
+[100.847s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[100.848s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[100.848s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[100.849s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[100.851s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/bin'
+[100.851s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[100.851s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages'
+[100.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[100.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[100.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[100.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[100.866s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/bin'
+[100.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[100.872s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[100.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[100.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[100.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[100.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[100.885s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_interfaces)
+[100.885s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces' for CMake module files
+[100.887s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces' for CMake config files
+[100.889s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'cmake_prefix_path')
+[100.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.ps1'
+[100.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.dsv'
+[100.890s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/cmake_prefix_path.sh'
+[100.891s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/lib'
+[100.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'ld_library_path_lib')
+[100.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.ps1'
+[100.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.dsv'
+[100.893s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/ld_library_path_lib.sh'
+[100.893s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/bin'
+[100.893s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/lib/pkgconfig/turtle_interfaces.pc'
+[100.894s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages'
+[100.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_interfaces', 'pythonpath')
+[100.894s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.ps1'
+[100.895s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.dsv'
+[100.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/hook/pythonpath.sh'
+[100.897s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/turtle_interfaces/bin'
+[100.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.ps1'
+[100.898s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv'
+[100.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.sh'
+[100.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.bash'
+[100.901s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.zsh'
+[100.901s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/turtle_interfaces/share/colcon-core/packages/turtle_interfaces)
+[102.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg': AMENT_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/info/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_py_pkg build --build-base /home/info/ros2_ws/build/my_py_pkg/build install --record /home/info/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[103.553s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_py_pkg' for CMake module files
+[103.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/info/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_py_pkg build --build-base /home/info/ros2_ws/build/my_py_pkg/build install --record /home/info/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[103.555s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_py_pkg' for CMake config files
+[103.557s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_py_pkg/lib'
+[103.557s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_py_pkg/bin'
+[103.557s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[103.557s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages'
+[103.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[103.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[103.559s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[103.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[103.560s] Level 1:colcon.colcon_core.environment:checking '/home/info/ros2_ws/install/my_py_pkg/bin'
+[103.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[103.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[103.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[103.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[103.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[103.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[103.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/info/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[103.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[103.564s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[103.565s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[103.565s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[103.593s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[103.593s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[103.594s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[103.647s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[103.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/info/ros2_ws/install/local_setup.ps1'
+[103.649s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/info/ros2_ws/install/_local_setup_util_ps1.py'
+[103.651s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/info/ros2_ws/install/setup.ps1'
+[103.652s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/info/ros2_ws/install/local_setup.sh'
+[103.653s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/info/ros2_ws/install/_local_setup_util_sh.py'
+[103.654s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/info/ros2_ws/install/setup.sh'
+[103.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/info/ros2_ws/install/local_setup.bash'
+[103.656s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/info/ros2_ws/install/setup.bash'
+[103.657s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/info/ros2_ws/install/local_setup.zsh'
+[103.658s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/info/ros2_ws/install/setup.zsh'

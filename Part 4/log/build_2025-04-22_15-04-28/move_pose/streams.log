@@ -1,0 +1,25 @@
+[8.459s] Invoking command in '/home/info/ros2_ws/build/move_pose': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/info/ros2_ws/build/move_pose/build --no-deps symlink_data
+[12.600s] running develop
+[12.778s] running egg_info
+[12.779s] creating move_pose.egg-info
+[12.861s] writing move_pose.egg-info/PKG-INFO
+[12.861s] writing dependency_links to move_pose.egg-info/dependency_links.txt
+[12.861s] writing entry points to move_pose.egg-info/entry_points.txt
+[12.861s] writing requirements to move_pose.egg-info/requires.txt
+[12.862s] writing top-level names to move_pose.egg-info/top_level.txt
+[12.862s] writing manifest file 'move_pose.egg-info/SOURCES.txt'
+[12.979s] reading manifest file 'move_pose.egg-info/SOURCES.txt'
+[12.979s] writing manifest file 'move_pose.egg-info/SOURCES.txt'
+[13.079s] running build_ext
+[13.080s] Creating /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move-pose.egg-link (link to .)
+[13.081s] Installing move_circle script to /home/info/ros2_ws/install/move_pose/lib/move_pose
+[13.081s] Installing move_teleop script to /home/info/ros2_ws/install/move_pose/lib/move_pose
+[13.081s] 
+[13.082s] Installed /home/info/ros2_ws/build/move_pose
+[13.082s] running symlink_data
+[13.082s] creating /home/info/ros2_ws/install/move_pose/share/ament_index
+[13.082s] creating /home/info/ros2_ws/install/move_pose/share/ament_index/resource_index
+[13.083s] creating /home/info/ros2_ws/install/move_pose/share/ament_index/resource_index/packages
+[13.083s] symbolically linking /home/info/ros2_ws/build/move_pose/resource/move_pose -> /home/info/ros2_ws/install/move_pose/share/ament_index/resource_index/packages
+[13.083s] symbolically linking /home/info/ros2_ws/build/move_pose/package.xml -> /home/info/ros2_ws/install/move_pose/share/move_pose
+[13.136s] Invoked command in '/home/info/ros2_ws/build/move_pose' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/info/ros2_ws/build/move_pose/build --no-deps symlink_data

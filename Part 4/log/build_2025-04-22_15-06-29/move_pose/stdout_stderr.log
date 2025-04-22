@@ -1,0 +1,36 @@
+running develop
+Removing /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move-pose.egg-link (link to .)
+running egg_info
+writing ../../../build/move_pose/move_pose.egg-info/PKG-INFO
+writing dependency_links to ../../../build/move_pose/move_pose.egg-info/dependency_links.txt
+writing entry points to ../../../build/move_pose/move_pose.egg-info/entry_points.txt
+writing requirements to ../../../build/move_pose/move_pose.egg-info/requires.txt
+writing top-level names to ../../../build/move_pose/move_pose.egg-info/top_level.txt
+reading manifest file '../../../build/move_pose/move_pose.egg-info/SOURCES.txt'
+writing manifest file '../../../build/move_pose/move_pose.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/info/ros2_ws/build/move_pose/build
+creating /home/info/ros2_ws/build/move_pose/build/lib
+creating /home/info/ros2_ws/build/move_pose/build/lib/move_pose
+copying move_pose/move_teleop.py -> /home/info/ros2_ws/build/move_pose/build/lib/move_pose
+copying move_pose/__init__.py -> /home/info/ros2_ws/build/move_pose/build/lib/move_pose
+copying move_pose/move_circle.py -> /home/info/ros2_ws/build/move_pose/build/lib/move_pose
+running install
+running install_lib
+creating /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose
+copying /home/info/ros2_ws/build/move_pose/build/lib/move_pose/move_teleop.py -> /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose
+copying /home/info/ros2_ws/build/move_pose/build/lib/move_pose/__init__.py -> /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose
+copying /home/info/ros2_ws/build/move_pose/build/lib/move_pose/move_circle.py -> /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose
+byte-compiling /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose/move_teleop.py to move_teleop.cpython-312.pyc
+byte-compiling /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose/move_circle.py to move_circle.cpython-312.pyc
+running install_data
+copying resource/move_pose -> /home/info/ros2_ws/install/move_pose/share/ament_index/resource_index/packages
+copying package.xml -> /home/info/ros2_ws/install/move_pose/share/move_pose
+running install_egg_info
+Copying ../../../build/move_pose/move_pose.egg-info to /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose-0.0.0-py3.12.egg-info
+running install_scripts
+Installing move_circle script to /home/info/ros2_ws/install/move_pose/lib/move_pose
+Installing move_teleop script to /home/info/ros2_ws/install/move_pose/lib/move_pose
+writing list of installed files to '/home/info/ros2_ws/build/move_pose/install.log'

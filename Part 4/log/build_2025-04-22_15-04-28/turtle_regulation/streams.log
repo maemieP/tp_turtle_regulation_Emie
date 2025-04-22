@@ -1,0 +1,25 @@
+[7.640s] Invoking command in '/home/info/ros2_ws/build/turtle_regulation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/info/ros2_ws/build/turtle_regulation/build --no-deps symlink_data
+[10.518s] running develop
+[11.718s] running egg_info
+[11.726s] creating turtle_regulation.egg-info
+[11.894s] writing turtle_regulation.egg-info/PKG-INFO
+[11.895s] writing dependency_links to turtle_regulation.egg-info/dependency_links.txt
+[11.896s] writing entry points to turtle_regulation.egg-info/entry_points.txt
+[11.899s] writing requirements to turtle_regulation.egg-info/requires.txt
+[11.899s] writing top-level names to turtle_regulation.egg-info/top_level.txt
+[11.900s] writing manifest file 'turtle_regulation.egg-info/SOURCES.txt'
+[12.189s] reading manifest file 'turtle_regulation.egg-info/SOURCES.txt'
+[12.190s] writing manifest file 'turtle_regulation.egg-info/SOURCES.txt'
+[12.355s] running build_ext
+[12.357s] Creating /home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages/turtle-regulation.egg-link (link to .)
+[12.367s] Installing set_way_point script to /home/info/ros2_ws/install/turtle_regulation/lib/turtle_regulation
+[12.368s] Installing waypoint_client script to /home/info/ros2_ws/install/turtle_regulation/lib/turtle_regulation
+[12.372s] 
+[12.372s] Installed /home/info/ros2_ws/build/turtle_regulation
+[12.373s] running symlink_data
+[12.373s] creating /home/info/ros2_ws/install/turtle_regulation/share/ament_index
+[12.374s] creating /home/info/ros2_ws/install/turtle_regulation/share/ament_index/resource_index
+[12.374s] creating /home/info/ros2_ws/install/turtle_regulation/share/ament_index/resource_index/packages
+[12.374s] symbolically linking /home/info/ros2_ws/build/turtle_regulation/resource/turtle_regulation -> /home/info/ros2_ws/install/turtle_regulation/share/ament_index/resource_index/packages
+[12.374s] symbolically linking /home/info/ros2_ws/build/turtle_regulation/package.xml -> /home/info/ros2_ws/install/turtle_regulation/share/turtle_regulation
+[12.527s] Invoked command in '/home/info/ros2_ws/build/turtle_regulation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/turtle_regulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/info/ros2_ws/build/turtle_regulation/build --no-deps symlink_data

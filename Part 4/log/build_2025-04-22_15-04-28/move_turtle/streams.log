@@ -1,0 +1,24 @@
+[7.837s] Invoking command in '/home/info/ros2_ws/build/move_turtle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/info/ros2_ws/build/move_turtle/build --no-deps symlink_data
+[10.652s] running develop
+[12.270s] running egg_info
+[12.314s] creating move_turtle.egg-info
+[12.433s] writing move_turtle.egg-info/PKG-INFO
+[12.433s] writing dependency_links to move_turtle.egg-info/dependency_links.txt
+[12.443s] writing entry points to move_turtle.egg-info/entry_points.txt
+[12.447s] writing requirements to move_turtle.egg-info/requires.txt
+[12.447s] writing top-level names to move_turtle.egg-info/top_level.txt
+[12.447s] writing manifest file 'move_turtle.egg-info/SOURCES.txt'
+[12.689s] reading manifest file 'move_turtle.egg-info/SOURCES.txt'
+[12.700s] writing manifest file 'move_turtle.egg-info/SOURCES.txt'
+[12.811s] running build_ext
+[12.812s] Creating /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move-turtle.egg-link (link to .)
+[12.813s] Installing my_move_square script to /home/info/ros2_ws/install/move_turtle/lib/move_turtle
+[12.814s] 
+[12.815s] Installed /home/info/ros2_ws/build/move_turtle
+[12.815s] running symlink_data
+[12.815s] creating /home/info/ros2_ws/install/move_turtle/share/ament_index
+[12.816s] creating /home/info/ros2_ws/install/move_turtle/share/ament_index/resource_index
+[12.816s] creating /home/info/ros2_ws/install/move_turtle/share/ament_index/resource_index/packages
+[12.817s] symbolically linking /home/info/ros2_ws/build/move_turtle/resource/move_turtle -> /home/info/ros2_ws/install/move_turtle/share/ament_index/resource_index/packages
+[12.826s] symbolically linking /home/info/ros2_ws/build/move_turtle/package.xml -> /home/info/ros2_ws/install/move_turtle/share/move_turtle
+[12.920s] Invoked command in '/home/info/ros2_ws/build/move_turtle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/info/ros2_ws/build/move_turtle/build --no-deps symlink_data

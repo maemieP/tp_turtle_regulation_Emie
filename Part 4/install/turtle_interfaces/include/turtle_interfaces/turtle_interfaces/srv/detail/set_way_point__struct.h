@@ -1,0 +1,1 @@
+/home/info/ros2_ws/build/turtle_interfaces/rosidl_generator_c/turtle_interfaces/srv/detail/set_way_point__struct.h

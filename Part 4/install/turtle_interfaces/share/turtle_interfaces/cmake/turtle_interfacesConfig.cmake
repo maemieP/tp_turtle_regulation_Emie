@@ -1,0 +1,1 @@
+/home/info/ros2_ws/build/turtle_interfaces/ament_cmake_core/turtle_interfacesConfig.cmake
