@@ -1,0 +1,56 @@
+[2.014s] Invoking command in '/home/info/ros2_ws/src/ros2_tutorial/my_py_pkg': AMENT_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/info/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_py_pkg build --build-base /home/info/ros2_ws/build/my_py_pkg/build install --record /home/info/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[2.647s] running egg_info
+[2.648s] creating ../../../build/my_py_pkg/my_py_pkg.egg-info
+[2.686s] writing ../../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.686s] writing dependency_links to ../../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.687s] writing entry points to ../../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.687s] writing requirements to ../../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.687s] writing top-level names to ../../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.687s] writing manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.771s] reading manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.772s] writing manifest file '../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.773s] running build
+[2.773s] running build_py
+[2.773s] creating /home/info/ros2_ws/build/my_py_pkg/build
+[2.774s] creating /home/info/ros2_ws/build/my_py_pkg/build/lib
+[2.774s] creating /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.774s] copying my_py_pkg/my_second_publisher.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.774s] copying my_py_pkg/my_first_subscriber.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.775s] copying my_py_pkg/my_first_oop_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.775s] copying my_py_pkg/my_first_publisher.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.775s] copying my_py_pkg/my_first_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.775s] copying my_py_pkg/__init__.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.776s] copying my_py_pkg/template_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[2.776s] running install
+[2.797s] running install_lib
+[2.837s] creating /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.837s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_second_publisher.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.837s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_subscriber.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.837s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_oop_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.838s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_publisher.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.838s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.838s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.839s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[2.839s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_second_publisher.py to my_second_publisher.cpython-312.pyc
+[2.840s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_subscriber.py to my_first_subscriber.cpython-312.pyc
+[2.841s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_oop_node.py to my_first_oop_node.cpython-312.pyc
+[2.841s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_publisher.py to my_first_publisher.cpython-312.pyc
+[2.842s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[2.843s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[2.843s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_node.py to template_node.cpython-312.pyc
+[2.843s] running install_data
+[2.844s] creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index
+[2.844s] creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[2.844s] creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.844s] copying resource/my_py_pkg -> /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[2.844s] copying package.xml -> /home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[2.845s] running install_egg_info
+[2.891s] Copying ../../../build/my_py_pkg/my_py_pkg.egg-info to /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[2.902s] running install_scripts
+[3.207s] Installing first_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.207s] Installing first_oop_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.208s] Installing first_pub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.208s] Installing first_sub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.208s] Installing second_pub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[3.209s] writing list of installed files to '/home/info/ros2_ws/build/my_py_pkg/install.log'
+[3.242s] Invoked command in '/home/info/ros2_ws/src/ros2_tutorial/my_py_pkg' returned '0': AMENT_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/info/ros2_ws/install/my_custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_py_pkg build --build-base /home/info/ros2_ws/build/my_py_pkg/build install --record /home/info/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
