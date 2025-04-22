@@ -1,0 +1,23 @@
+[8.736s] Invoking command in '/home/info/ros2_ws/src/ros2_tutorial/my_service_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_service_pkg build --build-base /home/info/ros2_ws/build/my_service_pkg/build install --record /home/info/ros2_ws/build/my_service_pkg/install.log --single-version-externally-managed install_data
+[9.362s] running egg_info
+[9.410s] writing ../../../build/my_service_pkg/my_service_pkg.egg-info/PKG-INFO
+[9.410s] writing dependency_links to ../../../build/my_service_pkg/my_service_pkg.egg-info/dependency_links.txt
+[9.410s] writing entry points to ../../../build/my_service_pkg/my_service_pkg.egg-info/entry_points.txt
+[9.410s] writing requirements to ../../../build/my_service_pkg/my_service_pkg.egg-info/requires.txt
+[9.410s] writing top-level names to ../../../build/my_service_pkg/my_service_pkg.egg-info/top_level.txt
+[9.490s] reading manifest file '../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'
+[9.493s] writing manifest file '../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'
+[9.493s] running build
+[9.493s] running build_py
+[9.494s] running install
+[9.507s] running install_lib
+[9.549s] running install_data
+[9.550s] running install_egg_info
+[9.594s] removing '/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[9.596s] Copying ../../../build/my_service_pkg/my_service_pkg.egg-info to /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg-0.0.0-py3.12.egg-info
+[9.598s] running install_scripts
+[10.003s] Installing add_two_int_client_no_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg
+[10.004s] Installing add_two_int_client_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg
+[10.004s] Installing add_two_int_server_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg
+[10.005s] writing list of installed files to '/home/info/ros2_ws/build/my_service_pkg/install.log'
+[10.046s] Invoked command in '/home/info/ros2_ws/src/ros2_tutorial/my_service_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/my_service_pkg build --build-base /home/info/ros2_ws/build/my_service_pkg/build install --record /home/info/ros2_ws/build/my_service_pkg/install.log --single-version-externally-managed install_data

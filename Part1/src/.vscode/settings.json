@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages",
+        "/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ]
+}

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_custom_interfaces/srv/ChangeLedColor.srv
+// generated code does not contain a copyright notice
+
+
+module my_custom_interfaces {
+  module srv {
+    struct ChangeLedColor_Request {
+      double red;
+
+      double green;
+
+      double blue;
+    };
+    struct ChangeLedColor_Response {
+      boolean success;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+[9.758s] Invoking command in '/home/info/ros2_ws/src/move_pose': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pose build --build-base /home/info/ros2_ws/build/move_pose/build install --record /home/info/ros2_ws/build/move_pose/install.log --single-version-externally-managed install_data
+[10.812s] running egg_info
+[10.871s] writing ../../build/move_pose/move_pose.egg-info/PKG-INFO
+[10.871s] writing dependency_links to ../../build/move_pose/move_pose.egg-info/dependency_links.txt
+[10.872s] writing entry points to ../../build/move_pose/move_pose.egg-info/entry_points.txt
+[10.872s] writing requirements to ../../build/move_pose/move_pose.egg-info/requires.txt
+[10.872s] writing top-level names to ../../build/move_pose/move_pose.egg-info/top_level.txt
+[10.972s] reading manifest file '../../build/move_pose/move_pose.egg-info/SOURCES.txt'
+[10.973s] writing manifest file '../../build/move_pose/move_pose.egg-info/SOURCES.txt'
+[10.974s] running build
+[10.974s] running build_py
+[10.975s] running install
+[10.988s] running install_lib
+[11.035s] running install_data
+[11.038s] running install_egg_info
+[11.083s] removing '/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose-0.0.0-py3.12.egg-info' (and everything under it)
+[11.084s] Copying ../../build/move_pose/move_pose.egg-info to /home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages/move_pose-0.0.0-py3.12.egg-info
+[11.086s] running install_scripts
+[11.563s] Installing move_circle script to /home/info/ros2_ws/install/move_pose/lib/move_pose
+[11.563s] Installing move_teleop script to /home/info/ros2_ws/install/move_pose/lib/move_pose
+[11.564s] writing list of installed files to '/home/info/ros2_ws/build/move_pose/install.log'
+[11.605s] Invoked command in '/home/info/ros2_ws/src/move_pose' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_pose build --build-base /home/info/ros2_ws/build/move_pose/build install --record /home/info/ros2_ws/build/move_pose/install.log --single-version-externally-managed install_data
