@@ -1,0 +1,217 @@
+[5.604s] Invoking command in '/home/info/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/turtle_interfaces -- -j6 -l6
+[6.153s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[6.241s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.538s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[6.554s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.686s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.151s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[9.661s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[10.683s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.647s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.655s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[13.222s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[13.258s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[13.277s] -- Added test 'lint_cmake' to check CMake code style
+[13.281s] -- Added test 'xmllint' to check XML markup files
+[13.286s] -- Configuring done (7.1s)
+[13.378s] -- Generating done (0.1s)
+[13.408s] -- Build files have been written to: /home/info/ros2_ws/build/turtle_interfaces
+[13.713s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[13.772s] [  2%] Built target ament_cmake_python_copy_turtle_interfaces
+[14.297s] [  2%] Built target turtle_interfaces__rosidl_generator_type_description
+[14.514s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[14.595s] running egg_info
+[14.662s] writing turtle_interfaces.egg-info/PKG-INFO
+[14.664s] writing dependency_links to turtle_interfaces.egg-info/dependency_links.txt
+[14.665s] writing top-level names to turtle_interfaces.egg-info/top_level.txt
+[14.666s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.795s] reading manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[14.796s] writing manifest file 'turtle_interfaces.egg-info/SOURCES.txt'
+[14.957s] [  8%] Built target ament_cmake_python_build_turtle_interfaces_egg
+[17.187s] [  8%] Built target turtle_interfaces__cpp
+[17.548s] [ 11%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_way_point__functions.c.o[0m
+[17.553s] [ 14%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_way_point__description.c.o[0m
+[17.578s] [ 17%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_c.dir/rosidl_generator_c/turtle_interfaces/srv/detail/set_way_point__type_support.c.o[0m
+[17.958s] [ 20%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_c.so[0m
+[18.111s] [ 20%] Built target turtle_interfaces__rosidl_generator_c
+[18.852s] [ 23%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.932s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[18.992s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.047s] [ 32%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.084s] [ 35%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.181s] [ 38%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.120s] [ 41%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtle_interfaces/srv/set_way_point__type_support.cpp.o[0m
+[22.199s] [ 44%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtle_interfaces/srv/detail/set_way_point__type_support.c.o[0m
+[22.785s] [ 47%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtle_interfaces/srv/set_way_point__type_support.cpp.o[0m
+[23.074s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtle_interfaces/srv/detail/set_way_point__type_support.cpp.o[0m
+[23.370s] [ 52%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtle_interfaces/srv/detail/set_way_point__type_support_c.cpp.o[0m
+[23.676s] [ 55%] [32mBuilding CXX object CMakeFiles/turtle_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtle_interfaces/srv/detail/dds_fastrtps/set_way_point__type_support.cpp.o[0m
+[24.465s] [ 58%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_typesupport_introspection_c.so[0m
+[24.830s] [ 61%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_c.so[0m
+[26.215s] [ 61%] Built target turtle_interfaces__rosidl_typesupport_introspection_c
+[26.470s] [ 61%] Built target turtle_interfaces__rosidl_typesupport_c
+[26.981s] [ 64%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_cpp.so[0m
+[27.495s] [ 67%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[27.960s] [ 67%] Built target turtle_interfaces__rosidl_typesupport_cpp
+[28.229s] [ 70%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[28.443s] [ 70%] Built target turtle_interfaces__rosidl_typesupport_introspection_cpp
+[28.504s] [ 73%] [32m[1mLinking CXX shared library libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.717s] [ 73%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_c
+[28.956s] [ 73%] Built target turtle_interfaces__rosidl_typesupport_fastrtps_cpp
+[29.102s] [ 73%] Built target turtle_interfaces
+[29.197s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.633s] [ 76%] Built target turtle_interfaces__py
+[30.779s] [ 79%] [32mBuilding C object CMakeFiles/turtle_interfaces__rosidl_generator_py.dir/rosidl_generator_py/turtle_interfaces/srv/_set_way_point_s.c.o[0m
+[31.260s] [ 82%] [32m[1mLinking C shared library libturtle_interfaces__rosidl_generator_py.so[0m
+[31.491s] [ 82%] Built target turtle_interfaces__rosidl_generator_py
+[31.820s] [ 85%] [32mBuilding C object CMakeFiles/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.888s] [ 88%] [32mBuilding C object CMakeFiles/turtle_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.918s] [ 91%] [32mBuilding C object CMakeFiles/turtle_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[32.661s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[32.662s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[32.662s] [100%] [32m[1mLinking C shared module rosidl_generator_py/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.so[0m
+[33.139s] [100%] Built target turtle_interfaces_s__rosidl_typesupport_introspection_c
+[33.194s] [100%] Built target turtle_interfaces_s__rosidl_typesupport_c
+[33.195s] [100%] Built target turtle_interfaces_s__rosidl_typesupport_fastrtps_c
+[33.271s] Invoked command in '/home/info/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/info/ros2_ws/build/turtle_interfaces -- -j6 -l6
+[33.273s] Invoking command in '/home/info/ros2_ws/build/turtle_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/turtle_interfaces
+[33.315s] -- Install configuration: ""
+[33.315s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/rosidl_interfaces/turtle_interfaces
+[33.315s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetWayPoint.json
+[33.316s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[33.316s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[33.316s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_way_point.h
+[33.317s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[33.317s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__functions.c
+[33.318s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__type_support.c
+[33.318s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__description.c
+[33.319s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__struct.h
+[33.319s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__functions.h
+[33.320s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__type_support.h
+[33.320s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[33.320s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_c__visibility_control.h
+[33.321s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.sh
+[33.321s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/library_path.dsv
+[33.323s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so
+[33.324s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_c.so" to ""
+[33.324s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[33.324s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[33.324s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[33.325s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__rosidl_typesupport_fastrtps_c.h
+[33.325s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[33.325s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.326s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so
+[33.328s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[33.328s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[33.329s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[33.329s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[33.329s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__rosidl_typesupport_introspection_c.h
+[33.329s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__type_support.c
+[33.330s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[33.330s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.331s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so
+[33.333s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[33.333s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so
+[33.335s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_c.so" to ""
+[33.336s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[33.336s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[33.336s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[33.336s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__builder.hpp
+[33.336s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__type_support.hpp
+[33.337s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__traits.hpp
+[33.337s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__struct.hpp
+[33.338s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/set_way_point.hpp
+[33.338s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[33.338s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[33.339s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[33.339s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[33.339s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[33.339s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/dds_fastrtps
+[33.339s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__rosidl_typesupport_fastrtps_cpp.hpp
+[33.340s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg
+[33.340s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.341s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[33.343s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.343s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces
+[33.344s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv
+[33.344s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail
+[33.344s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__rosidl_typesupport_introspection_cpp.hpp
+[33.344s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/include/turtle_interfaces/turtle_interfaces/srv/detail/set_way_point__type_support.cpp
+[33.346s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so
+[33.348s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[33.349s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so
+[33.351s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_typesupport_cpp.so" to ""
+[33.351s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.sh
+[33.352s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/pythonpath.dsv
+[33.352s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces-0.0.0-py3.12.egg-info
+[33.352s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[33.352s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[33.353s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[33.353s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[33.353s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces
+[33.354s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.so
+[33.354s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[33.354s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_c.c
+[33.355s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/srv
+[33.355s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/srv/__init__.py
+[33.355s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/srv/_set_way_point.py
+[33.356s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/srv/_set_way_point_s.c
+[33.356s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/__init__.py
+[33.357s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/_turtle_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[33.357s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.so
+[33.358s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[33.483s] Listing '/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces'...
+[33.484s] Compiling '/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/__init__.py'...
+[33.484s] Listing '/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/srv'...
+[33.484s] Compiling '/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/srv/__init__.py'...
+[33.484s] Compiling '/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/srv/_set_way_point.py'...
+[33.494s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[33.496s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[33.497s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.so
+[33.499s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[33.500s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.so
+[33.502s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/python3.12/site-packages/turtle_interfaces/turtle_interfaces_s__rosidl_typesupport_c.so" to ""
+[33.503s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so
+[33.505s] -- Set non-toolchain portion of runtime path of "/home/info/ros2_ws/install/turtle_interfaces/lib/libturtle_interfaces__rosidl_generator_py.so" to ""
+[33.505s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetWayPoint.idl
+[33.505s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/srv/SetWayPoint.srv
+[33.506s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/package_run_dependencies/turtle_interfaces
+[33.506s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/parent_prefix_path/turtle_interfaces
+[33.507s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.sh
+[33.507s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/ament_prefix_path.dsv
+[33.507s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.sh
+[33.507s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/environment/path.dsv
+[33.507s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.bash
+[33.507s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.sh
+[33.508s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.zsh
+[33.508s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/local_setup.dsv
+[33.508s] -- Installing: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.dsv
+[33.508s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/ament_index/resource_index/packages/turtle_interfaces
+[33.509s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport.cmake
+[33.509s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cExport-noconfig.cmake
+[33.509s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[33.509s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[33.509s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[33.510s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[33.510s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport.cmake
+[33.510s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[33.510s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_cppExport.cmake
+[33.511s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[33.511s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[33.511s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[33.511s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[33.511s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport.cmake
+[33.512s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[33.512s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport.cmake
+[33.512s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/export_turtle_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[33.512s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake-extras.cmake
+[33.513s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.513s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.513s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[33.513s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[33.513s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[33.514s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[33.514s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig.cmake
+[33.514s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/cmake/turtle_interfacesConfig-version.cmake
+[33.514s] -- Up-to-date: /home/info/ros2_ws/install/turtle_interfaces/share/turtle_interfaces/package.xml
+[33.521s] Invoked command in '/home/info/ros2_ws/build/turtle_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/info/ros2_ws/build/turtle_interfaces

@@ -1,0 +1,23 @@
+[9.412s] Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_service_pkg build --build-base /home/info/ros2_ws/build/my_service_pkg/build install --record /home/info/ros2_ws/build/my_service_pkg/install.log --single-version-externally-managed install_data
+[10.972s] running egg_info
+[11.025s] writing ../../../../build/my_service_pkg/my_service_pkg.egg-info/PKG-INFO
+[11.026s] writing dependency_links to ../../../../build/my_service_pkg/my_service_pkg.egg-info/dependency_links.txt
+[11.027s] writing entry points to ../../../../build/my_service_pkg/my_service_pkg.egg-info/entry_points.txt
+[11.027s] writing requirements to ../../../../build/my_service_pkg/my_service_pkg.egg-info/requires.txt
+[11.031s] writing top-level names to ../../../../build/my_service_pkg/my_service_pkg.egg-info/top_level.txt
+[11.143s] reading manifest file '../../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'
+[11.143s] writing manifest file '../../../../build/my_service_pkg/my_service_pkg.egg-info/SOURCES.txt'
+[11.143s] running build
+[11.143s] running build_py
+[11.144s] running install
+[11.159s] running install_lib
+[11.220s] running install_data
+[11.220s] running install_egg_info
+[11.278s] removing '/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[11.280s] Copying ../../../../build/my_service_pkg/my_service_pkg.egg-info to /home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages/my_service_pkg-0.0.0-py3.12.egg-info
+[11.284s] running install_scripts
+[12.154s] Installing add_two_int_client_no_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg
+[12.155s] Installing add_two_int_client_oop_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg
+[12.156s] Installing add_two_int_server_node script to /home/info/ros2_ws/install/my_service_pkg/lib/my_service_pkg
+[12.157s] writing list of installed files to '/home/info/ros2_ws/build/my_service_pkg/install.log'
+[12.240s] Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_service_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/my_service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_service_pkg build --build-base /home/info/ros2_ws/build/my_service_pkg/build install --record /home/info/ros2_ws/build/my_service_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,79 @@
+[  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  1%] Built target ament_cmake_python_copy_my_custom_interfaces
+[  1%] Built target my_custom_interfaces__rosidl_generator_type_description
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+running egg_info
+creating my_custom_interfaces.egg-info
+writing my_custom_interfaces.egg-info/PKG-INFO
+writing dependency_links to my_custom_interfaces.egg-info/dependency_links.txt
+writing top-level names to my_custom_interfaces.egg-info/top_level.txt
+writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+[  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+reading manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'my_custom_interfaces.egg-info/SOURCES.txt'
+[  5%] Built target ament_cmake_python_build_my_custom_interfaces_egg
+[  5%] Built target my_custom_interfaces__cpp
+[  7%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__description.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__description.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__type_support.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/msg/detail/sensor_status_stamped__functions.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__description.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__type_support.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_custom_interfaces/srv/detail/change_led_color__functions.c.o[0m
+[ 24%] [32m[1mLinking C shared library libmy_custom_interfaces__rosidl_generator_c.so[0m
+[ 24%] Built target my_custom_interfaces__rosidl_generator_c
+[ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/sensor_status__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/msg/sensor_status__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/msg/detail/sensor_status__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/msg/detail/sensor_status__type_support.cpp.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/msg/detail/sensor_status__type_support.c.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/msg/detail/dds_fastrtps/sensor_status__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/msg/sensor_status_stamped__type_support.cpp.o[0m
+[ 50%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.c.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_custom_interfaces/srv/change_led_color__type_support.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/msg/sensor_status_stamped__type_support.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_custom_interfaces/srv/detail/change_led_color__type_support.c.o[0m
+[ 57%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_c.so[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support.cpp.o[0m
+[ 61%] [32m[1mLinking C shared library libmy_custom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target my_custom_interfaces__rosidl_typesupport_c
+[ 62%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/msg/detail/sensor_status_stamped__type_support_c.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/msg/detail/dds_fastrtps/sensor_status_stamped__type_support.cpp.o[0m
+[ 64%] Built target my_custom_interfaces__rosidl_typesupport_introspection_c
+[ 66%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_custom_interfaces/srv/change_led_color__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_custom_interfaces/srv/detail/change_led_color__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_custom_interfaces/srv/detail/change_led_color__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/my_custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_custom_interfaces/srv/detail/dds_fastrtps/change_led_color__type_support.cpp.o[0m
+[ 74%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_cpp.so[0m
+[ 75%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[ 75%] Built target my_custom_interfaces__rosidl_typesupport_cpp
+[ 75%] Built target my_custom_interfaces__rosidl_typesupport_introspection_cpp
+[ 77%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[ 79%] [32m[1mLinking CXX shared library libmy_custom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 79%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_c
+[ 79%] Built target my_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target my_custom_interfaces
+[ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 81%] Built target my_custom_interfaces__py
+[ 83%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/srv/_change_led_color_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_sensor_status_stamped_s.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/my_custom_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_custom_interfaces/msg/_sensor_status_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library libmy_custom_interfaces__rosidl_generator_py.so[0m
+[ 88%] Built target my_custom_interfaces__rosidl_generator_py
+[ 90%] [32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/my_custom_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_custom_interfaces/_my_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 96%] [32m[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_c.so[0m
+[ 98%] [32m[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[100%] [32m[1mLinking C shared module rosidl_generator_py/my_custom_interfaces/my_custom_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[100%] Built target my_custom_interfaces_s__rosidl_typesupport_introspection_c
+[100%] Built target my_custom_interfaces_s__rosidl_typesupport_c
+[100%] Built target my_custom_interfaces_s__rosidl_typesupport_fastrtps_c

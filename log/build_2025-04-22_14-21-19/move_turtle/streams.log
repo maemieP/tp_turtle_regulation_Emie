@@ -1,0 +1,21 @@
+[10.305s] Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/move_turtle build --build-base /home/info/ros2_ws/build/move_turtle/build install --record /home/info/ros2_ws/build/move_turtle/install.log --single-version-externally-managed install_data
+[11.696s] running egg_info
+[11.754s] writing ../../../build/move_turtle/move_turtle.egg-info/PKG-INFO
+[11.755s] writing dependency_links to ../../../build/move_turtle/move_turtle.egg-info/dependency_links.txt
+[11.755s] writing entry points to ../../../build/move_turtle/move_turtle.egg-info/entry_points.txt
+[11.755s] writing requirements to ../../../build/move_turtle/move_turtle.egg-info/requires.txt
+[11.755s] writing top-level names to ../../../build/move_turtle/move_turtle.egg-info/top_level.txt
+[11.863s] reading manifest file '../../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+[11.865s] writing manifest file '../../../build/move_turtle/move_turtle.egg-info/SOURCES.txt'
+[11.865s] running build
+[11.865s] running build_py
+[11.866s] running install
+[11.880s] running install_lib
+[11.932s] running install_data
+[11.932s] running install_egg_info
+[11.984s] removing '/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle-0.0.0-py3.12.egg-info' (and everything under it)
+[11.985s] Copying ../../../build/move_turtle/move_turtle.egg-info to /home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages/move_turtle-0.0.0-py3.12.egg-info
+[11.989s] running install_scripts
+[12.606s] Installing my_move_square script to /home/info/ros2_ws/install/move_turtle/lib/move_turtle
+[12.606s] writing list of installed files to '/home/info/ros2_ws/build/move_turtle/install.log'
+[12.824s] Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/move_turtle' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/info/ros2_ws/build/move_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/move_turtle build --build-base /home/info/ros2_ws/build/move_turtle/build install --record /home/info/ros2_ws/build/move_turtle/install.log --single-version-externally-managed install_data

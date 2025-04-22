@@ -1,0 +1,6 @@
+{
+  "package_name": "turtle_interfaces",
+  "non_idl_tuples": [
+    "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/tp_turtle_regulation_Emie/turtle_interfaces:srv/SetWayPoint.srv"
+  ]
+}

@@ -1,0 +1,56 @@
+[4.344s] Invoking command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg': CMAKE_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/info/ros2_ws/install/my_custom_interfaces/lib:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_py_pkg build --build-base /home/info/ros2_ws/build/my_py_pkg/build install --record /home/info/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[5.547s] running egg_info
+[5.548s] creating ../../../../build/my_py_pkg/my_py_pkg.egg-info
+[5.599s] writing ../../../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[5.600s] writing dependency_links to ../../../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[5.600s] writing entry points to ../../../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[5.600s] writing requirements to ../../../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[5.600s] writing top-level names to ../../../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[5.600s] writing manifest file '../../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.684s] reading manifest file '../../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.687s] writing manifest file '../../../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[5.687s] running build
+[5.687s] running build_py
+[5.687s] creating /home/info/ros2_ws/build/my_py_pkg/build
+[5.687s] creating /home/info/ros2_ws/build/my_py_pkg/build/lib
+[5.687s] creating /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.687s] copying my_py_pkg/my_second_publisher.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.687s] copying my_py_pkg/my_first_subscriber.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.687s] copying my_py_pkg/my_first_oop_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.688s] copying my_py_pkg/my_first_publisher.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.688s] copying my_py_pkg/my_first_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.688s] copying my_py_pkg/__init__.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.689s] copying my_py_pkg/template_node.py -> /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[5.689s] running install
+[5.705s] running install_lib
+[5.747s] creating /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.747s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_second_publisher.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.747s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_subscriber.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.748s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_oop_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.748s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_publisher.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.748s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.749s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.749s] copying /home/info/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/template_node.py -> /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg
+[5.750s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_second_publisher.py to my_second_publisher.cpython-312.pyc
+[5.751s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_subscriber.py to my_first_subscriber.cpython-312.pyc
+[5.751s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_oop_node.py to my_first_oop_node.cpython-312.pyc
+[5.752s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_publisher.py to my_first_publisher.cpython-312.pyc
+[5.753s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-312.pyc
+[5.753s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/__init__.py to __init__.cpython-312.pyc
+[5.754s] byte-compiling /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg/template_node.py to template_node.cpython-312.pyc
+[5.754s] running install_data
+[5.754s] creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index
+[5.755s] creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[5.755s] creating /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[5.755s] copying resource/my_py_pkg -> /home/info/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[5.755s] copying package.xml -> /home/info/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[5.755s] running install_egg_info
+[5.816s] Copying ../../../../build/my_py_pkg/my_py_pkg.egg-info to /home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[5.819s] running install_scripts
+[6.201s] Installing first_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.204s] Installing first_oop_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.204s] Installing first_pub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.204s] Installing first_sub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.204s] Installing second_pub_node script to /home/info/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[6.204s] writing list of installed files to '/home/info/ros2_ws/build/my_py_pkg/install.log'
+[6.247s] Invoked command in '/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/info/ros2_ws/install/my_custom_interfaces:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/info/ros2_ws/install/my_custom_interfaces/lib:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/info/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/my_custom_interfaces/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/tp_turtle_regulation_Emie/install/move_pose/lib/python3.12/site-packages:/home/info/ros2_ws/install/turtle_regulation/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_service_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_turtle/lib/python3.12/site-packages:/home/info/ros2_ws/install/move_pose/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/my_py_pkg build --build-base /home/info/ros2_ws/build/my_py_pkg/build install --record /home/info/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,8 @@
+{
+  "package_name": "my_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces:msg/SensorStatus.msg",
+    "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces:msg/SensorStatusStamped.msg",
+    "/home/info/ros2_ws/tp_turtle_regulation_Emie/src/ros2_tutorial/my_custom_interfaces:srv/ChangeLedColor.srv"
+  ]
+}
